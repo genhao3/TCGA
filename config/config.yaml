@@ -1,0 +1,50 @@
+# Version: 'v1.0'
+# Date: '20220904'
+
+General:
+    comment: 
+    seed: 2022
+    fp16: True
+    amp_level: O2
+    precision: 16 
+    multi_gpu_mode: dp
+    gpus: '6'    #[5]
+    epochs: &epoch 50
+    grad_acc: 2
+    frozen_bn: False
+    patience: 10
+    # 需要改动的参数
+    dataset_name: lusc_data # brca_data lusc_data gbm_data
+    output_path: output_202211/  # 输出的根目录
+    loss_name: CELoss  # CELoss CE+Loss CoxLoss Cox+Loss
+    modelname: TransMIL  # TransMIL,DeepAttnMISL,BDOOCX
+    n_classes: 4 # 划分区间=输出类别
+    nfold: 4 # 四折交叉验证
+
+Data:
+    # 需要改动的参数，可选
+    data_shuffle: True
+
+    train_dataloader:
+        batch_size: 16
+        num_workers: 8
+
+    test_dataloader:
+        batch_size: 1
+        num_workers: 8
+
+# 需要改动的参数，可选
+Optimizer:
+    opt: lookahead_radam
+    # opt: sgd
+    lr: 0.001
+    opt_eps: null 
+    opt_betas: null
+    momentum: null 
+    # momentum: 0.9
+    weight_decay: 0.0002
+    # weight_decay: 0.2
+
+# Loss:
+#     base_loss: CE+Loss
+
