@@ -9,6 +9,7 @@ from utils.utils import *
 from datasets.load_data import TCGAData
 from MyOptimizer.optim_factory import create_optimizer
 from models.TransMIL import TransMIL
+from models.DeepAttnMISL import DeepAttnMIL_Surv
 from train import train
 from eval import val_test
 import pandas as pd
@@ -72,6 +73,8 @@ def main(cfg,k):
 
     if cfg.General.modelname == 'TransMIL':
         model = TransMIL(n_classes=cfg.General.n_classes).cuda()
+    if cfg.General.modelname == 'DeepAttnMISL':
+        model = DeepAttnMIL_Surv(cluster_num=cfg.DeepAttnMISL.cluster_num, n_classes=cfg.General.n_classes).cuda()
 
     
     optimizer = create_optimizer(cfg.Optimizer, model)
@@ -169,7 +172,7 @@ if __name__ == '__main__':
         last_aucs.append(last_auc)
         last_accs.append(last_acc)
 
-        # break
+        break
     
     print('best_cindex',best_scores) 
     logger.info('best_cindex '+str(best_scores))

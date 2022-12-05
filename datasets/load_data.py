@@ -16,7 +16,7 @@ class TCGAData(data.Dataset):
         self.dataset_cfg = dataset_cfg
         self.eps=eps
         self.n_bins=n_bins
-        self.state == state
+        self.state = state
 
         self.fold = fold
         if self.dataset_cfg.dataset_name == 'brca_data':
@@ -35,8 +35,6 @@ class TCGAData(data.Dataset):
             self.survival_info= 'dataset_csv/tcga_gbm_all_clean.csv'
             self.feat_num = 2500  # 众数
 
-        
-
         self.csv_dir = self.fold_dir + f'/fold_{self.fold}.csv'
 
         self.patient_data = pd.read_csv(self.csv_dir)
@@ -46,7 +44,6 @@ class TCGAData(data.Dataset):
         self.get_time_interval()
 
         self.survival_info.index = self.survival_info['slide_id']
-
 
         # self.get_time_interval_60()
 
@@ -146,7 +143,7 @@ if __name__ == '__main__':
     def make_parse():
         parser = argparse.ArgumentParser()
         parser.add_argument('--stage', default='train', type=str)
-        parser.add_argument('--config', default='config/config.yaml', type=str)
+        parser.add_argument('--config', default='../config/config.yaml', type=str)
         parser.add_argument('--gpus', default=[0])
         parser.add_argument('--fold', default=0)
         args = parser.parse_args()
@@ -156,11 +153,11 @@ if __name__ == '__main__':
     cfg = read_yaml(args.config)
 
 
-    LuscDataset = TCGAData(dataset_cfg=cfg.Data, state='train')
+    LuscDataset = TCGAData(fold="0", dataset_cfg=cfg.Data, state='train')
     # dataloader打乱的是wsi的顺序，data_shuffle打乱的是patches的顺序
     dataloader = DataLoader(LuscDataset, batch_size=8, num_workers=8, shuffle=False)
     for idx, data in enumerate(dataloader):
-        print('feature:', data[0].shape)
+        print('feature:', data[0].shape)  # [8, 3000, 1024]
         print('feature:', data[0].dtype)
         print('survival_label:', data[1])
         print('censorship_label:', data[2])

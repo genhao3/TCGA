@@ -8,22 +8,31 @@ General:
     amp_level: O2
     precision: 16 
     multi_gpu_mode: dp
-    gpus: '6'    #[5]
-    epochs: &epoch 50
+    gpus: '0'    #[5]
+    epochs: &epoch 5
     grad_acc: 2
     frozen_bn: False
     patience: 10
     # 需要改动的参数
     dataset_name: lusc_data # brca_data lusc_data gbm_data
-    output_path: output_202211/  # 输出的根目录
+    output_path: output_202212/  # 输出的根目录
     loss_name: CELoss  # CELoss CE+Loss CoxLoss Cox+Loss
-    modelname: TransMIL  # TransMIL,DeepAttnMISL,BDOOCX
+    modelname: DeepAttnMISL  # TransMIL,DeepAttnMISL,BDOOCX
     n_classes: 4 # 划分区间=输出类别
     nfold: 4 # 四折交叉验证
+
+DeepAttnMISL:
+    cluster_num: 6
+BDOCOX:
+    cluster_num: 5
+    bag_num: 20
+
+
 
 Data:
     # 需要改动的参数，可选
     data_shuffle: True
+    dataset_name: lusc_data
 
     train_dataloader:
         batch_size: 16

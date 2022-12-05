@@ -47,7 +47,6 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
 
         total_loss.append(loss.item())
 
-        
 
         if total_pred is None:
             total_pred = results_dict['logits']
@@ -93,7 +92,7 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
             # df_feature.to_csv('train.csv',index=False)
 
 
-        else:
+        else:  # if loss_name in ['CoxLoss', 'Cox+Loss']
             # pmf_cindex = 0
             risk = total_pred.sigmoid().squeeze()
 

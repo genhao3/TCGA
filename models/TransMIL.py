@@ -109,8 +109,8 @@ class TransMIL(nn.Module):
 
 if __name__ == "__main__":
     # data = torch.randn((1, 6000, 1024)).cuda()
-    data = torch.randn((1, 40000, 1024)).cuda()
-    model = TransMIL(n_classes=2).cuda()
+    data = torch.randn((2, 40000, 1024)).cuda()
+    model = TransMIL(n_classes=4).cuda()
     print(model.eval())
     results_dict = model(data = data)
     print(results_dict)
