@@ -1,4 +1,5 @@
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 import argparse
 from torch.utils.data import DataLoader
 import os
@@ -15,6 +16,7 @@ from eval import val_test
 import pandas as pd
 import warnings
 from utils.logger import get_logger
+from timm.models.resnet import resnet18
 warnings.filterwarnings("ignore")
 
 def mkfile(file):
@@ -172,7 +174,7 @@ if __name__ == '__main__':
         last_aucs.append(last_auc)
         last_accs.append(last_acc)
 
-        break
+        # break
     
     print('best_cindex',best_scores) 
     logger.info('best_cindex '+str(best_scores))
@@ -198,7 +200,7 @@ if __name__ == '__main__':
     print('acc Mean {:.4f}'.format(np.mean(last_accs)))
     print('acc STD {:.4f}'.format(np.std(last_accs)))
 
-    print("END")
+    # print("END")
     logger.info('cindex Mean {:.4f}'.format(np.mean(best_scores)))
     logger.info('cindex STD {:.4f}'.format(np.std(best_scores)))
 

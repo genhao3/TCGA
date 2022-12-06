@@ -136,15 +136,14 @@ class DeepAttnMIL_Surv(nn.Module):
             # 计算每个簇/bag的embedding
             res = []
             for i in range(self.cluster_num):
-                "embedding_net的输入是[feat-dim, num_patches, batch_size]"
-
-                hh = torch.unsqueeze(x[i].cuda(), dim=-1).permute(1, 0, 2)
-
+                # embedding_net的输入是[bs, feat-dim, num_patches, 1]
+                hh = x[i].cuda().permute(1, 0)
+                hh = hh[None, :, :, None]
                 output = self.embedding_net(hh)
                 output = output.view(output.size()[0], -1)
                 res.append(output)
 
-            h = torch.stack(res, dim=0)
+            h = torch.cat(res)
 
             b = h.size(0)
             c = h.size(1)
@@ -171,7 +170,7 @@ class DeepAttnMIL_Surv(nn.Module):
 if __name__ == '__main__':
     model = DeepAttnMIL_Surv(cluster_num=6, n_classes=1).cuda()
     # 6个簇，每个簇有100个示例，每个示例是1024-dim的embedding vector
-    x = torch.randn([16, 3000, 1024]).cuda()
+    x = torch.randn([4, 3000, 1024]).cuda()
     y = model(x)
     print(y['logits'].shape)
     print(y['logits'])
