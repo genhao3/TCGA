@@ -38,15 +38,18 @@ if __name__ == '__main__':
     pool = ProcessPoolExecutor(num_proc)
 
     target_size = 512
-    patch_coords_path = '/data_local2/ljjdata/TCGA/CLAM_preprocessing/size_512/BRCA/patches/'  # patch坐标信息
-    wsi_path = '/data_local3/ljjdata/TCGA/BRCA/'# svs病理图路径
-    save_png_path = '/data_local2/ljjdata/TCGA/CLAM_preprocessing/size_512/BRCA/patch_to_png'
+    patch_coords_path = 'GBM_all_case_coords/patches_coords'  # patch坐标信息
+    wsi_path = 'GBM_50_case_svs/'# svs病理图路径
+    save_png_path = '/patch_to_png'
     
     
 
     for idx in tqdm(os.listdir(patch_coords_path)):
         patch_coord_path = os.path.join(patch_coords_path,idx)
-        slide_file_path = glob.glob(os.path.join(wsi_path,"*",idx.replace('.h5','.svs')))[0]
+        slide_file_path = glob.glob(os.path.join(wsi_path,"*",idx.replace('.h5','.svs')))
+        if len(slide_file_path)==0:
+            continue
+        slide_file_path = slide_file_path[0]
         png_path = os.path.join(save_png_path,idx.replace('.h5',''))
         if not os.path.exists(png_path):
             os.makedirs(png_path)
