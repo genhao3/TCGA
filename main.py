@@ -11,25 +11,27 @@ from datasets.load_data import TCGAData
 from MyOptimizer.optim_factory import create_optimizer
 from models.TransMIL import TransMIL
 from models.DeepAttnMISL import DeepAttnMIL_Surv
+from models.BDOCOX import BDOCOX
 from train import train
 from eval import val_test
 import pandas as pd
 import warnings
 from utils.logger import get_logger
 from timm.models.resnet import resnet18
+
 warnings.filterwarnings("ignore")
+
 
 def mkfile(file):
     if not os.path.exists(file):
         os.makedirs(file)
 
 
-def write_csv(total_data,save_path, headers = ['id','time','state','interval_1','interval_2','interval_3','interval_4','risk']):
-    
+def write_csv(total_data, save_path,
+              headers=['id', 'time', 'state', 'interval_1', 'interval_2', 'interval_3', 'interval_4', 'risk']):
     df_feature = pd.DataFrame(total_data, columns=headers)
-    df_feature.to_csv(save_path,index=False)
+    df_feature.to_csv(save_path, index=False)
 
-    
 
 def make_parse():
     parser = argparse.ArgumentParser()
@@ -39,6 +41,7 @@ def make_parse():
     # parser.add_argument('--fold', default=0)
     args = parser.parse_args()
     return args
+
 
 def setup_seed(seed):
     random.seed(seed)
@@ -50,8 +53,9 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-def main(cfg,k):
+def main(cfg, k):
     # ---->main
+    print('load {}.'.format(cfg.General.loss_name))
     if cfg.General.loss_name == 'CELoss':
         criterion = losses.CELoss()
     elif cfg.General.loss_name == 'CE+Loss':
@@ -64,11 +68,21 @@ def main(cfg,k):
         criterion = losses.TMCLoss()
     elif cfg.General.loss_name == 'NLLLoss':
         criterion = losses.NLLLoss()
+    elif cfg.General.loss_name == 'CoxRankingLoss':
+        criterion = losses.CoxRankingLoss()
+
     print('load dataset')
-    train_dataset = TCGAData(fold=k,dataset_cfg=cfg.General, state='train',n_bins=cfg.General.n_classes)
+    if cfg.General.modelname == 'BDOOCX':
+        train_dataset = TCGAData(fold=k, dataset_cfg=cfg.General, state='train', n_bins=cfg.General.n_classes,
+                                 patches_path=cfg.General.BDOCOX.patches_path)
+        val_dataset = TCGAData(fold=k, dataset_cfg=cfg.General, state='val', n_bins=cfg.General.n_classes,
+                               patches_path=cfg.General.BDOCOX.patches_path)
+    else:
+        train_dataset = TCGAData(fold=k, dataset_cfg=cfg.General, state='train', n_bins=cfg.General.n_classes)
+        val_dataset = TCGAData(fold=k, dataset_cfg=cfg.General, state='val', n_bins=cfg.General.n_classes)
+
     train_loader = DataLoader(train_dataset, batch_size=cfg.Data.train_dataloader.batch_size,
                               num_workers=cfg.Data.train_dataloader.num_workers, shuffle=True, drop_last=False)
-    val_dataset = TCGAData(fold=k,dataset_cfg=cfg.General, state='val',n_bins=cfg.General.n_classes)
     val_loader = DataLoader(val_dataset, batch_size=cfg.Data.test_dataloader.batch_size,
                             num_workers=cfg.Data.test_dataloader.num_workers, shuffle=False, drop_last=False)
     print('finish load dataset!')
@@ -76,15 +90,17 @@ def main(cfg,k):
     if cfg.General.modelname == 'TransMIL':
         model = TransMIL(n_classes=cfg.General.n_classes).cuda()
     if cfg.General.modelname == 'DeepAttnMISL':
-        model = DeepAttnMIL_Surv(cluster_num=cfg.DeepAttnMISL.cluster_num, n_classes=cfg.General.n_classes).cuda()
+        model = DeepAttnMIL_Surv(cluster_num=cfg.General.DeepAttnMISL.cluster_num,
+                                 n_classes=cfg.General.n_classes).cuda()
+    if cfg.General.modelname == 'BDOOCX':
+        model = BDOCOX(cluster_num=cfg.General.BDOCOX.cluster_num, n_classes=cfg.General.n_classes,
+                       bag_num=cfg.General.BDOCOX.bag_num).cuda()
 
-    
     optimizer = create_optimizer(cfg.Optimizer, model)
 
     # save_dir = cfg.General.output_path + '/' + cfg.Version + "/" + cfg.Date
-    save_dir = os.path.join(cfg.General.output_path,cfg.General.dataset_name,cfg.General.loss_name,str(k))
+    save_dir = os.path.join(cfg.General.output_path, cfg.General.dataset_name, cfg.General.loss_name, str(k))
     mkfile(save_dir)
-    
 
     writer_train = SummaryWriter(os.path.join(save_dir, 'run_tensorboard/Train'))
     writer_val = SummaryWriter(os.path.join(save_dir, 'run_tensorboard/Val'))
@@ -96,30 +112,36 @@ def main(cfg,k):
     last_auc = 0
     last_acc = 0
     for epoch in range(1, cfg.General.epochs + 1):
-        print('\nEpoch [k={} {}/{}]'.format(k,epoch, cfg.General.epochs))
-        logger.info('\nEpoch [k={} {}/{}]'.format(k,epoch, cfg.General.epochs))
+        print('\nEpoch [k={} {}/{}]'.format(k, epoch, cfg.General.epochs))
+        logger.info('\nEpoch [k={} {}/{}]'.format(k, epoch, cfg.General.epochs))
 
         # train
-        train_loss, train_score,model,train_total_time,train_total_label = train(train_loader, optimizer, model,criterion,logger,cfg)
+        train_loss, train_score, model, train_total_time, train_total_label = train(train_loader, optimizer, model,
+                                                                                    criterion, logger, cfg)
         writer_train.add_scalar('loss/total', train_loss, epoch)
         writer_train.add_scalar('score/c_index', train_score, epoch)
 
         # val
-        val_loss, val_score,total_data,mean_auc_5year,kappa_5_year,tpr,fpr,optimal_threshold,acc = val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
+        val_loss, val_score, total_data, mean_auc_5year, kappa_5_year, tpr, fpr, optimal_threshold, acc = val_test(
+            val_loader, model, criterion, cfg, train_total_time, train_total_label)
         writer_val.add_scalar('loss/total', val_loss, epoch)
         writer_val.add_scalar('score/c_index', val_score, epoch)
         writer_val.add_scalar('score/auc', mean_auc_5year, epoch)
         writer_val.add_scalar('score/kappa', kappa_5_year, epoch)
         writer_val.add_scalar('score/acc', acc, epoch)
 
-        print('[TRAIN]\nloss: {:.4f} | cindex: {:.4f}\n[VAL]\nloss: {:.4f} | cindex: {:.4f} auc={:.4f} kappa={:.4f} acc={:.4f} lr={:.4f}'.format(train_loss,
-                                                                                                  train_score,
-                                                                                                  val_loss,
-                                                                                                  val_score,mean_auc_5year,kappa_5_year,acc,optimizer.param_groups[0]['lr']))
-        logger.info('[TRAIN]\nloss: {:.4f} | cindex: {:.4f}\n[VAL]\nloss: {:.4f} | cindex: {:.4f} auc={:.4f} kappa={:.4f} acc={:.4f} lr={:.4f}'.format(train_loss,
-                                                                                                  train_score,
-                                                                                                  val_loss,
-                                                                                                  val_score,mean_auc_5year,kappa_5_year,acc,optimizer.param_groups[0]['lr']))
+        print(
+            '[TRAIN]\nloss: {:.4f} | cindex: {:.4f}\n[VAL]\nloss: {:.4f} | cindex: {:.4f} auc={:.4f} kappa={:.4f} acc={:.4f} lr={:.4f}'.format(
+                train_loss,
+                train_score,
+                val_loss,
+                val_score, mean_auc_5year, kappa_5_year, acc, optimizer.param_groups[0]['lr']))
+        logger.info(
+            '[TRAIN]\nloss: {:.4f} | cindex: {:.4f}\n[VAL]\nloss: {:.4f} | cindex: {:.4f} auc={:.4f} kappa={:.4f} acc={:.4f} lr={:.4f}'.format(
+                train_loss,
+                train_score,
+                val_loss,
+                val_score, mean_auc_5year, kappa_5_year, acc, optimizer.param_groups[0]['lr']))
         if val_score >= best_score:
             best_score = val_score
             last_kappa = kappa_5_year
@@ -128,22 +150,30 @@ def main(cfg,k):
             best_epoch = epoch
             torch.save(model.state_dict(), save_dir + '/model_weight.pth')
 
-            save_d = os.path.join(save_dir,'csv')
+            save_d = os.path.join(save_dir, 'csv')
             if not os.path.exists(save_d):
                 os.makedirs(save_d)
-            save_csv_path = os.path.join(save_d,str(k)+'.csv')
-            save_tpr_fpr_path = os.path.join(save_d,str(k)+'_tpr_fpr.csv')
-        
-            write_csv(total_data,save_csv_path, headers = ['slide_id','time','state','interval','interval_1','interval_2','interval_3','interval_4'])  
-            write_csv(np.stack([tpr,fpr,[optimal_threshold for x in range(len(fpr))]],axis=1),save_tpr_fpr_path, headers = ['tpr','fpr','optimal_threshold'])    
+            save_csv_path = os.path.join(save_d, str(k) + '.csv')
+            save_tpr_fpr_path = os.path.join(save_d, str(k) + '_tpr_fpr.csv')
 
-        print('[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score,last_auc,last_kappa,last_acc,best_epoch))
-        logger.info('[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score,last_auc,last_kappa,last_acc,best_epoch))
+            write_csv(total_data, save_csv_path,
+                      headers=['slide_id', 'time', 'state', 'interval', 'interval_1', 'interval_2', 'interval_3',
+                               'interval_4'])
+            write_csv(np.stack([tpr, fpr, [optimal_threshold for x in range(len(fpr))]], axis=1), save_tpr_fpr_path,
+                      headers=['tpr', 'fpr', 'optimal_threshold'])
+
+        print('[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score, last_auc,
+                                                                                                last_kappa, last_acc,
+                                                                                                best_epoch))
+        logger.info(
+            '[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score, last_auc,
+                                                                                              last_kappa, last_acc,
+                                                                                              best_epoch))
 
     writer_train.close()
     writer_val.close()
 
-    return best_score,last_kappa,last_auc,last_acc
+    return best_score, last_kappa, last_auc, last_acc
 
 
 if __name__ == '__main__':
@@ -159,35 +189,35 @@ if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"] = cfg.General.gpus
     setup_seed(cfg.General.seed)
 
-    save_dir = os.path.join(cfg.General.output_path,cfg.General.dataset_name,cfg.General.loss_name)
+    save_dir = os.path.join(cfg.General.output_path, cfg.General.dataset_name, cfg.General.loss_name)
     mkfile(save_dir)
     logger = get_logger(save_dir)
 
     best_scores = []
-    last_kappas,last_aucs,last_accs = [],[],[]
+    last_kappas, last_aucs, last_accs = [], [], []
     for k in range(cfg.General.nfold):
         # if k != 1:
         #     continue
-        best_score,last_kappa,last_auc,last_acc = main(cfg,k)
+        best_score, last_kappa, last_auc, last_acc = main(cfg, k)
         best_scores.append(best_score)
         last_kappas.append(last_kappa)
         last_aucs.append(last_auc)
         last_accs.append(last_acc)
 
         # break
-    
-    print('best_cindex',best_scores) 
-    logger.info('best_cindex '+str(best_scores))
 
-    print('last auc',last_aucs) 
-    logger.info('last auc '+str(last_aucs))
+    print('best_cindex', best_scores)
+    logger.info('best_cindex ' + str(best_scores))
 
-    print('last kappa',last_kappas) 
-    logger.info('last kappa '+str(last_kappas))
+    print('last auc', last_aucs)
+    logger.info('last auc ' + str(last_aucs))
 
-    print('last acc',last_accs) 
-    logger.info('last acc '+str(last_accs))
-    
+    print('last kappa', last_kappas)
+    logger.info('last kappa ' + str(last_kappas))
+
+    print('last acc', last_accs)
+    logger.info('last acc ' + str(last_accs))
+
     print('cindex Mean {:.4f}'.format(np.mean(best_scores)))
     print('cindex STD {:.4f}'.format(np.std(best_scores)))
 

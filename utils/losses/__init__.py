@@ -4,3 +4,4 @@ from .cox_loss import CoxLoss
 from .cox_plus_loss import CoxPlusLoss
 from .tmc_loss import TMCLoss
 from .nll_loss import NLLLoss
+from .cox_ranking_loss import CoxRankingLoss

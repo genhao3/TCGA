@@ -1,7 +1,5 @@
 import torch
-from cox_loss import CoxLoss
-
-
+from utils.losses.cox_loss import CoxLoss
 
 
 def get_I(label_os, label_oss, i, j):
@@ -63,21 +61,17 @@ def Ranking_Loss(predict, label_os, label_oss):
     return loss
 
 
-def whole_loss(predict, label_os, label_oss, regularization_parameter=10):
-    """
-    λ is tuned from {10, 100, 100}.
-    Args:
-        predict:
-        label_os:
-        label_oss:
-        regularization_parameter:
+class CoxRankingLoss(object):
+    def __init__(self, regularization_parameter=10):
+        self.regularization_parameter = regularization_parameter
+        self.coxloss = CoxLoss()
 
-    Returns:
-
-    """
-    whole_loss = CoxLoss()(predict, label_os, label_oss, None) \
-                 + regularization_parameter * Ranking_Loss(predict, label_os,label_oss)
-    return whole_loss
+    def __call__(self, predict, label_os, label_oss, interval_label):
+        # This calculation credit to Travers Ching https://github.com/traversc/cox-nnet
+        # Cox-nnet: An artificial neural network method for prognosis prediction of high-throughput omics data
+        whole_loss = self.coxloss(predict, label_os, label_oss, None) \
+                     + self.regularization_parameter * Ranking_Loss(predict, label_os, label_oss)
+        return whole_loss
 
 
 if __name__ == '__main__':
@@ -90,7 +84,8 @@ if __name__ == '__main__':
     print(label_os)
     label_oss = torch.tensor([1, 1, 1, 0], device='cuda:0')
 
-    loss = whole_loss(predict, label_os.cuda(), label_oss.cuda())
+    loss_func = CoxRankingLoss()
+    loss = loss_func(predict, label_os.cuda(), label_oss.cuda())
     print(loss)
     loss.requires_grad_(True)
     loss.backward()

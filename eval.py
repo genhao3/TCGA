@@ -69,8 +69,18 @@ def val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
         total_label = None
         total_interval_label = None
         slide_ids = []
+        print('[EVAL]')
         for step, data in enumerate(val_loader):
             feature, survival_time, state_label, interval_label,slide_id = data
+
+
+            if cfg.General.modelname == 'BDOOCX':
+                feature = torch.squeeze(feature, dim=0)
+                survival_time = torch.squeeze(survival_time, dim=0)
+                state_label = torch.squeeze(state_label, dim=0)
+                interval_label = torch.squeeze(interval_label, dim=0)
+                slide_id = slide_id * feature.shape[0]
+
             slide_ids.extend(slide_id)
             # if 'TCGA-52-7812-01Z-00-DX1.dd6fa49a-f9fe-40a1-80b2-0824b128f3b2' in slide_id:
             #     print(slide_id)
@@ -118,18 +128,14 @@ def val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
         
 
             pmf = total_pred.detach().cpu().numpy()
-            
+
             total_data = np.stack([slide_ids,total_time.cpu().numpy(),total_label.cpu().numpy(),total_interval_label.cpu().numpy(),pmf[:,-4],pmf[:,-3],pmf[:,-2],pmf[:,-1]],axis=1).tolist()
 
        
         else:
             
             risk = total_pred.sigmoid().squeeze()
-
             total_data = np.stack([slide_ids,total_time.cpu().numpy(),total_label.detach().cpu().numpy(),risk.detach().cpu().numpy(),risk.detach().cpu().numpy(),risk.detach().cpu().numpy(),risk.detach().cpu().numpy(),risk.detach().cpu().numpy()],axis=1).tolist()
-    
-
-        
             score = c_index(-risk, total_time, total_label)
 
         # auc,mean_auc,threshold,tpr,fpr = get_auc([train_total_time,train_total_label],[total_time,total_label],risk,times=60)

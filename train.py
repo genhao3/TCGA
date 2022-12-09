@@ -21,8 +21,17 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
     total_time_ipcw = None
     total_label_ipcw = None
     slide_ids = []
+    print('[Train]')
     for step, data in enumerate(train_loader):
         feature, survival_time, state_label, interval_label,slide_id = data
+
+        if cfg.General.modelname == 'BDOOCX':
+            feature = torch.squeeze(feature, dim=0)
+            survival_time = torch.squeeze(survival_time, dim=0)
+            state_label = torch.squeeze(state_label, dim=0)
+            interval_label = torch.squeeze(interval_label, dim=0)
+            slide_id = slide_id * feature.shape[0]
+
         slide_ids.extend(slide_id)
         if total_time_ipcw is None:
             total_time_ipcw = survival_time
@@ -71,7 +80,7 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
             
             # risk = (pmf.detach().cpu() * w).sum(dim=1)
             # pmf = pmf.detach().cpu().numpy()
-            pmf = pad_col(results_dict['logits']).softmax(1)[:,:-1]
+            pmf = pad_col(results_dict['logits']).softmax(1)[:,:-1]  # [20, 4]
             surv = 1 - pmf.cumsum(1).detach().cpu().numpy()
             score = ours_cindex(surv,survival_time,state_label,interval_label)
             tottal_cindex.append(score)
@@ -92,16 +101,17 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
             # df_feature.to_csv('train.csv',index=False)
 
 
-        else:  # if loss_name in ['CoxLoss', 'Cox+Loss']
+        else:
             # pmf_cindex = 0
             risk = total_pred.sigmoid().squeeze()
-
             score = c_index(-risk, total_time, total_label)
             tottal_cindex.append(score)
 
         if step % 5 == 0:
             print('{}/{} loss={:.4f} cindex={:.4f}'.format(step+1,len(train_loader),loss.item(),score))
             logger.info('{}/{} loss={:.4f} cindex={:.4f}'.format(step+1,len(train_loader),loss.item(),score))
+
+        break
 
     # pmf = pad_col(total_pred).softmax(1)[:,:-1].detach().cpu().numpy()
     # total_data = np.stack([slide_ids,total_time.cpu().numpy(),total_label.cpu().numpy(),total_interval_label.cpu().numpy(),pmf[:,-4],pmf[:,-3],pmf[:,-2],pmf[:,-1]],axis=1).tolist()
