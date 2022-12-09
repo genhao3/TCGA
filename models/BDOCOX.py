@@ -48,24 +48,27 @@ class BDOCOX(nn.Module):
         )
 
     def forward(self, data):
-        bag = []
-        for i in range(data.shape[0]):
-            x = data[i]
+        out = []
+        for data_i in data:
+            bag = []
+            for i in range(data_i.shape[0]):
+                x = data_i[i]
 
-            x= self.layer1(x)
-            # print('x1:{}'.format(x.shape))
-            x= self.layer2(x)
-            # print('x2:{}'.format(x.shape))
-            x= self.layer3(x)
-            # print('x3:{}'.format(x.shape))
-            x = torch.flatten(x, start_dim=1)
-            # print('x4:{}'.format(x.shape))
-            Y_pred = self.fc(x)
-            # print('Y_pred:{}'.format(Y_pred.shape))
-            bag.append(Y_pred)
+                x= self.layer1(x)
+                # print('x1:{}'.format(x.shape))
+                x= self.layer2(x)
+                # print('x2:{}'.format(x.shape))
+                x= self.layer3(x)
+                # print('x3:{}'.format(x.shape))
+                x = torch.flatten(x, start_dim=1)
+                # print('x4:{}'.format(x.shape))
+                Y_pred = self.fc(x)
+                # print('Y_pred:{}'.format(Y_pred.shape))
+                bag.append(Y_pred)
 
-        out = torch.stack(bag, dim=0).mean(axis=1)  # 公式(5)上面的一段话：对bag中的每个instance取平均，得到每个bag的预测结果
-        results_dict = {'logits': out}  #, 'Y_prob': Y_prob, 'Y_hat': Y_hat}
+            out.append(torch.stack(bag, dim=0).mean(axis=1))  # 公式(5)上面的一段话：对bag中的每个instance取平均，得到每个bag的预测结果
+
+        results_dict = {'logits': torch.concat(out, dim=0)}  #, 'Y_prob': Y_prob, 'Y_hat': Y_hat}
 
         return results_dict
 
@@ -73,7 +76,7 @@ class BDOCOX(nn.Module):
 
 if __name__ == '__main__':
     model = BDOCOX(cluster_num=6, n_classes=4, bag_num=20)
-    x = torch.randn([20, 10, 3, 224, 224])
+    x = torch.randn([4, 20, 10, 3, 224, 224])
     y = model(x)
     print(y['logits'].shape)
 

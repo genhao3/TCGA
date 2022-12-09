@@ -26,11 +26,18 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
         feature, survival_time, state_label, interval_label,slide_id = data
 
         if cfg.General.modelname == 'BDOOCX':
-            feature = torch.squeeze(feature, dim=0)
-            survival_time = torch.squeeze(survival_time, dim=0)
-            state_label = torch.squeeze(state_label, dim=0)
-            interval_label = torch.squeeze(interval_label, dim=0)
-            slide_id = slide_id * feature.shape[0]
+            if cfg.Data.train_dataloader.batch_size > 1:
+                survival_time = torch.flatten(survival_time, start_dim=0)
+                state_label = torch.flatten(state_label, start_dim=0)
+                interval_label = torch.flatten(interval_label, start_dim=0)
+                slide_id = [val for val in list(slide_id) for i in range(cfg.General.BDOCOX.bag_num)]
+
+            else:
+                feature = torch.squeeze(feature, dim=0)
+                survival_time = torch.squeeze(survival_time, dim=0)
+                state_label = torch.squeeze(state_label, dim=0)
+                interval_label = torch.squeeze(interval_label, dim=0)
+                slide_id = slide_id * feature.shape[0]
 
         slide_ids.extend(slide_id)
         if total_time_ipcw is None:
@@ -111,7 +118,7 @@ def train(train_loader, optimizer, model,criterion,logger,cfg):
             print('{}/{} loss={:.4f} cindex={:.4f}'.format(step+1,len(train_loader),loss.item(),score))
             logger.info('{}/{} loss={:.4f} cindex={:.4f}'.format(step+1,len(train_loader),loss.item(),score))
 
-        break
+        # break
 
     # pmf = pad_col(total_pred).softmax(1)[:,:-1].detach().cpu().numpy()
     # total_data = np.stack([slide_ids,total_time.cpu().numpy(),total_label.cpu().numpy(),total_interval_label.cpu().numpy(),pmf[:,-4],pmf[:,-3],pmf[:,-2],pmf[:,-1]],axis=1).tolist()

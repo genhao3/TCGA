@@ -25,6 +25,7 @@ class TCGAData(data.Dataset):
         self.n_bins=n_bins
         self.state = state
         self.patches_path = patches_path
+        self.patches_num = 10
 
         self.transform = transforms.Compose([
             transforms.Resize(224),
@@ -42,7 +43,7 @@ class TCGAData(data.Dataset):
         elif self.dataset_cfg.dataset_name == 'lusc_data':
             self.feature_dir= 'send_to_HJQ/FeatureOfPatchSize512/LUSC/pt_files/'
             self.fold_dir= 'dataset_csv/lusc'
-            self.survival_info_path= '../dataset_csv/tcga_lusc_all_clean.csv'
+            self.survival_info_path= 'dataset_csv/tcga_lusc_all_clean.csv'
             self.feat_num = 3000# 众数
             # if not self.patches_path is None:
             #     self.survival_info_path = 'dataset_csv/tcga_lusc_all_clean_demo.csv'
@@ -215,7 +216,17 @@ class TCGAData(data.Dataset):
             for bag_i in range(self.dataset_cfg.BDOCOX.bag_num):  # 共有self.dataset_cfg.BDOCOX.bag_num个bag
                 # 逐个逐个获得bag中的instance
                 bag = []
+
+                "如果每个bag的patches数不一致，无法组成batch_size>1的一批数据放入网络，因此，通过self.patches_num限制每个bag的数量"
+                if sum(get_patches_num) > self.patches_num:
+                    max_idx = get_patches_num.index(max(get_patches_num))
+                    get_patches_num[max_idx] = get_patches_num[max_idx] - (sum(get_patches_num) - self.patches_num)
+                elif sum(get_patches_num) < self.patches_num:
+                    max_idx = get_patches_num.index(max(get_patches_num))
+                    get_patches_num[max_idx] = get_patches_num[max_idx] + (self.patches_num - sum(get_patches_num))
+
                 for i, num in enumerate(get_patches_num):  # 共有5个clusters，循环5次，每次获得的instance放在bag_i中
+
                     if num == 0:
                         continue
 
@@ -289,13 +300,13 @@ if __name__ == '__main__':
         print('pass new tcga_gbm_all_clean_demo.')
         pass
 
-    LuscDataset = TCGAData(fold="0", dataset_cfg=cfg.General, state='train', patches_path=cfg.BDOCOX.patches_path)
+    LuscDataset = TCGAData(fold="0", dataset_cfg=cfg.General, state='train', patches_path=cfg.General.BDOCOX.patches_path)
     # LuscDataset = TCGAData(fold="0", dataset_cfg=cfg.General, state='train')
-    dataloader = DataLoader(LuscDataset, batch_size=1, num_workers=4, shuffle=False)
+    dataloader = DataLoader(LuscDataset, batch_size=2, num_workers=4, shuffle=False)
     for idx, data in enumerate(dataloader):
         print('feature:', data[0].shape)
-        print('survival_label:', data[1].shape, data[1])
-        print('censorship_label:', data[2].shape, data[2])
+        print('survival_label:', data[1].shape)
+        print('censorship_label:', data[2].shape)
         print('slide_id:', data[3].shape, data[3])
         break
 

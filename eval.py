@@ -73,13 +73,12 @@ def val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
         for step, data in enumerate(val_loader):
             feature, survival_time, state_label, interval_label,slide_id = data
 
-
             if cfg.General.modelname == 'BDOOCX':
-                feature = torch.squeeze(feature, dim=0)
+                # feature = torch.squeeze(feature, dim=0)
                 survival_time = torch.squeeze(survival_time, dim=0)
                 state_label = torch.squeeze(state_label, dim=0)
                 interval_label = torch.squeeze(interval_label, dim=0)
-                slide_id = slide_id * feature.shape[0]
+                slide_id = slide_id * survival_time.shape[0]
 
             slide_ids.extend(slide_id)
             # if 'TCGA-52-7812-01Z-00-DX1.dd6fa49a-f9fe-40a1-80b2-0824b128f3b2' in slide_id:
@@ -101,7 +100,6 @@ def val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
             #                 label_oss=state_label.cuda())
         loss = criterion({'logits':total_pred}, total_time.cuda(),total_label.cuda(),total_interval_label.cuda())
 
-
         total_loss = loss.item()
 
         if cfg.General.loss_name in ['CELoss','CE+Loss','OursLoss','NLLLoss']:
@@ -109,7 +107,7 @@ def val_test(val_loader, model,criterion,cfg,train_total_time,train_total_label)
             # pmf = pad_col(total_pred).softmax(1)[:,:-1]
             # surv = 1 - pmf.cumsum(1).detach().cpu().numpy()
             # eval_pred = pd.DataFrame(surv.transpose())
-            # ev = EvalSurv(eval_pred, total_time.long().cpu().numpy(), total_label.cpu().numpy(), censor_surv='km')
+            # ev = EvalSurv(ev al_pred, total_time.long().cpu().numpy(), total_label.cpu().numpy(), censor_surv='km')
             # pmf_cindex = ev.concordance_td('antolini')
 
             # risk = (pmf.detach().cpu() * w).sum(dim=1)

@@ -8,17 +8,17 @@ General:
     amp_level: O2
     precision: 16 
     multi_gpu_mode: dp
-    gpus: '0'    #[5]
-    epochs: &epoch 2
+    gpus: '2'    #[5]
+    epochs: &epoch 100
     grad_acc: 2
     frozen_bn: False
     patience: 10
     # 需要改动的参数
     dataset_name: gbm_data # brca_data lusc_data gbm_data
-    output_path: output_202212/  # 输出的根目录
-    loss_name: CELoss  # CELoss CE+Loss CoxLoss Cox+Loss CoxRankingLoss
+    output_path: output_202212/09partialGBMR1  # 输出的根目录
+    loss_name: CoxRankingLoss  # CELoss CE+Loss CoxLoss Cox+Loss CoxRankingLoss
     modelname: BDOOCX  # TransMIL,DeepAttnMISL,BDOOCX
-    n_classes: 4 # 划分区间=输出类别  选择CoxLoss、Cox+Lossd时，这里设为1，否则为4
+    n_classes: 1 # 划分区间=输出类别  选择CoxLoss、Cox+Lossd时，这里设为1，否则为4
     nfold: 4 # 四折交叉验证
 
     BDOCOX:
@@ -35,7 +35,7 @@ Data:
     dataset_name: gbm_data  # brca_data lusc_data gbm_data
 
     train_dataloader:
-        batch_size: 1
+        batch_size: 8
         num_workers: 8
 
     test_dataloader:
