@@ -395,3 +395,26 @@ font-size:10.5000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr>
 ## 三 Getting started
 ### 3.1 先在config/config.yaml中配置好相关参数
 ### 3.2 run python main.py
+
+## 四 实验记录
+### 4.1 DeepAttnMISL
+缺点：模型的forward中，循环每个batch中的样本，慢
+
+### 4.2 BDOCOX
+缺点：模型的forward中，循环每个batch中的样本，慢
+
+1、模型。模型的输入是[batch_size, bag_num, patch_num, c, h, w]，其中bag_num是包的数量，patch_num是patches的数量，chw是patch的维度(3, 224, 224)。
+
+①包的数量是论文中提的，bag_num=20
+
+②对feature vector进行kmeans聚类，得到5个clusters，根据公式(4)知道每个clusters取多少个instances，都放在bag中，取instance的操作循环20次，共构建20个bag，bag中的instance数量由公式(4)决定
+
+2、数据加载。由于我拿的是GBM的50例小数据集，因此，
+
+①单独运行load_data.py。获得GBM的50例小数据集的`tcga_gbm_all_clean_demo.csv`
+
+②我修改了load_data.py的`self.survival_info_path = 'dataset_csv/tcga_gbm_all_clean_demo.csv'`，如果有完整数据集，把他注释掉
+
+3、config.yaml。BDOCOX把bag当做batchsize， total_batch_size = BDOCOX.bag_num * Data.train_dataloader.batch_size
+
+4、train.py。由于我们把bag当做batch_size的一部分，因此这里要处理一下标签:在train.py的Line28，让他们的shape符合模型/损失的输入要求
