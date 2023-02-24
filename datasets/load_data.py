@@ -8,7 +8,8 @@ import torch.utils.data as data
 import os
 import numpy as np
 import math
-from sklearn.cluster import KMeans
+# from sklearn.cluster import KMeans
+from torch_kmeans import KMeans
 from PIL import Image
 from torchvision import transforms
 import warnings
@@ -34,26 +35,26 @@ class TCGAData(data.Dataset):
 
         self.fold = fold
         if self.dataset_cfg.dataset_name == 'brca_data':
-            self.feature_dir= 'send_to_HJQ/FeatureOfPatchSize512/BRCA/pt_files/'
-            self.fold_dir= 'dataset_csv/brca'
-            self.survival_info_path= 'dataset_csv/tcga_brca_all_clean.csv'
+            self.feature_dir= '../send_to_HJQ/FeatureOfPatchSize512/BRCA/pt_files/'
+            self.fold_dir= '../dataset_csv/brca'
+            self.survival_info_path= '../dataset_csv/tcga_brca_all_clean.csv'
             self.feat_num = 2600# 众数
             # if not self.patches_path is None:
             #     self.survival_info_path = 'dataset_csv/tcga_brca_all_clean_demo.csv'
         elif self.dataset_cfg.dataset_name == 'lusc_data':
-            self.feature_dir= 'send_to_HJQ/FeatureOfPatchSize512/LUSC/pt_files/'
-            self.fold_dir= 'dataset_csv/lusc'
-            self.survival_info_path= 'dataset_csv/tcga_lusc_all_clean.csv'
+            self.feature_dir= '../send_to_HJQ/FeatureOfPatchSize512/LUSC/pt_files/'
+            self.fold_dir= '../dataset_csv/lusc'
+            self.survival_info_path= '../dataset_csv/tcga_lusc_all_clean.csv'
             self.feat_num = 3000# 众数
             # if not self.patches_path is None:
             #     self.survival_info_path = 'dataset_csv/tcga_lusc_all_clean_demo.csv'
         elif self.dataset_cfg.dataset_name == 'gbm_data':
-            self.feature_dir= 'send_to_HJQ/FeatureOfPatchSize512/GBM/pt_files/'
-            self.fold_dir= 'dataset_csv/gbm'
-            self.survival_info_path= 'dataset_csv/tcga_gbm_all_clean.csv'
+            self.feature_dir= '../send_to_HJQ/FeatureOfPatchSize512/GBM/pt_files/'
+            self.fold_dir= '../dataset_csv/gbm'
+            self.survival_info_path= '../dataset_csv/tcga_gbm_all_clean.csv'
             self.feat_num = 2500  # 众数
             if not self.patches_path is None:
-                self.survival_info_path = 'dataset_csv/tcga_gbm_all_clean_demo.csv'
+                self.survival_info_path = '../dataset_csv/tcga_gbm_all_clean_demo.csv'
 
         self.csv_dir = self.fold_dir + f'/fold_{self.fold}.csv'
 
@@ -125,9 +126,16 @@ class TCGAData(data.Dataset):
             return math.ceil(A)  # 将数字向下舍入到最接近的整数
 
     def bag_generation(self, patches, n_clusters=5):
-        kmeans = KMeans(n_clusters=n_clusters)
-        kmeans.fit(patches)
-        label = kmeans.labels_
+
+        # gpu
+        kmeans = KMeans(n_clusters=n_clusters, verbose=False).to('cuda')
+        result = kmeans(patches.unsqueeze(0).to('cuda'))
+        label = result.labels.squeeze()
+
+        # cpu
+        # kmeans = KMeans(n_clusters=n_clusters)
+        # kmeans.fit(patches)
+        # label = kmeans.labels_
 
         patches_idx = [[] for i in range(n_clusters)]
         for i in range(patches.shape[0]):
@@ -239,8 +247,7 @@ class TCGAData(data.Dataset):
                         feat.append(png)
 
                     bag.append(torch.stack(feat, dim=0))
-                features_vec = torch.concat(bag, dim=0)
-                total_bag.append(features_vec)
+                total_bag.append(torch.concat(bag, dim=0))
 
             survival_time = survival_time.repeat(self.dataset_cfg.BDOCOX.bag_num)
             state_label = state_label.repeat(self.dataset_cfg.BDOCOX.bag_num)
@@ -260,6 +267,7 @@ if __name__ == '__main__':
     from pathlib import Path
     from tqdm import tqdm
 
+    os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 
     def make_parse():
         parser = argparse.ArgumentParser()

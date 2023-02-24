@@ -18,6 +18,7 @@ import pandas as pd
 import warnings
 from utils.logger import get_logger
 from timm.models.resnet import resnet18
+from utils.early_stop import EarlyStopping
 
 warnings.filterwarnings("ignore")
 
@@ -53,7 +54,7 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-def main(cfg, k):
+def main(cfg, k, device):
     # ---->main
     print('load {}.'.format(cfg.General.loss_name))
     if cfg.General.loss_name == 'CELoss':
@@ -88,13 +89,23 @@ def main(cfg, k):
     print('finish load dataset!')
 
     if cfg.General.modelname == 'TransMIL':
-        model = TransMIL(n_classes=cfg.General.n_classes).cuda()
+        model = TransMIL(n_classes=cfg.General.n_classes).to(device)
     if cfg.General.modelname == 'DeepAttnMISL':
         model = DeepAttnMIL_Surv(cluster_num=cfg.General.DeepAttnMISL.cluster_num,
-                                 n_classes=cfg.General.n_classes).cuda()
+                                 n_classes=cfg.General.n_classes,
+                                 device=torch.device('cuda')).to(device)
+        # 跑到一半被打断了，重新加载模型
+        # if k==2:
+        #     print('load pre-trained model.')
+        #     weight = '/disk1/imed_hjq/code/assistance/13_Jiajian#DeepAttnMISL_BDOCOX/TCGA_Code/output_202212/DeepAttnMISL/brca_data/CoxLoss/2/model_weight.pth'
+        #     missing_keys, unexpected_keys = model.load_state_dict(torch.load(weight), strict=False)
+        #     if len(missing_keys) and len(unexpected_keys) != 0:
+        #         print('missing_keys:\n', missing_keys)
+        #         print('unexpected_keys\n', unexpected_keys)
+
     if cfg.General.modelname == 'BDOOCX':
         model = BDOCOX(cluster_num=cfg.General.BDOCOX.cluster_num, n_classes=cfg.General.n_classes,
-                       bag_num=cfg.General.BDOCOX.bag_num).cuda()
+                       bag_num=cfg.General.BDOCOX.bag_num).to(device)
 
     optimizer = create_optimizer(cfg.Optimizer, model)
 
@@ -106,12 +117,17 @@ def main(cfg, k):
     writer_val = SummaryWriter(os.path.join(save_dir, 'run_tensorboard/Val'))
     print('init SummaryWriter')
 
+    early_stopping = EarlyStopping(patience=cfg.General.patience, verbose=True)
+
     best_score = 0.0
     best_epoch = 0
     last_kappa = 0
     last_auc = 0
     last_acc = 0
     for epoch in range(1, cfg.General.epochs + 1):
+        # 跑到一半被打断了，重新加载模型
+        # if k==2 and epoch<53:
+        #     continue
         print('\nEpoch [k={} {}/{}]'.format(k, epoch, cfg.General.epochs))
         logger.info('\nEpoch [k={} {}/{}]'.format(k, epoch, cfg.General.epochs))
 
@@ -142,7 +158,7 @@ def main(cfg, k):
                 train_score,
                 val_loss,
                 val_score, mean_auc_5year, kappa_5_year, acc, optimizer.param_groups[0]['lr']))
-        if val_score >= best_score:
+        if val_score > best_score:
             best_score = val_score
             last_kappa = kappa_5_year
             last_auc = mean_auc_5year
@@ -162,6 +178,8 @@ def main(cfg, k):
             write_csv(np.stack([tpr, fpr, [optimal_threshold for x in range(len(fpr))]], axis=1), save_tpr_fpr_path,
                       headers=['tpr', 'fpr', 'optimal_threshold'])
 
+
+
         print('[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score, last_auc,
                                                                                                 last_kappa, last_acc,
                                                                                                 best_epoch))
@@ -169,6 +187,13 @@ def main(cfg, k):
             '[BEST] cindex: {:.4f} its auc:{:.4f} kappa:{:.4f} acc:{:.4f} in epoch {}'.format(best_score, last_auc,
                                                                                               last_kappa, last_acc,
                                                                                               best_epoch))
+
+        early_stopping(val_score, 'acc', None, None)
+
+        if early_stopping.early_stop:
+            print("Early stopping")
+            logger.info('Early stopping\n')
+            break
 
     writer_train.close()
     writer_val.close()
@@ -186,7 +211,12 @@ if __name__ == '__main__':
     # cfg.General.server = args.stage
     # cfg.Data.fold = args.fold
 
+
     os.environ["CUDA_VISIBLE_DEVICES"] = cfg.General.gpus
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print('Using device:', device)
+    print()
+
     setup_seed(cfg.General.seed)
 
     save_dir = os.path.join(cfg.General.output_path, cfg.General.dataset_name, cfg.General.loss_name)
@@ -196,9 +226,10 @@ if __name__ == '__main__':
     best_scores = []
     last_kappas, last_aucs, last_accs = [], [], []
     for k in range(cfg.General.nfold):
-        # if k != 1:
+        # print(k)
+        # if k not in [2, 3]:
         #     continue
-        best_score, last_kappa, last_auc, last_acc = main(cfg, k)
+        best_score, last_kappa, last_auc, last_acc = main(cfg, k, device)
         best_scores.append(best_score)
         last_kappas.append(last_kappa)
         last_aucs.append(last_auc)

@@ -4632,6 +4632,7 @@ loss: -0.2464 | cindex: 0.8803
 [VAL]
 loss: -0.4134 | cindex: 0.7686 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
 [BEST] cindex: 0.7779 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 96
+
 best_cindex [0.9060077519379846, 0.7242852448241867, 0.8829831067161105, 0.7778999450247389]
 last auc [0, 0, 0, 0]
 last kappa [0, 0, 0, 0]

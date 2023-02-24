@@ -1,0 +1,3936 @@
+
+Epoch [k=0 1/100]
+1/52 loss=1.5012 cindex=0.6727
+6/52 loss=1.5119 cindex=0.2336
+11/52 loss=1.5504 cindex=0.3246
+16/52 loss=1.4395 cindex=0.3131
+21/52 loss=1.5189 cindex=0.4595
+26/52 loss=1.3722 cindex=0.4894
+31/52 loss=1.5832 cindex=0.5250
+36/52 loss=1.5057 cindex=0.4902
+41/52 loss=1.5408 cindex=0.4435
+46/52 loss=1.5745 cindex=0.7731
+51/52 loss=1.4227 cindex=0.5926
+ cindex=0.4972
+[TRAIN]
+loss: 1.4773 | cindex: 0.4972
+[VAL]
+loss: 1.4812 | cindex: 0.4927 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.4927 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=0 2/100]
+1/52 loss=1.5728 cindex=0.3750
+6/52 loss=1.4457 cindex=0.5400
+11/52 loss=1.5178 cindex=0.3333
+16/52 loss=1.3652 cindex=0.5426
+21/52 loss=1.5489 cindex=0.6500
+26/52 loss=1.4256 cindex=0.5140
+31/52 loss=1.5287 cindex=0.4870
+36/52 loss=1.4664 cindex=0.5565
+41/52 loss=1.3319 cindex=0.4588
+46/52 loss=1.4968 cindex=0.3393
+51/52 loss=1.3666 cindex=0.6364
+ cindex=0.4971
+[TRAIN]
+loss: 1.4628 | cindex: 0.4971
+[VAL]
+loss: 1.4722 | cindex: 0.4785 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.4927 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=0 3/100]
+1/52 loss=1.4970 cindex=0.6000
+6/52 loss=1.4525 cindex=0.6095
+11/52 loss=1.4734 cindex=0.4865
+16/52 loss=1.3915 cindex=0.6509
+21/52 loss=1.4746 cindex=0.5917
+26/52 loss=1.4493 cindex=0.3182
+31/52 loss=1.4728 cindex=0.5929
+36/52 loss=1.4039 cindex=0.5192
+41/52 loss=1.5611 cindex=0.3833
+46/52 loss=1.5292 cindex=0.5630
+51/52 loss=1.4137 cindex=0.4865
+ cindex=0.5202
+[TRAIN]
+loss: 1.4410 | cindex: 0.5202
+[VAL]
+loss: 1.4635 | cindex: 0.4742 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.4927 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=0 4/100]
+1/52 loss=1.4164 cindex=0.5354
+6/52 loss=1.3202 cindex=0.5250
+11/52 loss=1.5627 cindex=0.5083
+16/52 loss=1.3205 cindex=0.4845
+21/52 loss=1.5146 cindex=0.3889
+26/52 loss=1.5454 cindex=0.3917
+31/52 loss=1.4851 cindex=0.5833
+36/52 loss=1.3926 cindex=0.4595
+41/52 loss=1.2735 cindex=0.6061
+46/52 loss=1.3554 cindex=0.5982
+51/52 loss=1.5177 cindex=0.6017
+ cindex=0.5056
+[TRAIN]
+loss: 1.4208 | cindex: 0.5056
+[VAL]
+loss: 1.4574 | cindex: 0.4806 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.4927 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=0 5/100]
+1/52 loss=1.4764 cindex=0.4636
+6/52 loss=1.4111 cindex=0.4272
+11/52 loss=1.4146 cindex=0.5278
+16/52 loss=1.3560 cindex=0.6410
+21/52 loss=1.5430 cindex=0.5455
+26/52 loss=1.5413 cindex=0.4661
+31/52 loss=1.3538 cindex=0.5189
+36/52 loss=1.2982 cindex=0.6321
+41/52 loss=1.6444 cindex=0.2626
+46/52 loss=1.3901 cindex=0.5051
+51/52 loss=1.2766 cindex=0.5000
+ cindex=0.5066
+[TRAIN]
+loss: 1.4131 | cindex: 0.5066
+[VAL]
+loss: 1.4564 | cindex: 0.5011 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5011 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 5
+
+Epoch [k=0 6/100]
+1/52 loss=1.5355 cindex=0.4322
+6/52 loss=1.4476 cindex=0.5727
+11/52 loss=1.4243 cindex=0.4519
+16/52 loss=1.3281 cindex=0.4273
+21/52 loss=1.3662 cindex=0.6196
+26/52 loss=1.5737 cindex=0.4630
+31/52 loss=1.4341 cindex=0.4255
+36/52 loss=1.4182 cindex=0.4583
+41/52 loss=1.3869 cindex=0.5106
+46/52 loss=1.3465 cindex=0.7212
+51/52 loss=1.5582 cindex=0.1750
+ cindex=0.4949
+[TRAIN]
+loss: 1.3978 | cindex: 0.4949
+[VAL]
+loss: 1.4561 | cindex: 0.5137 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5137 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 6
+
+Epoch [k=0 7/100]
+1/52 loss=1.4949 cindex=0.3017
+6/52 loss=1.3005 cindex=0.5532
+11/52 loss=1.6001 cindex=0.4095
+16/52 loss=1.1825 cindex=0.5934
+21/52 loss=1.3052 cindex=0.6970
+26/52 loss=1.3393 cindex=0.4435
+31/52 loss=1.4450 cindex=0.5357
+36/52 loss=1.4489 cindex=0.5049
+41/52 loss=1.1251 cindex=0.6778
+46/52 loss=1.7203 cindex=0.4867
+51/52 loss=1.3136 cindex=0.4563
+ cindex=0.5046
+[TRAIN]
+loss: 1.3855 | cindex: 0.5046
+[VAL]
+loss: 1.4539 | cindex: 0.5351 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5351 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 7
+
+Epoch [k=0 8/100]
+1/52 loss=1.3475 cindex=0.5652
+6/52 loss=1.2062 cindex=0.5424
+11/52 loss=1.3352 cindex=0.4234
+16/52 loss=1.3438 cindex=0.5385
+21/52 loss=1.3073 cindex=0.4388
+26/52 loss=1.2211 cindex=0.7395
+31/52 loss=1.4482 cindex=0.4000
+36/52 loss=1.4016 cindex=0.5102
+41/52 loss=1.5705 cindex=0.2689
+46/52 loss=1.4869 cindex=0.4947
+51/52 loss=1.1681 cindex=0.3714
+ cindex=0.5102
+[TRAIN]
+loss: 1.3825 | cindex: 0.5102
+[VAL]
+loss: 1.4477 | cindex: 0.5543 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5543 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 8
+
+Epoch [k=0 9/100]
+1/52 loss=1.6673 cindex=0.3506
+6/52 loss=1.2542 cindex=0.4881
+11/52 loss=1.4482 cindex=0.4500
+16/52 loss=1.2735 cindex=0.5138
+21/52 loss=1.1667 cindex=0.5652
+26/52 loss=1.4084 cindex=0.5086
+31/52 loss=1.4826 cindex=0.5253
+36/52 loss=1.5870 cindex=0.5678
+41/52 loss=1.4677 cindex=0.7091
+46/52 loss=1.4522 cindex=0.5630
+51/52 loss=1.4269 cindex=0.7083
+ cindex=0.5047
+[TRAIN]
+loss: 1.3883 | cindex: 0.5047
+[VAL]
+loss: 1.4507 | cindex: 0.5610 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5610 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 9
+
+Epoch [k=0 10/100]
+1/52 loss=1.6048 cindex=0.4661
+6/52 loss=1.4158 cindex=0.5000
+11/52 loss=1.1795 cindex=0.5750
+16/52 loss=1.3764 cindex=0.4310
+21/52 loss=1.5186 cindex=0.4118
+26/52 loss=1.5029 cindex=0.6600
+31/52 loss=1.3182 cindex=0.6168
+36/52 loss=1.2656 cindex=0.5588
+41/52 loss=1.1506 cindex=0.5600
+46/52 loss=1.3420 cindex=0.4790
+51/52 loss=1.3246 cindex=0.4955
+ cindex=0.5143
+[TRAIN]
+loss: 1.3817 | cindex: 0.5143
+[VAL]
+loss: 1.4473 | cindex: 0.5825 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5825 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 10
+
+Epoch [k=0 11/100]
+1/52 loss=1.3799 cindex=0.4825
+6/52 loss=1.4731 cindex=0.3019
+11/52 loss=1.3013 cindex=0.4808
+16/52 loss=1.2476 cindex=0.4649
+21/52 loss=1.4883 cindex=0.5200
+26/52 loss=1.2900 cindex=0.2768
+31/52 loss=1.4548 cindex=0.5517
+36/52 loss=1.1288 cindex=0.4902
+41/52 loss=1.3741 cindex=0.3826
+46/52 loss=1.1276 cindex=0.5688
+51/52 loss=1.3446 cindex=0.5000
+ cindex=0.4944
+[TRAIN]
+loss: 1.3839 | cindex: 0.4944
+[VAL]
+loss: 1.4432 | cindex: 0.5939 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5939 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 11
+
+Epoch [k=0 12/100]
+1/52 loss=1.3781 cindex=0.5043
+6/52 loss=1.3218 cindex=0.5474
+11/52 loss=1.4621 cindex=0.4444
+16/52 loss=1.2636 cindex=0.5444
+21/52 loss=1.3732 cindex=0.3028
+26/52 loss=1.3231 cindex=0.6857
+31/52 loss=1.4749 cindex=0.5983
+36/52 loss=1.3937 cindex=0.3646
+41/52 loss=1.4427 cindex=0.5612
+46/52 loss=1.5332 cindex=0.4571
+51/52 loss=1.4348 cindex=0.4857
+ cindex=0.5121
+[TRAIN]
+loss: 1.3711 | cindex: 0.5121
+[VAL]
+loss: 1.4338 | cindex: 0.6077 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6077 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 12
+
+Epoch [k=0 13/100]
+1/52 loss=1.2025 cindex=0.7949
+6/52 loss=1.3457 cindex=0.4375
+11/52 loss=1.3682 cindex=0.3302
+16/52 loss=1.3212 cindex=0.6983
+21/52 loss=1.4493 cindex=0.6429
+26/52 loss=1.4779 cindex=0.6239
+31/52 loss=1.2687 cindex=0.4706
+36/52 loss=1.2992 cindex=0.5546
+41/52 loss=1.4759 cindex=0.5631
+46/52 loss=1.3231 cindex=0.4393
+51/52 loss=1.4433 cindex=0.4537
+ cindex=0.5424
+[TRAIN]
+loss: 1.3709 | cindex: 0.5424
+[VAL]
+loss: 1.4388 | cindex: 0.6112 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6112 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 13
+
+Epoch [k=0 14/100]
+1/52 loss=1.2699 cindex=0.5417
+6/52 loss=1.2822 cindex=0.5816
+11/52 loss=1.3273 cindex=0.5229
+16/52 loss=1.5134 cindex=0.5234
+21/52 loss=1.6016 cindex=0.1417
+26/52 loss=1.3508 cindex=0.6000
+31/52 loss=1.4218 cindex=0.6577
+36/52 loss=1.4772 cindex=0.3131
+41/52 loss=1.5063 cindex=0.5294
+46/52 loss=1.3813 cindex=0.5727
+51/52 loss=1.3545 cindex=0.4227
+ cindex=0.5221
+[TRAIN]
+loss: 1.3721 | cindex: 0.5221
+[VAL]
+loss: 1.4330 | cindex: 0.6180 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6180 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 14
+
+Epoch [k=0 15/100]
+1/52 loss=1.3605 cindex=0.6239
+6/52 loss=1.5813 cindex=0.5729
+11/52 loss=1.3031 cindex=0.4500
+16/52 loss=1.5534 cindex=0.3333
+21/52 loss=1.3343 cindex=0.5254
+26/52 loss=1.4725 cindex=0.6207
+31/52 loss=1.2540 cindex=0.5045
+36/52 loss=1.4030 cindex=0.4667
+41/52 loss=1.4296 cindex=0.6306
+46/52 loss=1.3791 cindex=0.5088
+51/52 loss=1.4000 cindex=0.5043
+ cindex=0.5103
+[TRAIN]
+loss: 1.3761 | cindex: 0.5103
+[VAL]
+loss: 1.4278 | cindex: 0.6225 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6225 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 15
+
+Epoch [k=0 16/100]
+1/52 loss=1.4192 cindex=0.4554
+6/52 loss=1.2405 cindex=0.6699
+11/52 loss=1.6413 cindex=0.3583
+16/52 loss=1.2720 cindex=0.4870
+21/52 loss=1.4528 cindex=0.2673
+26/52 loss=1.1217 cindex=0.5370
+31/52 loss=1.4160 cindex=0.4359
+36/52 loss=1.3367 cindex=0.5309
+41/52 loss=1.7551 cindex=0.4040
+46/52 loss=1.1518 cindex=0.5981
+51/52 loss=1.5755 cindex=0.4694
+ cindex=0.5223
+[TRAIN]
+loss: 1.3712 | cindex: 0.5223
+[VAL]
+loss: 1.4217 | cindex: 0.6292 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6292 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 16
+
+Epoch [k=0 17/100]
+1/52 loss=1.3236 cindex=0.6522
+6/52 loss=1.2655 cindex=0.5957
+11/52 loss=1.3761 cindex=0.5000
+16/52 loss=1.4011 cindex=0.4623
+21/52 loss=1.3609 cindex=0.6514
+26/52 loss=1.4737 cindex=0.5688
+31/52 loss=1.4472 cindex=0.4957
+36/52 loss=1.3380 cindex=0.5583
+41/52 loss=1.0743 cindex=0.6667
+46/52 loss=1.2589 cindex=0.6442
+51/52 loss=1.2957 cindex=0.3696
+ cindex=0.5423
+[TRAIN]
+loss: 1.3630 | cindex: 0.5423
+[VAL]
+loss: 1.4264 | cindex: 0.6299 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6299 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 17
+
+Epoch [k=0 18/100]
+1/52 loss=1.3347 cindex=0.5000
+6/52 loss=1.3559 cindex=0.8491
+11/52 loss=1.4566 cindex=0.6381
+16/52 loss=1.3723 cindex=0.7255
+21/52 loss=1.4585 cindex=0.6695
+26/52 loss=1.3358 cindex=0.5728
+31/52 loss=1.5144 cindex=0.5179
+36/52 loss=1.4446 cindex=0.6566
+41/52 loss=1.1941 cindex=0.5377
+46/52 loss=1.2139 cindex=0.4636
+51/52 loss=1.5187 cindex=0.3960
+ cindex=0.5353
+[TRAIN]
+loss: 1.3599 | cindex: 0.5353
+[VAL]
+loss: 1.4216 | cindex: 0.6337 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6337 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 18
+
+Epoch [k=0 19/100]
+1/52 loss=1.2663 cindex=0.4630
+6/52 loss=1.2850 cindex=0.5172
+11/52 loss=1.3183 cindex=0.4356
+16/52 loss=1.3977 cindex=0.5487
+21/52 loss=1.1753 cindex=0.8534
+26/52 loss=1.1617 cindex=0.6786
+31/52 loss=1.2292 cindex=0.6162
+36/52 loss=1.2059 cindex=0.5146
+41/52 loss=1.6576 cindex=0.3068
+46/52 loss=1.3263 cindex=0.5446
+51/52 loss=1.2963 cindex=0.4854
+ cindex=0.5454
+[TRAIN]
+loss: 1.3550 | cindex: 0.5454
+[VAL]
+loss: 1.4166 | cindex: 0.6419 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6419 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 19
+
+Epoch [k=0 20/100]
+1/52 loss=1.4337 cindex=0.6422
+6/52 loss=1.3325 cindex=0.5983
+11/52 loss=1.1769 cindex=0.6162
+16/52 loss=1.2715 cindex=0.4894
+21/52 loss=1.3467 cindex=0.3894
+26/52 loss=1.3910 cindex=0.5630
+31/52 loss=1.2810 cindex=0.5385
+36/52 loss=1.2448 cindex=0.3402
+41/52 loss=1.4182 cindex=0.4746
+46/52 loss=1.3556 cindex=0.6635
+51/52 loss=1.6113 cindex=0.5603
+ cindex=0.5593
+[TRAIN]
+loss: 1.3492 | cindex: 0.5593
+[VAL]
+loss: 1.4322 | cindex: 0.6433 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6433 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=0 21/100]
+1/52 loss=1.2198 cindex=0.5385
+6/52 loss=1.3948 cindex=0.5091
+11/52 loss=1.3575 cindex=0.4667
+16/52 loss=1.4652 cindex=0.3636
+21/52 loss=1.4215 cindex=0.5126
+26/52 loss=1.5586 cindex=0.5333
+31/52 loss=1.5062 cindex=0.5472
+36/52 loss=1.5604 cindex=0.4845
+41/52 loss=1.2916 cindex=0.6226
+46/52 loss=1.2882 cindex=0.4100
+51/52 loss=1.5192 cindex=0.5385
+ cindex=0.5542
+[TRAIN]
+loss: 1.3578 | cindex: 0.5542
+[VAL]
+loss: 1.4043 | cindex: 0.6531 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6531 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 21
+
+Epoch [k=0 22/100]
+1/52 loss=1.3630 cindex=0.5761
+6/52 loss=1.3876 cindex=0.5431
+11/52 loss=1.2725 cindex=0.5667
+16/52 loss=1.4570 cindex=0.5000
+21/52 loss=1.4060 cindex=0.5905
+26/52 loss=1.3104 cindex=0.5965
+31/52 loss=1.4715 cindex=0.5299
+36/52 loss=1.5638 cindex=0.5500
+41/52 loss=1.2739 cindex=0.6117
+46/52 loss=1.2476 cindex=0.5126
+51/52 loss=1.3591 cindex=0.5413
+ cindex=0.5911
+[TRAIN]
+loss: 1.3340 | cindex: 0.5911
+[VAL]
+loss: 1.4453 | cindex: 0.6515 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6531 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 21
+
+Epoch [k=0 23/100]
+1/52 loss=1.6127 cindex=0.4167
+6/52 loss=1.3660 cindex=0.6091
+11/52 loss=1.1897 cindex=0.7059
+16/52 loss=1.2898 cindex=0.5763
+21/52 loss=1.4252 cindex=0.5965
+26/52 loss=1.2789 cindex=0.6667
+31/52 loss=1.0506 cindex=0.5146
+36/52 loss=1.4546 cindex=0.6058
+41/52 loss=1.5228 cindex=0.5893
+46/52 loss=1.2523 cindex=0.5167
+51/52 loss=1.4339 cindex=0.6083
+ cindex=0.5796
+[TRAIN]
+loss: 1.3383 | cindex: 0.5796
+[VAL]
+loss: 1.3958 | cindex: 0.6565 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6565 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 23
+
+Epoch [k=0 24/100]
+1/52 loss=1.2502 cindex=0.5283
+6/52 loss=1.4737 cindex=0.3391
+11/52 loss=1.2273 cindex=0.5603
+16/52 loss=1.4661 cindex=0.3545
+21/52 loss=1.3234 cindex=0.5741
+26/52 loss=1.2815 cindex=0.5192
+31/52 loss=1.5387 cindex=0.5046
+36/52 loss=1.4945 cindex=0.6552
+41/52 loss=1.4069 cindex=0.7071
+46/52 loss=1.5686 cindex=0.5043
+51/52 loss=1.3249 cindex=0.6636
+ cindex=0.5969
+[TRAIN]
+loss: 1.3316 | cindex: 0.5969
+[VAL]
+loss: 1.3895 | cindex: 0.6572 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 25/100]
+1/52 loss=1.2446 cindex=0.5437
+6/52 loss=1.3795 cindex=0.5889
+11/52 loss=1.4057 cindex=0.6517
+16/52 loss=1.3759 cindex=0.6195
+21/52 loss=1.5347 cindex=0.4556
+26/52 loss=1.2701 cindex=0.7476
+31/52 loss=1.1623 cindex=0.4773
+36/52 loss=1.2980 cindex=0.7308
+41/52 loss=1.1205 cindex=0.6891
+46/52 loss=1.3130 cindex=0.6174
+51/52 loss=1.4001 cindex=0.5865
+ cindex=0.6073
+[TRAIN]
+loss: 1.3136 | cindex: 0.6073
+[VAL]
+loss: 1.4066 | cindex: 0.6496 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 26/100]
+1/52 loss=1.3796 cindex=0.5556
+6/52 loss=1.3601 cindex=0.5938
+11/52 loss=1.3815 cindex=0.5882
+16/52 loss=1.3113 cindex=0.5596
+21/52 loss=1.2657 cindex=0.7288
+26/52 loss=1.4031 cindex=0.7027
+31/52 loss=1.4111 cindex=0.6723
+36/52 loss=1.1501 cindex=0.5798
+41/52 loss=1.0843 cindex=0.6471
+46/52 loss=1.1503 cindex=0.7600
+51/52 loss=1.3484 cindex=0.6602
+ cindex=0.6125
+[TRAIN]
+loss: 1.3104 | cindex: 0.6125
+[VAL]
+loss: 1.3812 | cindex: 0.6504 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 27/100]
+1/52 loss=1.2388 cindex=0.6639
+6/52 loss=1.5261 cindex=0.6709
+11/52 loss=1.5101 cindex=0.5517
+16/52 loss=1.1862 cindex=0.6762
+21/52 loss=1.3441 cindex=0.5424
+26/52 loss=1.2417 cindex=0.5517
+31/52 loss=1.2656 cindex=0.7158
+36/52 loss=1.2201 cindex=0.4660
+41/52 loss=1.0853 cindex=0.7727
+46/52 loss=1.3463 cindex=0.7075
+51/52 loss=1.3491 cindex=0.5812
+ cindex=0.6183
+[TRAIN]
+loss: 1.3128 | cindex: 0.6183
+[VAL]
+loss: 1.3734 | cindex: 0.6473 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 28/100]
+1/52 loss=1.1490 cindex=0.6226
+6/52 loss=1.2725 cindex=0.6162
+11/52 loss=1.2382 cindex=0.5364
+16/52 loss=1.4020 cindex=0.7732
+21/52 loss=1.2629 cindex=0.5312
+26/52 loss=1.5315 cindex=0.5981
+31/52 loss=1.5301 cindex=0.4083
+36/52 loss=1.2704 cindex=0.5000
+41/52 loss=1.2525 cindex=0.6863
+46/52 loss=1.2040 cindex=0.6522
+51/52 loss=1.0701 cindex=0.6167
+ cindex=0.6166
+[TRAIN]
+loss: 1.3074 | cindex: 0.6166
+[VAL]
+loss: 1.3931 | cindex: 0.6472 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 29/100]
+1/52 loss=1.5159 cindex=0.5583
+6/52 loss=1.3919 cindex=0.7311
+11/52 loss=1.2382 cindex=0.7069
+16/52 loss=1.4229 cindex=0.4444
+21/52 loss=1.5717 cindex=0.5051
+26/52 loss=1.2973 cindex=0.4182
+31/52 loss=1.3951 cindex=0.4255
+36/52 loss=1.3788 cindex=0.7065
+41/52 loss=1.3302 cindex=0.6545
+46/52 loss=1.2468 cindex=0.6250
+51/52 loss=1.1985 cindex=0.5048
+ cindex=0.6260
+[TRAIN]
+loss: 1.3038 | cindex: 0.6260
+[VAL]
+loss: 1.3832 | cindex: 0.6483 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 30/100]
+1/52 loss=1.3701 cindex=0.7179
+6/52 loss=1.7215 cindex=0.5093
+11/52 loss=1.3019 cindex=0.6727
+16/52 loss=1.3742 cindex=0.5052
+21/52 loss=1.4159 cindex=0.4235
+26/52 loss=1.0760 cindex=0.7714
+31/52 loss=1.2277 cindex=0.5686
+36/52 loss=1.3127 cindex=0.7524
+41/52 loss=1.0044 cindex=0.5577
+46/52 loss=1.4419 cindex=0.3803
+51/52 loss=1.1622 cindex=0.7439
+ cindex=0.6292
+[TRAIN]
+loss: 1.2951 | cindex: 0.6292
+[VAL]
+loss: 1.3603 | cindex: 0.6503 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 31/100]
+1/52 loss=1.2603 cindex=0.7103
+6/52 loss=1.2591 cindex=0.7009
+11/52 loss=1.2491 cindex=0.6000
+16/52 loss=1.6830 cindex=0.6727
+21/52 loss=1.3830 cindex=0.5750
+26/52 loss=1.4554 cindex=0.6452
+31/52 loss=1.4603 cindex=0.5462
+36/52 loss=1.1961 cindex=0.7204
+41/52 loss=1.4150 cindex=0.5657
+46/52 loss=1.4259 cindex=0.6400
+51/52 loss=1.4083 cindex=0.5446
+ cindex=0.6350
+[TRAIN]
+loss: 1.3032 | cindex: 0.6350
+[VAL]
+loss: 1.3623 | cindex: 0.6480 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 32/100]
+1/52 loss=1.4809 cindex=0.5146
+6/52 loss=1.1788 cindex=0.6610
+11/52 loss=1.4789 cindex=0.7444
+16/52 loss=1.2668 cindex=0.6122
+21/52 loss=1.3957 cindex=0.5755
+26/52 loss=1.2134 cindex=0.5917
+31/52 loss=1.5022 cindex=0.5818
+36/52 loss=1.3715 cindex=0.5565
+41/52 loss=1.2165 cindex=0.6638
+46/52 loss=1.3565 cindex=0.6333
+51/52 loss=1.0809 cindex=0.6545
+ cindex=0.6297
+[TRAIN]
+loss: 1.2896 | cindex: 0.6297
+[VAL]
+loss: 1.3800 | cindex: 0.6502 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 33/100]
+1/52 loss=1.3510 cindex=0.7396
+6/52 loss=1.1271 cindex=0.7327
+11/52 loss=1.2239 cindex=0.7041
+16/52 loss=1.2917 cindex=0.5269
+21/52 loss=1.2943 cindex=0.7281
+26/52 loss=1.1752 cindex=0.5729
+31/52 loss=1.0746 cindex=0.6723
+36/52 loss=1.3962 cindex=0.6509
+41/52 loss=1.3459 cindex=0.6218
+46/52 loss=1.2142 cindex=0.7059
+51/52 loss=1.2204 cindex=0.5667
+ cindex=0.6379
+[TRAIN]
+loss: 1.2748 | cindex: 0.6379
+[VAL]
+loss: 1.3696 | cindex: 0.6512 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=0 34/100]
+1/52 loss=1.1329 cindex=0.7000
+6/52 loss=1.0074 cindex=0.6303
+11/52 loss=1.2806 cindex=0.6500
+16/52 loss=1.4742 cindex=0.6105
+21/52 loss=1.1918 cindex=0.5238
+26/52 loss=1.4335 cindex=0.6017
+31/52 loss=1.4158 cindex=0.6273
+36/52 loss=1.2632 cindex=0.6286
+41/52 loss=1.2975 cindex=0.5698
+46/52 loss=1.1791 cindex=0.6364
+51/52 loss=1.2254 cindex=0.6979
+ cindex=0.6381
+[TRAIN]
+loss: 1.2825 | cindex: 0.6381
+[VAL]
+loss: 1.3493 | cindex: 0.6522 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6572 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+Early stopping
+
+
+Epoch [k=1 1/100]
+1/53 loss=1.4992 cindex=0.5926
+6/53 loss=1.5934 cindex=0.5217
+11/53 loss=1.5973 cindex=0.4958
+16/53 loss=1.5345 cindex=0.7094
+21/53 loss=1.6221 cindex=0.4706
+26/53 loss=1.4937 cindex=0.3366
+31/53 loss=1.4332 cindex=0.5400
+36/53 loss=1.5383 cindex=0.4561
+41/53 loss=1.5803 cindex=0.2613
+46/53 loss=1.4993 cindex=0.6019
+51/53 loss=1.5751 cindex=0.5714
+ cindex=0.5170
+[TRAIN]
+loss: 1.5022 | cindex: 0.5170
+[VAL]
+loss: 1.4984 | cindex: 0.5256 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5256 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=1 2/100]
+1/53 loss=1.4440 cindex=0.6792
+6/53 loss=1.4108 cindex=0.3814
+11/53 loss=1.4648 cindex=0.5326
+16/53 loss=1.4594 cindex=0.6471
+21/53 loss=1.5781 cindex=0.7250
+26/53 loss=1.2830 cindex=0.5949
+31/53 loss=1.4667 cindex=0.3774
+36/53 loss=1.3790 cindex=0.6813
+41/53 loss=1.4545 cindex=0.6863
+46/53 loss=1.5093 cindex=0.4643
+51/53 loss=1.4761 cindex=0.1574
+ cindex=0.5183
+[TRAIN]
+loss: 1.4929 | cindex: 0.5183
+[VAL]
+loss: 1.4878 | cindex: 0.5384 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5384 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=1 3/100]
+1/53 loss=1.4952 cindex=0.5189
+6/53 loss=1.5818 cindex=0.5667
+11/53 loss=1.4439 cindex=0.5446
+16/53 loss=1.5523 cindex=0.4375
+21/53 loss=1.5759 cindex=0.5847
+26/53 loss=1.5354 cindex=0.5739
+31/53 loss=1.2639 cindex=0.5263
+36/53 loss=1.4818 cindex=0.6379
+41/53 loss=1.5723 cindex=0.5210
+46/53 loss=1.4158 cindex=0.3367
+51/53 loss=1.2946 cindex=0.6289
+ cindex=0.4959
+[TRAIN]
+loss: 1.4856 | cindex: 0.4959
+[VAL]
+loss: 1.4737 | cindex: 0.5226 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5384 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=1 4/100]
+1/53 loss=1.5624 cindex=0.5250
+6/53 loss=1.5568 cindex=0.4750
+11/53 loss=1.4954 cindex=0.4727
+16/53 loss=1.3416 cindex=0.6373
+21/53 loss=1.5965 cindex=0.4957
+26/53 loss=1.5498 cindex=0.4167
+31/53 loss=1.5351 cindex=0.3130
+36/53 loss=1.5158 cindex=0.5517
+41/53 loss=1.5641 cindex=0.4083
+46/53 loss=1.4590 cindex=0.4159
+51/53 loss=1.3583 cindex=0.4643
+ cindex=0.4944
+[TRAIN]
+loss: 1.4668 | cindex: 0.4944
+[VAL]
+loss: 1.4529 | cindex: 0.5131 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5384 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=1 5/100]
+1/53 loss=1.5849 cindex=0.5167
+6/53 loss=1.5192 cindex=0.5043
+11/53 loss=1.4449 cindex=0.5143
+16/53 loss=1.3814 cindex=0.2929
+21/53 loss=1.4456 cindex=0.4632
+26/53 loss=1.4599 cindex=0.5000
+31/53 loss=1.5280 cindex=0.4500
+36/53 loss=1.4949 cindex=0.2347
+41/53 loss=1.6483 cindex=0.3583
+46/53 loss=1.4011 cindex=0.4571
+51/53 loss=1.6664 cindex=0.4188
+ cindex=0.4695
+[TRAIN]
+loss: 1.4627 | cindex: 0.4695
+[VAL]
+loss: 1.4345 | cindex: 0.5182 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5384 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=1 6/100]
+1/53 loss=1.5171 cindex=0.6075
+6/53 loss=1.5027 cindex=0.4421
+11/53 loss=1.4946 cindex=0.5238
+16/53 loss=1.3590 cindex=0.5977
+21/53 loss=1.3379 cindex=0.6364
+26/53 loss=1.2725 cindex=0.3836
+31/53 loss=1.5281 cindex=0.4811
+36/53 loss=1.4083 cindex=0.5357
+41/53 loss=1.2826 cindex=0.6262
+46/53 loss=1.4611 cindex=0.4043
+51/53 loss=1.4617 cindex=0.6917
+ cindex=0.5212
+[TRAIN]
+loss: 1.4385 | cindex: 0.5212
+[VAL]
+loss: 1.4182 | cindex: 0.5274 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5384 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=1 7/100]
+1/53 loss=1.4859 cindex=0.4579
+6/53 loss=1.5276 cindex=0.5364
+11/53 loss=1.3771 cindex=0.3579
+16/53 loss=1.4615 cindex=0.5798
+21/53 loss=1.5519 cindex=0.3596
+26/53 loss=1.3979 cindex=0.5254
+31/53 loss=1.4110 cindex=0.5333
+36/53 loss=1.4839 cindex=0.5196
+41/53 loss=1.3913 cindex=0.5583
+46/53 loss=1.2828 cindex=0.5366
+51/53 loss=1.4300 cindex=0.4602
+ cindex=0.5263
+[TRAIN]
+loss: 1.4322 | cindex: 0.5263
+[VAL]
+loss: 1.4090 | cindex: 0.5533 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5533 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 7
+
+Epoch [k=1 8/100]
+1/53 loss=1.3451 cindex=0.6117
+6/53 loss=1.5192 cindex=0.4874
+11/53 loss=1.4097 cindex=0.5699
+16/53 loss=1.4978 cindex=0.4083
+21/53 loss=1.2834 cindex=0.5619
+26/53 loss=1.5415 cindex=0.5259
+31/53 loss=1.3118 cindex=0.5556
+36/53 loss=1.5453 cindex=0.4500
+41/53 loss=1.3685 cindex=0.5341
+46/53 loss=1.6765 cindex=0.2193
+51/53 loss=1.4656 cindex=0.5370
+ cindex=0.4834
+[TRAIN]
+loss: 1.4392 | cindex: 0.4834
+[VAL]
+loss: 1.4065 | cindex: 0.5798 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5798 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 8
+
+Epoch [k=1 9/100]
+1/53 loss=1.3727 cindex=0.4862
+6/53 loss=1.3526 cindex=0.4696
+11/53 loss=1.4504 cindex=0.5000
+16/53 loss=1.5098 cindex=0.6083
+21/53 loss=1.4281 cindex=0.6667
+26/53 loss=1.5867 cindex=0.2931
+31/53 loss=1.6533 cindex=0.3361
+36/53 loss=1.4727 cindex=0.5750
+41/53 loss=1.4348 cindex=0.5470
+46/53 loss=1.4811 cindex=0.2966
+51/53 loss=1.3347 cindex=0.5682
+ cindex=0.5061
+[TRAIN]
+loss: 1.4235 | cindex: 0.5061
+[VAL]
+loss: 1.4016 | cindex: 0.5970 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5970 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 9
+
+Epoch [k=1 10/100]
+1/53 loss=1.3307 cindex=0.6250
+6/53 loss=1.3825 cindex=0.4576
+11/53 loss=1.3270 cindex=0.6629
+16/53 loss=1.5288 cindex=0.5766
+21/53 loss=1.4833 cindex=0.5631
+26/53 loss=1.2642 cindex=0.5545
+31/53 loss=1.4265 cindex=0.4750
+36/53 loss=1.3909 cindex=0.5909
+41/53 loss=1.3049 cindex=0.5182
+46/53 loss=1.4825 cindex=0.5093
+51/53 loss=1.3668 cindex=0.5876
+ cindex=0.4945
+[TRAIN]
+loss: 1.4234 | cindex: 0.4945
+[VAL]
+loss: 1.3959 | cindex: 0.6040 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6040 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 10
+
+Epoch [k=1 11/100]
+1/53 loss=1.2855 cindex=0.5472
+6/53 loss=1.2984 cindex=0.5315
+11/53 loss=1.3001 cindex=0.7611
+16/53 loss=1.5227 cindex=0.5000
+21/53 loss=1.2987 cindex=0.7333
+26/53 loss=1.5375 cindex=0.5238
+31/53 loss=1.2867 cindex=0.3107
+36/53 loss=1.3362 cindex=0.4224
+41/53 loss=1.3641 cindex=0.4946
+46/53 loss=1.5050 cindex=0.5833
+51/53 loss=1.5015 cindex=0.3675
+ cindex=0.5019
+[TRAIN]
+loss: 1.4208 | cindex: 0.5019
+[VAL]
+loss: 1.3929 | cindex: 0.6140 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6140 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 11
+
+Epoch [k=1 12/100]
+1/53 loss=1.2506 cindex=0.5524
+6/53 loss=1.4308 cindex=0.5345
+11/53 loss=1.5105 cindex=0.5378
+16/53 loss=1.4591 cindex=0.4725
+21/53 loss=1.2773 cindex=0.3626
+26/53 loss=1.2418 cindex=0.5732
+31/53 loss=1.2954 cindex=0.6695
+36/53 loss=1.4880 cindex=0.5048
+41/53 loss=1.2662 cindex=0.5155
+46/53 loss=1.3671 cindex=0.5826
+51/53 loss=1.3767 cindex=0.5726
+ cindex=0.5091
+[TRAIN]
+loss: 1.4182 | cindex: 0.5091
+[VAL]
+loss: 1.3889 | cindex: 0.6206 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6206 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 12
+
+Epoch [k=1 13/100]
+1/53 loss=1.5646 cindex=0.5175
+6/53 loss=1.4852 cindex=0.3675
+11/53 loss=1.3637 cindex=0.7091
+16/53 loss=1.3691 cindex=0.5505
+21/53 loss=1.4067 cindex=0.4476
+26/53 loss=1.5342 cindex=0.3429
+31/53 loss=1.4205 cindex=0.4746
+36/53 loss=1.5739 cindex=0.4034
+41/53 loss=1.4815 cindex=0.5750
+46/53 loss=1.3326 cindex=0.5500
+51/53 loss=1.4297 cindex=0.6071
+ cindex=0.5171
+[TRAIN]
+loss: 1.4032 | cindex: 0.5171
+[VAL]
+loss: 1.3846 | cindex: 0.6240 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6240 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 13
+
+Epoch [k=1 14/100]
+1/53 loss=1.2500 cindex=0.4018
+6/53 loss=1.4577 cindex=0.4950
+11/53 loss=1.4616 cindex=0.4815
+16/53 loss=1.4760 cindex=0.3983
+21/53 loss=1.3114 cindex=0.6047
+26/53 loss=1.4956 cindex=0.4087
+31/53 loss=1.3583 cindex=0.3426
+36/53 loss=1.3645 cindex=0.4783
+41/53 loss=1.4829 cindex=0.4952
+46/53 loss=1.3238 cindex=0.7426
+51/53 loss=1.2689 cindex=0.6916
+ cindex=0.5039
+[TRAIN]
+loss: 1.4119 | cindex: 0.5039
+[VAL]
+loss: 1.3815 | cindex: 0.6264 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6264 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 14
+
+Epoch [k=1 15/100]
+1/53 loss=1.3349 cindex=0.6330
+6/53 loss=1.3981 cindex=0.4712
+11/53 loss=1.3734 cindex=0.5098
+16/53 loss=1.4421 cindex=0.5385
+21/53 loss=1.5828 cindex=0.3714
+26/53 loss=1.4675 cindex=0.5083
+31/53 loss=1.3932 cindex=0.5686
+36/53 loss=1.4693 cindex=0.4690
+41/53 loss=1.4458 cindex=0.4766
+46/53 loss=1.3617 cindex=0.5083
+51/53 loss=1.4028 cindex=0.5755
+ cindex=0.5176
+[TRAIN]
+loss: 1.3981 | cindex: 0.5176
+[VAL]
+loss: 1.3763 | cindex: 0.6325 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6325 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 15
+
+Epoch [k=1 16/100]
+1/53 loss=1.4332 cindex=0.2239
+6/53 loss=1.2783 cindex=0.3750
+11/53 loss=1.4501 cindex=0.2929
+16/53 loss=1.4704 cindex=0.5526
+21/53 loss=1.4932 cindex=0.4851
+26/53 loss=1.4287 cindex=0.4421
+31/53 loss=1.2855 cindex=0.6000
+36/53 loss=1.5021 cindex=0.5500
+41/53 loss=1.3291 cindex=0.4019
+46/53 loss=1.3365 cindex=0.6000
+51/53 loss=1.4054 cindex=0.4423
+ cindex=0.4928
+[TRAIN]
+loss: 1.4070 | cindex: 0.4928
+[VAL]
+loss: 1.3731 | cindex: 0.6346 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6346 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 16
+
+Epoch [k=1 17/100]
+1/53 loss=1.3080 cindex=0.4886
+6/53 loss=1.4152 cindex=0.4833
+11/53 loss=1.3938 cindex=0.5789
+16/53 loss=1.4767 cindex=0.4667
+21/53 loss=1.5698 cindex=0.5833
+26/53 loss=1.5029 cindex=0.4712
+31/53 loss=1.3727 cindex=0.4583
+36/53 loss=1.2563 cindex=0.5882
+41/53 loss=1.2378 cindex=0.5096
+46/53 loss=1.5710 cindex=0.4530
+51/53 loss=1.2785 cindex=0.5714
+ cindex=0.5249
+[TRAIN]
+loss: 1.3947 | cindex: 0.5249
+[VAL]
+loss: 1.3712 | cindex: 0.6398 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6398 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 17
+
+Epoch [k=1 18/100]
+1/53 loss=1.2086 cindex=0.5652
+6/53 loss=1.3232 cindex=0.6812
+11/53 loss=1.3212 cindex=0.6250
+16/53 loss=1.3576 cindex=0.5524
+21/53 loss=1.3075 cindex=0.5833
+26/53 loss=1.2642 cindex=0.5806
+31/53 loss=1.3064 cindex=0.4194
+36/53 loss=1.3572 cindex=0.6699
+41/53 loss=1.5025 cindex=0.5664
+46/53 loss=1.6308 cindex=0.4894
+51/53 loss=1.4798 cindex=0.4833
+ cindex=0.5302
+[TRAIN]
+loss: 1.3894 | cindex: 0.5302
+[VAL]
+loss: 1.3676 | cindex: 0.6427 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6427 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 18
+
+Epoch [k=1 19/100]
+1/53 loss=1.5497 cindex=0.4583
+6/53 loss=1.3273 cindex=0.6330
+11/53 loss=1.4438 cindex=0.5667
+16/53 loss=1.3957 cindex=0.5776
+21/53 loss=1.3092 cindex=0.7155
+26/53 loss=1.3157 cindex=0.4902
+31/53 loss=1.1518 cindex=0.5843
+36/53 loss=1.3516 cindex=0.5932
+41/53 loss=1.4054 cindex=0.6083
+46/53 loss=1.2062 cindex=0.5941
+51/53 loss=1.5221 cindex=0.5000
+ cindex=0.5370
+[TRAIN]
+loss: 1.3877 | cindex: 0.5370
+[VAL]
+loss: 1.3628 | cindex: 0.6443 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6443 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 19
+
+Epoch [k=1 20/100]
+1/53 loss=1.4205 cindex=0.5981
+6/53 loss=1.4961 cindex=0.6731
+11/53 loss=1.3204 cindex=0.5000
+16/53 loss=1.2073 cindex=0.6465
+21/53 loss=1.2913 cindex=0.6019
+26/53 loss=1.5216 cindex=0.5085
+31/53 loss=1.3799 cindex=0.7333
+36/53 loss=1.2651 cindex=0.4211
+41/53 loss=1.4247 cindex=0.5966
+46/53 loss=1.5098 cindex=0.5652
+51/53 loss=1.4709 cindex=0.6476
+ cindex=0.5464
+[TRAIN]
+loss: 1.3810 | cindex: 0.5464
+[VAL]
+loss: 1.3569 | cindex: 0.6446 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6446 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=1 21/100]
+1/53 loss=1.4829 cindex=0.6000
+6/53 loss=1.5212 cindex=0.5140
+11/53 loss=1.4391 cindex=0.4954
+16/53 loss=1.3927 cindex=0.4234
+21/53 loss=1.3224 cindex=0.8131
+26/53 loss=1.3947 cindex=0.6154
+31/53 loss=1.3650 cindex=0.5128
+36/53 loss=1.5856 cindex=0.3883
+41/53 loss=1.1839 cindex=0.7647
+46/53 loss=1.3624 cindex=0.4623
+51/53 loss=1.3386 cindex=0.6796
+ cindex=0.5763
+[TRAIN]
+loss: 1.3692 | cindex: 0.5763
+[VAL]
+loss: 1.3409 | cindex: 0.6443 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6446 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=1 22/100]
+1/53 loss=1.3615 cindex=0.6289
+6/53 loss=1.2856 cindex=0.6075
+11/53 loss=1.4555 cindex=0.5088
+16/53 loss=1.2360 cindex=0.5701
+21/53 loss=1.2673 cindex=0.5833
+26/53 loss=1.2919 cindex=0.4771
+31/53 loss=1.3499 cindex=0.6325
+36/53 loss=1.4779 cindex=0.5478
+41/53 loss=1.3168 cindex=0.6583
+46/53 loss=1.4339 cindex=0.4831
+51/53 loss=1.3284 cindex=0.6261
+ cindex=0.5628
+[TRAIN]
+loss: 1.3759 | cindex: 0.5628
+[VAL]
+loss: 1.3375 | cindex: 0.6426 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6446 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=1 23/100]
+1/53 loss=1.3168 cindex=0.7227
+6/53 loss=1.3352 cindex=0.3909
+11/53 loss=1.2746 cindex=0.4400
+16/53 loss=1.4886 cindex=0.5566
+21/53 loss=1.2912 cindex=0.6304
+26/53 loss=1.3651 cindex=0.6195
+31/53 loss=1.3224 cindex=0.6698
+36/53 loss=1.3228 cindex=0.7778
+41/53 loss=1.5041 cindex=0.5049
+46/53 loss=1.2968 cindex=0.6667
+51/53 loss=1.4349 cindex=0.6190
+ cindex=0.5989
+[TRAIN]
+loss: 1.3504 | cindex: 0.5989
+[VAL]
+loss: 1.3254 | cindex: 0.6446 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6446 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=1 24/100]
+1/53 loss=1.3728 cindex=0.6036
+6/53 loss=1.3465 cindex=0.6476
+11/53 loss=1.3980 cindex=0.5833
+16/53 loss=1.4457 cindex=0.5294
+21/53 loss=1.2556 cindex=0.5900
+26/53 loss=1.1508 cindex=0.8000
+31/53 loss=1.3663 cindex=0.6000
+36/53 loss=1.3396 cindex=0.5354
+41/53 loss=1.1693 cindex=0.7176
+46/53 loss=1.3590 cindex=0.5702
+51/53 loss=1.3704 cindex=0.6042
+ cindex=0.5834
+[TRAIN]
+loss: 1.3710 | cindex: 0.5834
+[VAL]
+loss: 1.3131 | cindex: 0.6457 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6457 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 24
+
+Epoch [k=1 25/100]
+1/53 loss=1.4076 cindex=0.4286
+6/53 loss=1.3326 cindex=0.5437
+11/53 loss=1.2625 cindex=0.6262
+16/53 loss=1.4317 cindex=0.5412
+21/53 loss=1.2015 cindex=0.7303
+26/53 loss=1.1381 cindex=0.5859
+31/53 loss=1.1838 cindex=0.6606
+36/53 loss=1.3120 cindex=0.6300
+41/53 loss=1.3214 cindex=0.6182
+46/53 loss=1.2190 cindex=0.6813
+51/53 loss=1.3686 cindex=0.6667
+ cindex=0.5979
+[TRAIN]
+loss: 1.3463 | cindex: 0.5979
+[VAL]
+loss: 1.3114 | cindex: 0.6462 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6462 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 25
+
+Epoch [k=1 26/100]
+1/53 loss=1.4415 cindex=0.5167
+6/53 loss=1.3837 cindex=0.6167
+11/53 loss=1.4932 cindex=0.4945
+16/53 loss=1.1359 cindex=0.7069
+21/53 loss=1.1941 cindex=0.7064
+26/53 loss=1.3588 cindex=0.6571
+31/53 loss=1.3888 cindex=0.6040
+36/53 loss=1.4292 cindex=0.6075
+41/53 loss=1.4387 cindex=0.5046
+46/53 loss=1.2910 cindex=0.6818
+51/53 loss=1.2316 cindex=0.6636
+ cindex=0.6222
+[TRAIN]
+loss: 1.3465 | cindex: 0.6222
+[VAL]
+loss: 1.3027 | cindex: 0.6461 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6462 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 25
+
+Epoch [k=1 27/100]
+1/53 loss=1.4314 cindex=0.7155
+6/53 loss=1.3969 cindex=0.5349
+11/53 loss=1.2952 cindex=0.6262
+16/53 loss=1.2614 cindex=0.6804
+21/53 loss=1.3065 cindex=0.7188
+26/53 loss=1.2213 cindex=0.5794
+31/53 loss=1.3510 cindex=0.4906
+36/53 loss=1.2525 cindex=0.6321
+41/53 loss=1.1487 cindex=0.7238
+46/53 loss=1.3546 cindex=0.5050
+51/53 loss=1.2700 cindex=0.6263
+ cindex=0.5905
+[TRAIN]
+loss: 1.3469 | cindex: 0.5905
+[VAL]
+loss: 1.2965 | cindex: 0.6489 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6489 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 27
+
+Epoch [k=1 28/100]
+1/53 loss=1.2619 cindex=0.8434
+6/53 loss=1.1775 cindex=0.7117
+11/53 loss=1.2435 cindex=0.5900
+16/53 loss=1.3053 cindex=0.6075
+21/53 loss=1.3338 cindex=0.4766
+26/53 loss=1.3246 cindex=0.6891
+31/53 loss=1.3208 cindex=0.5766
+36/53 loss=1.5447 cindex=0.5250
+41/53 loss=1.2977 cindex=0.5660
+46/53 loss=1.3776 cindex=0.6891
+51/53 loss=1.2997 cindex=0.5227
+ cindex=0.6177
+[TRAIN]
+loss: 1.3370 | cindex: 0.6177
+[VAL]
+loss: 1.2950 | cindex: 0.6508 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6508 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 28
+
+Epoch [k=1 29/100]
+1/53 loss=1.4193 cindex=0.6983
+6/53 loss=1.3526 cindex=0.6134
+11/53 loss=1.3260 cindex=0.6701
+16/53 loss=1.2244 cindex=0.7692
+21/53 loss=1.5067 cindex=0.4917
+26/53 loss=1.3877 cindex=0.5106
+31/53 loss=1.3917 cindex=0.6239
+36/53 loss=1.5436 cindex=0.6333
+41/53 loss=1.1695 cindex=0.7248
+46/53 loss=1.6684 cindex=0.5500
+51/53 loss=1.4151 cindex=0.6121
+ cindex=0.6197
+[TRAIN]
+loss: 1.3352 | cindex: 0.6197
+[VAL]
+loss: 1.2884 | cindex: 0.6493 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6508 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 28
+
+Epoch [k=1 30/100]
+1/53 loss=1.3236 cindex=0.6637
+6/53 loss=1.4275 cindex=0.6639
+11/53 loss=1.2776 cindex=0.6087
+16/53 loss=1.3197 cindex=0.5152
+21/53 loss=1.4256 cindex=0.7021
+26/53 loss=1.5116 cindex=0.4857
+31/53 loss=1.2745 cindex=0.7083
+36/53 loss=1.3379 cindex=0.6500
+41/53 loss=1.3397 cindex=0.6975
+46/53 loss=1.2545 cindex=0.5962
+51/53 loss=1.3147 cindex=0.6050
+ cindex=0.6295
+[TRAIN]
+loss: 1.3227 | cindex: 0.6295
+[VAL]
+loss: 1.2821 | cindex: 0.6502 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6508 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 28
+
+Epoch [k=1 31/100]
+1/53 loss=1.5691 cindex=0.6947
+6/53 loss=1.4074 cindex=0.5625
+11/53 loss=1.3184 cindex=0.6053
+16/53 loss=1.4921 cindex=0.5556
+21/53 loss=1.3857 cindex=0.7297
+26/53 loss=1.4061 cindex=0.6981
+31/53 loss=1.3523 cindex=0.6607
+36/53 loss=1.2641 cindex=0.7328
+41/53 loss=1.2780 cindex=0.5741
+46/53 loss=1.1674 cindex=0.6952
+51/53 loss=1.3170 cindex=0.6771
+ cindex=0.6392
+[TRAIN]
+loss: 1.3162 | cindex: 0.6392
+[VAL]
+loss: 1.2933 | cindex: 0.6502 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6508 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 28
+
+Epoch [k=1 32/100]
+1/53 loss=1.2795 cindex=0.7321
+6/53 loss=1.3464 cindex=0.5752
+11/53 loss=1.2446 cindex=0.6491
+16/53 loss=1.3470 cindex=0.6195
+21/53 loss=1.4037 cindex=0.6186
+26/53 loss=1.5541 cindex=0.5100
+31/53 loss=1.5701 cindex=0.5254
+36/53 loss=1.1730 cindex=0.7115
+41/53 loss=1.1356 cindex=0.7895
+46/53 loss=1.3347 cindex=0.6842
+51/53 loss=1.2313 cindex=0.5254
+ cindex=0.6259
+[TRAIN]
+loss: 1.3199 | cindex: 0.6259
+[VAL]
+loss: 1.2816 | cindex: 0.6525 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 33/100]
+1/53 loss=1.2701 cindex=0.6121
+6/53 loss=1.3069 cindex=0.7411
+11/53 loss=1.3317 cindex=0.5981
+16/53 loss=1.2907 cindex=0.6727
+21/53 loss=1.2680 cindex=0.3838
+26/53 loss=1.2037 cindex=0.7551
+31/53 loss=1.2961 cindex=0.6083
+36/53 loss=1.1167 cindex=0.6023
+41/53 loss=1.1463 cindex=0.6262
+46/53 loss=1.3334 cindex=0.6250
+51/53 loss=1.2275 cindex=0.6667
+ cindex=0.6295
+[TRAIN]
+loss: 1.3159 | cindex: 0.6295
+[VAL]
+loss: 1.2780 | cindex: 0.6510 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 34/100]
+1/53 loss=1.3610 cindex=0.6555
+6/53 loss=1.3111 cindex=0.5630
+11/53 loss=1.1059 cindex=0.7188
+16/53 loss=1.3291 cindex=0.4750
+21/53 loss=1.2987 cindex=0.6915
+26/53 loss=1.0269 cindex=0.8434
+31/53 loss=1.3541 cindex=0.8491
+36/53 loss=1.4283 cindex=0.7160
+41/53 loss=1.1969 cindex=0.6810
+46/53 loss=1.1244 cindex=0.6404
+51/53 loss=1.3287 cindex=0.6239
+ cindex=0.6475
+[TRAIN]
+loss: 1.2903 | cindex: 0.6475
+[VAL]
+loss: 1.2726 | cindex: 0.6501 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 35/100]
+1/53 loss=1.1461 cindex=0.6095
+6/53 loss=1.4703 cindex=0.4909
+11/53 loss=1.4696 cindex=0.4766
+16/53 loss=1.3440 cindex=0.6000
+21/53 loss=1.2893 cindex=0.6300
+26/53 loss=1.5878 cindex=0.5213
+31/53 loss=1.2470 cindex=0.6132
+36/53 loss=1.1216 cindex=0.7024
+41/53 loss=1.4149 cindex=0.6712
+46/53 loss=1.3932 cindex=0.6167
+51/53 loss=1.2806 cindex=0.6667
+ cindex=0.6244
+[TRAIN]
+loss: 1.3104 | cindex: 0.6244
+[VAL]
+loss: 1.2727 | cindex: 0.6504 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 36/100]
+1/53 loss=1.4415 cindex=0.5534
+6/53 loss=1.2452 cindex=0.7253
+11/53 loss=1.4532 cindex=0.6058
+16/53 loss=1.3508 cindex=0.6238
+21/53 loss=1.4370 cindex=0.6306
+26/53 loss=1.2008 cindex=0.7130
+31/53 loss=1.2439 cindex=0.6396
+36/53 loss=1.3435 cindex=0.7193
+41/53 loss=1.4569 cindex=0.5667
+46/53 loss=1.1169 cindex=0.6780
+51/53 loss=1.4835 cindex=0.5300
+ cindex=0.6257
+[TRAIN]
+loss: 1.2983 | cindex: 0.6257
+[VAL]
+loss: 1.2788 | cindex: 0.6453 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 37/100]
+1/53 loss=1.2145 cindex=0.5833
+6/53 loss=1.2464 cindex=0.6588
+11/53 loss=1.2290 cindex=0.7281
+16/53 loss=1.1867 cindex=0.7111
+21/53 loss=1.2201 cindex=0.6355
+26/53 loss=1.1631 cindex=0.5234
+31/53 loss=1.4698 cindex=0.6383
+36/53 loss=1.3702 cindex=0.5818
+41/53 loss=1.5164 cindex=0.5047
+46/53 loss=1.4371 cindex=0.6250
+51/53 loss=1.1176 cindex=0.6842
+ cindex=0.6422
+[TRAIN]
+loss: 1.3069 | cindex: 0.6422
+[VAL]
+loss: 1.2736 | cindex: 0.6450 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 38/100]
+1/53 loss=1.1776 cindex=0.6466
+6/53 loss=1.2423 cindex=0.7708
+11/53 loss=1.1931 cindex=0.4712
+16/53 loss=1.3557 cindex=0.7353
+21/53 loss=1.1734 cindex=0.8039
+26/53 loss=1.3236 cindex=0.5895
+31/53 loss=1.2000 cindex=0.7417
+36/53 loss=1.2223 cindex=0.6422
+41/53 loss=1.2995 cindex=0.7545
+46/53 loss=1.3349 cindex=0.7556
+51/53 loss=1.4006 cindex=0.5948
+ cindex=0.6436
+[TRAIN]
+loss: 1.2917 | cindex: 0.6436
+[VAL]
+loss: 1.2843 | cindex: 0.6475 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 39/100]
+1/53 loss=1.1004 cindex=0.7634
+6/53 loss=1.0127 cindex=0.6186
+11/53 loss=1.4252 cindex=0.5618
+16/53 loss=1.3633 cindex=0.7018
+21/53 loss=1.3508 cindex=0.5690
+26/53 loss=1.6040 cindex=0.5630
+31/53 loss=1.3649 cindex=0.6574
+36/53 loss=1.2901 cindex=0.6975
+41/53 loss=1.2036 cindex=0.6667
+46/53 loss=1.1054 cindex=0.6917
+51/53 loss=1.3018 cindex=0.4375
+ cindex=0.6451
+[TRAIN]
+loss: 1.2969 | cindex: 0.6451
+[VAL]
+loss: 1.2694 | cindex: 0.6462 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 40/100]
+1/53 loss=1.2701 cindex=0.6952
+6/53 loss=1.3265 cindex=0.6168
+11/53 loss=0.9683 cindex=0.6951
+16/53 loss=1.1790 cindex=0.6742
+21/53 loss=1.3826 cindex=0.6907
+26/53 loss=1.2408 cindex=0.5872
+31/53 loss=1.3324 cindex=0.7475
+36/53 loss=1.2622 cindex=0.6757
+41/53 loss=1.4919 cindex=0.6000
+46/53 loss=1.1365 cindex=0.6417
+51/53 loss=1.0509 cindex=0.8364
+ cindex=0.6583
+[TRAIN]
+loss: 1.2722 | cindex: 0.6583
+[VAL]
+loss: 1.2717 | cindex: 0.6460 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 41/100]
+1/53 loss=1.5103 cindex=0.5495
+6/53 loss=1.1792 cindex=0.7647
+11/53 loss=1.2477 cindex=0.7228
+16/53 loss=1.5049 cindex=0.6442
+21/53 loss=1.1883 cindex=0.6842
+26/53 loss=1.5011 cindex=0.5670
+31/53 loss=1.1255 cindex=0.7273
+36/53 loss=1.2791 cindex=0.6226
+41/53 loss=1.6257 cindex=0.5000
+46/53 loss=1.3051 cindex=0.7083
+51/53 loss=1.2487 cindex=0.5667
+ cindex=0.6588
+[TRAIN]
+loss: 1.2775 | cindex: 0.6588
+[VAL]
+loss: 1.2712 | cindex: 0.6448 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+
+Epoch [k=1 42/100]
+1/53 loss=1.4543 cindex=0.6864
+6/53 loss=1.2022 cindex=0.5870
+11/53 loss=1.1890 cindex=0.6353
+16/53 loss=1.1687 cindex=0.7500
+21/53 loss=1.3271 cindex=0.6518
+26/53 loss=1.3585 cindex=0.5824
+31/53 loss=1.2629 cindex=0.5900
+36/53 loss=1.3960 cindex=0.7434
+41/53 loss=1.5065 cindex=0.4444
+46/53 loss=1.3269 cindex=0.6569
+51/53 loss=1.4588 cindex=0.5546
+ cindex=0.6321
+[TRAIN]
+loss: 1.3057 | cindex: 0.6321
+[VAL]
+loss: 1.2674 | cindex: 0.6455 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6525 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 32
+Early stopping
+
+
+Epoch [k=2 1/100]
+1/53 loss=1.4493 cindex=0.6238
+6/53 loss=1.3339 cindex=0.3977
+11/53 loss=1.4481 cindex=0.4906
+16/53 loss=1.4599 cindex=0.3000
+21/53 loss=1.5746 cindex=0.5000
+26/53 loss=1.3867 cindex=0.5474
+31/53 loss=1.5458 cindex=0.6667
+36/53 loss=1.5902 cindex=0.5254
+41/53 loss=1.5284 cindex=0.4182
+46/53 loss=1.5210 cindex=0.5776
+51/53 loss=1.6148 cindex=0.5085
+ cindex=0.5015
+[TRAIN]
+loss: 1.4838 | cindex: 0.5015
+[VAL]
+loss: 1.4550 | cindex: 0.5020 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5020 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=2 2/100]
+1/53 loss=1.4651 cindex=0.3854
+6/53 loss=1.5768 cindex=0.4000
+11/53 loss=1.4887 cindex=0.4870
+16/53 loss=1.3274 cindex=0.4588
+21/53 loss=1.4715 cindex=0.6286
+26/53 loss=1.4635 cindex=0.6286
+31/53 loss=1.6002 cindex=0.5167
+36/53 loss=1.5145 cindex=0.5913
+41/53 loss=1.5335 cindex=0.3645
+46/53 loss=1.4839 cindex=0.5413
+51/53 loss=1.5167 cindex=0.3793
+ cindex=0.5069
+[TRAIN]
+loss: 1.4760 | cindex: 0.5069
+[VAL]
+loss: 1.4395 | cindex: 0.5254 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5254 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=2 3/100]
+1/53 loss=1.6125 cindex=0.3684
+6/53 loss=1.4628 cindex=0.4486
+11/53 loss=1.5304 cindex=0.5167
+16/53 loss=1.5038 cindex=0.5172
+21/53 loss=1.4108 cindex=0.6476
+26/53 loss=1.3625 cindex=0.5638
+31/53 loss=1.5074 cindex=0.5948
+36/53 loss=1.4827 cindex=0.4078
+41/53 loss=1.4638 cindex=0.4865
+46/53 loss=1.5435 cindex=0.5210
+51/53 loss=1.5427 cindex=0.5398
+ cindex=0.5148
+[TRAIN]
+loss: 1.4576 | cindex: 0.5148
+[VAL]
+loss: 1.4162 | cindex: 0.5204 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5254 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 2
+
+Epoch [k=2 4/100]
+1/53 loss=1.4153 cindex=0.6727
+6/53 loss=1.3023 cindex=0.2568
+11/53 loss=1.5056 cindex=0.6000
+16/53 loss=1.4930 cindex=0.4622
+21/53 loss=1.5586 cindex=0.3909
+26/53 loss=1.5657 cindex=0.5214
+31/53 loss=1.4430 cindex=0.4779
+36/53 loss=1.5818 cindex=0.4068
+41/53 loss=1.2823 cindex=0.5000
+46/53 loss=1.3056 cindex=0.5825
+51/53 loss=1.4646 cindex=0.4909
+ cindex=0.5108
+[TRAIN]
+loss: 1.4429 | cindex: 0.5108
+[VAL]
+loss: 1.3872 | cindex: 0.5313 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5313 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 4
+
+Epoch [k=2 5/100]
+1/53 loss=1.1954 cindex=0.5063
+6/53 loss=1.3913 cindex=0.5294
+11/53 loss=1.4736 cindex=0.5856
+16/53 loss=1.2688 cindex=0.4330
+21/53 loss=1.2864 cindex=0.4348
+26/53 loss=1.3704 cindex=0.4691
+31/53 loss=1.5230 cindex=0.4766
+36/53 loss=1.5081 cindex=0.4464
+41/53 loss=1.5019 cindex=0.4538
+46/53 loss=1.6389 cindex=0.4500
+51/53 loss=1.3216 cindex=0.5250
+ cindex=0.5301
+[TRAIN]
+loss: 1.4315 | cindex: 0.5301
+[VAL]
+loss: 1.3704 | cindex: 0.5575 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5575 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 5
+
+Epoch [k=2 6/100]
+1/53 loss=1.3911 cindex=0.7282
+6/53 loss=1.4457 cindex=0.5810
+11/53 loss=1.2279 cindex=0.6349
+16/53 loss=1.3272 cindex=0.4324
+21/53 loss=1.5139 cindex=0.5315
+26/53 loss=1.4154 cindex=0.5607
+31/53 loss=1.4950 cindex=0.5172
+36/53 loss=1.2305 cindex=0.7449
+41/53 loss=1.4013 cindex=0.4364
+46/53 loss=1.3639 cindex=0.4500
+51/53 loss=1.4593 cindex=0.4576
+ cindex=0.4947
+[TRAIN]
+loss: 1.4191 | cindex: 0.4947
+[VAL]
+loss: 1.3620 | cindex: 0.5739 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5739 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 6
+
+Epoch [k=2 7/100]
+1/53 loss=1.5668 cindex=0.5210
+6/53 loss=1.1066 cindex=0.6593
+11/53 loss=1.2330 cindex=0.3878
+16/53 loss=1.4475 cindex=0.3645
+21/53 loss=1.4333 cindex=0.6703
+26/53 loss=1.4991 cindex=0.5536
+31/53 loss=1.4177 cindex=0.6991
+36/53 loss=1.5223 cindex=0.3551
+41/53 loss=1.4196 cindex=0.3714
+46/53 loss=1.3758 cindex=0.5000
+51/53 loss=1.3689 cindex=0.5701
+ cindex=0.5139
+[TRAIN]
+loss: 1.4174 | cindex: 0.5139
+[VAL]
+loss: 1.3598 | cindex: 0.5873 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5873 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 7
+
+Epoch [k=2 8/100]
+1/53 loss=1.3125 cindex=0.5283
+6/53 loss=1.6609 cindex=0.3913
+11/53 loss=1.7112 cindex=0.2832
+16/53 loss=1.5276 cindex=0.3917
+21/53 loss=1.4618 cindex=0.5726
+26/53 loss=1.4233 cindex=0.5000
+31/53 loss=1.5753 cindex=0.2277
+36/53 loss=1.5138 cindex=0.6075
+41/53 loss=1.5319 cindex=0.5312
+46/53 loss=1.4006 cindex=0.6429
+51/53 loss=1.3919 cindex=0.4253
+ cindex=0.5046
+[TRAIN]
+loss: 1.4243 | cindex: 0.5046
+[VAL]
+loss: 1.3572 | cindex: 0.5963 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5963 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 8
+
+Epoch [k=2 9/100]
+1/53 loss=1.3644 cindex=0.5408
+6/53 loss=1.3344 cindex=0.6250
+11/53 loss=1.4892 cindex=0.4667
+16/53 loss=1.3963 cindex=0.5513
+21/53 loss=1.5409 cindex=0.6147
+26/53 loss=1.5166 cindex=0.4040
+31/53 loss=1.2992 cindex=0.6344
+36/53 loss=1.5505 cindex=0.4324
+41/53 loss=1.4618 cindex=0.3689
+46/53 loss=1.4039 cindex=0.4667
+51/53 loss=1.3950 cindex=0.7030
+ cindex=0.5011
+[TRAIN]
+loss: 1.4153 | cindex: 0.5011
+[VAL]
+loss: 1.3483 | cindex: 0.5967 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5967 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 9
+
+Epoch [k=2 10/100]
+1/53 loss=1.5119 cindex=0.4468
+6/53 loss=1.4005 cindex=0.6271
+11/53 loss=1.1813 cindex=0.6731
+16/53 loss=1.4231 cindex=0.4667
+21/53 loss=1.2682 cindex=0.7117
+26/53 loss=1.4856 cindex=0.6991
+31/53 loss=1.6440 cindex=0.4747
+36/53 loss=1.6697 cindex=0.3426
+41/53 loss=1.4094 cindex=0.3364
+46/53 loss=1.5247 cindex=0.4250
+51/53 loss=1.3770 cindex=0.6583
+ cindex=0.5457
+[TRAIN]
+loss: 1.4018 | cindex: 0.5457
+[VAL]
+loss: 1.3448 | cindex: 0.6024 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6024 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 10
+
+Epoch [k=2 11/100]
+1/53 loss=1.4636 cindex=0.5417
+6/53 loss=1.2393 cindex=0.5595
+11/53 loss=1.3571 cindex=0.5000
+16/53 loss=1.1099 cindex=0.6121
+21/53 loss=1.3358 cindex=0.5536
+26/53 loss=1.3408 cindex=0.6701
+31/53 loss=1.3367 cindex=0.6218
+36/53 loss=1.6959 cindex=0.3571
+41/53 loss=1.5053 cindex=0.3277
+46/53 loss=1.4384 cindex=0.5429
+51/53 loss=1.4310 cindex=0.5583
+ cindex=0.5118
+[TRAIN]
+loss: 1.4150 | cindex: 0.5118
+[VAL]
+loss: 1.3484 | cindex: 0.6086 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6086 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 11
+
+Epoch [k=2 12/100]
+1/53 loss=1.4494 cindex=0.4245
+6/53 loss=1.3035 cindex=0.4434
+11/53 loss=1.4029 cindex=0.5684
+16/53 loss=1.3443 cindex=0.4954
+21/53 loss=1.3546 cindex=0.5859
+26/53 loss=1.1970 cindex=0.4904
+31/53 loss=1.4419 cindex=0.3883
+36/53 loss=1.4726 cindex=0.4083
+41/53 loss=1.3345 cindex=0.4369
+46/53 loss=1.4118 cindex=0.5376
+51/53 loss=1.4377 cindex=0.6364
+ cindex=0.5214
+[TRAIN]
+loss: 1.4071 | cindex: 0.5214
+[VAL]
+loss: 1.3479 | cindex: 0.6129 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6129 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 12
+
+Epoch [k=2 13/100]
+1/53 loss=1.4113 cindex=0.5963
+6/53 loss=1.2272 cindex=0.6139
+11/53 loss=1.2387 cindex=0.4310
+16/53 loss=1.4060 cindex=0.5333
+21/53 loss=1.2446 cindex=0.5888
+26/53 loss=1.3387 cindex=0.5192
+31/53 loss=1.3792 cindex=0.6250
+36/53 loss=1.5388 cindex=0.4717
+41/53 loss=1.3849 cindex=0.7379
+46/53 loss=1.4956 cindex=0.4750
+51/53 loss=1.3343 cindex=0.6842
+ cindex=0.5310
+[TRAIN]
+loss: 1.4044 | cindex: 0.5310
+[VAL]
+loss: 1.3442 | cindex: 0.6153 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6153 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 13
+
+Epoch [k=2 14/100]
+1/53 loss=1.4177 cindex=0.4100
+6/53 loss=1.5358 cindex=0.4545
+11/53 loss=1.3870 cindex=0.5638
+16/53 loss=1.6166 cindex=0.5043
+21/53 loss=1.2111 cindex=0.5254
+26/53 loss=1.4290 cindex=0.4135
+31/53 loss=1.3958 cindex=0.6796
+36/53 loss=1.3653 cindex=0.5347
+41/53 loss=1.2520 cindex=0.6064
+46/53 loss=1.3239 cindex=0.4867
+51/53 loss=1.5234 cindex=0.5333
+ cindex=0.5364
+[TRAIN]
+loss: 1.3975 | cindex: 0.5364
+[VAL]
+loss: 1.3370 | cindex: 0.6177 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6177 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 14
+
+Epoch [k=2 15/100]
+1/53 loss=1.3453 cindex=0.5243
+6/53 loss=1.4324 cindex=0.4286
+11/53 loss=1.4101 cindex=0.4898
+16/53 loss=1.5603 cindex=0.3514
+21/53 loss=1.3775 cindex=0.4945
+26/53 loss=1.3564 cindex=0.6970
+31/53 loss=1.3083 cindex=0.5065
+36/53 loss=1.2725 cindex=0.4545
+41/53 loss=1.5016 cindex=0.4563
+46/53 loss=1.5179 cindex=0.3846
+51/53 loss=1.2270 cindex=0.5190
+ cindex=0.5398
+[TRAIN]
+loss: 1.3957 | cindex: 0.5398
+[VAL]
+loss: 1.3449 | cindex: 0.6224 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6224 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 15
+
+Epoch [k=2 16/100]
+1/53 loss=1.1497 cindex=0.3929
+6/53 loss=1.2954 cindex=0.6796
+11/53 loss=1.2341 cindex=0.4828
+16/53 loss=1.4437 cindex=0.6218
+21/53 loss=1.4257 cindex=0.4455
+26/53 loss=1.4677 cindex=0.4583
+31/53 loss=1.7107 cindex=0.5135
+36/53 loss=1.2789 cindex=0.8602
+41/53 loss=1.4793 cindex=0.5000
+46/53 loss=1.3365 cindex=0.6909
+51/53 loss=1.3775 cindex=0.6814
+ cindex=0.5638
+[TRAIN]
+loss: 1.3902 | cindex: 0.5638
+[VAL]
+loss: 1.3379 | cindex: 0.6276 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6276 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 16
+
+Epoch [k=2 17/100]
+1/53 loss=1.2649 cindex=0.5789
+6/53 loss=1.4265 cindex=0.5238
+11/53 loss=1.3174 cindex=0.4818
+16/53 loss=1.2505 cindex=0.3636
+21/53 loss=1.4743 cindex=0.4393
+26/53 loss=1.3097 cindex=0.5700
+31/53 loss=1.4488 cindex=0.5686
+36/53 loss=1.4252 cindex=0.4643
+41/53 loss=1.4471 cindex=0.6964
+46/53 loss=1.5500 cindex=0.5521
+51/53 loss=1.5021 cindex=0.4622
+ cindex=0.5328
+[TRAIN]
+loss: 1.3932 | cindex: 0.5328
+[VAL]
+loss: 1.3411 | cindex: 0.6331 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6331 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 17
+
+Epoch [k=2 18/100]
+1/53 loss=1.5187 cindex=0.3571
+6/53 loss=1.3383 cindex=0.6964
+11/53 loss=1.4544 cindex=0.5053
+16/53 loss=1.4288 cindex=0.5321
+21/53 loss=1.6073 cindex=0.6186
+26/53 loss=1.2624 cindex=0.6389
+31/53 loss=1.2882 cindex=0.5254
+36/53 loss=1.5093 cindex=0.3431
+41/53 loss=1.3985 cindex=0.5877
+46/53 loss=1.4866 cindex=0.3776
+51/53 loss=1.3339 cindex=0.5161
+ cindex=0.5475
+[TRAIN]
+loss: 1.3943 | cindex: 0.5475
+[VAL]
+loss: 1.3277 | cindex: 0.6342 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6342 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 18
+
+Epoch [k=2 19/100]
+1/53 loss=1.3880 cindex=0.6000
+6/53 loss=1.4386 cindex=0.5726
+11/53 loss=1.4151 cindex=0.5556
+16/53 loss=1.6361 cindex=0.5812
+21/53 loss=1.3250 cindex=0.6167
+26/53 loss=1.3486 cindex=0.7353
+31/53 loss=1.3884 cindex=0.4796
+36/53 loss=1.4320 cindex=0.4639
+41/53 loss=1.4304 cindex=0.4874
+46/53 loss=1.2902 cindex=0.5225
+51/53 loss=1.4703 cindex=0.4370
+ cindex=0.5625
+[TRAIN]
+loss: 1.3793 | cindex: 0.5625
+[VAL]
+loss: 1.3224 | cindex: 0.6356 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6356 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 19
+
+Epoch [k=2 20/100]
+1/53 loss=1.3019 cindex=0.7000
+6/53 loss=1.3785 cindex=0.6339
+11/53 loss=1.5042 cindex=0.5000
+16/53 loss=1.3447 cindex=0.7080
+21/53 loss=1.3959 cindex=0.6018
+26/53 loss=1.4361 cindex=0.6903
+31/53 loss=1.3691 cindex=0.3917
+36/53 loss=1.1662 cindex=0.6757
+41/53 loss=1.4983 cindex=0.6833
+46/53 loss=1.3253 cindex=0.7264
+51/53 loss=1.1614 cindex=0.5876
+ cindex=0.5781
+[TRAIN]
+loss: 1.3758 | cindex: 0.5781
+[VAL]
+loss: 1.3234 | cindex: 0.6357 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 21/100]
+1/53 loss=1.4024 cindex=0.6239
+6/53 loss=1.2751 cindex=0.6386
+11/53 loss=1.3441 cindex=0.5763
+16/53 loss=1.3310 cindex=0.4516
+21/53 loss=1.2557 cindex=0.5800
+26/53 loss=1.6046 cindex=0.5083
+31/53 loss=1.4901 cindex=0.3833
+36/53 loss=1.4042 cindex=0.4792
+41/53 loss=1.3425 cindex=0.6606
+46/53 loss=1.3364 cindex=0.4700
+51/53 loss=1.2716 cindex=0.5273
+ cindex=0.5879
+[TRAIN]
+loss: 1.3740 | cindex: 0.5879
+[VAL]
+loss: 1.3145 | cindex: 0.6348 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 22/100]
+1/53 loss=1.3538 cindex=0.6087
+6/53 loss=1.1551 cindex=0.6000
+11/53 loss=1.3961 cindex=0.5826
+16/53 loss=1.3738 cindex=0.4706
+21/53 loss=1.4157 cindex=0.5229
+26/53 loss=1.2673 cindex=0.7217
+31/53 loss=1.2950 cindex=0.5979
+36/53 loss=1.4889 cindex=0.4454
+41/53 loss=1.4418 cindex=0.5600
+46/53 loss=1.2967 cindex=0.5421
+51/53 loss=1.4533 cindex=0.6699
+ cindex=0.6021
+[TRAIN]
+loss: 1.3556 | cindex: 0.6021
+[VAL]
+loss: 1.3000 | cindex: 0.6352 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 23/100]
+1/53 loss=1.4391 cindex=0.5865
+6/53 loss=1.2028 cindex=0.5926
+11/53 loss=1.4235 cindex=0.7027
+16/53 loss=1.3341 cindex=0.4563
+21/53 loss=1.4509 cindex=0.6036
+26/53 loss=1.2839 cindex=0.6286
+31/53 loss=1.3784 cindex=0.5000
+36/53 loss=1.4646 cindex=0.5660
+41/53 loss=1.3613 cindex=0.5462
+46/53 loss=1.4305 cindex=0.5636
+51/53 loss=1.4606 cindex=0.5167
+ cindex=0.5986
+[TRAIN]
+loss: 1.3649 | cindex: 0.5986
+[VAL]
+loss: 1.2918 | cindex: 0.6354 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 24/100]
+1/53 loss=1.2566 cindex=0.6783
+6/53 loss=1.4971 cindex=0.5824
+11/53 loss=1.4244 cindex=0.5932
+16/53 loss=1.5268 cindex=0.4464
+21/53 loss=1.3742 cindex=0.7447
+26/53 loss=1.1224 cindex=0.6373
+31/53 loss=1.4209 cindex=0.6869
+36/53 loss=1.4225 cindex=0.5424
+41/53 loss=1.4441 cindex=0.5341
+46/53 loss=1.3328 cindex=0.6036
+51/53 loss=1.3206 cindex=0.4902
+ cindex=0.6093
+[TRAIN]
+loss: 1.3402 | cindex: 0.6093
+[VAL]
+loss: 1.2838 | cindex: 0.6344 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 25/100]
+1/53 loss=1.3438 cindex=0.5259
+6/53 loss=1.4307 cindex=0.6364
+11/53 loss=1.2915 cindex=0.5856
+16/53 loss=1.4986 cindex=0.4167
+21/53 loss=1.3531 cindex=0.6034
+26/53 loss=1.4336 cindex=0.6167
+31/53 loss=1.5632 cindex=0.3853
+36/53 loss=1.3535 cindex=0.6667
+41/53 loss=1.2050 cindex=0.6832
+46/53 loss=1.3644 cindex=0.6218
+51/53 loss=1.4104 cindex=0.5917
+ cindex=0.6094
+[TRAIN]
+loss: 1.3514 | cindex: 0.6094
+[VAL]
+loss: 1.2888 | cindex: 0.6355 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 26/100]
+1/53 loss=1.3593 cindex=0.5644
+6/53 loss=1.4533 cindex=0.5686
+11/53 loss=1.3562 cindex=0.5619
+16/53 loss=1.2583 cindex=0.6636
+21/53 loss=1.3035 cindex=0.5664
+26/53 loss=1.3117 cindex=0.6961
+31/53 loss=1.2108 cindex=0.8077
+36/53 loss=1.2775 cindex=0.5263
+41/53 loss=1.4197 cindex=0.6500
+46/53 loss=1.3878 cindex=0.5714
+51/53 loss=1.3102 cindex=0.5545
+ cindex=0.6209
+[TRAIN]
+loss: 1.3325 | cindex: 0.6209
+[VAL]
+loss: 1.2752 | cindex: 0.6357 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6357 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=2 27/100]
+1/53 loss=1.4126 cindex=0.7048
+6/53 loss=1.3034 cindex=0.6636
+11/53 loss=1.3329 cindex=0.7217
+16/53 loss=1.3794 cindex=0.6731
+21/53 loss=1.6751 cindex=0.5641
+26/53 loss=1.3779 cindex=0.6583
+31/53 loss=1.3544 cindex=0.8220
+36/53 loss=1.4766 cindex=0.6204
+41/53 loss=1.4580 cindex=0.6667
+46/53 loss=1.0674 cindex=0.8333
+51/53 loss=1.2468 cindex=0.5463
+ cindex=0.6113
+[TRAIN]
+loss: 1.3417 | cindex: 0.6113
+[VAL]
+loss: 1.2794 | cindex: 0.6365 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6365 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 27
+
+Epoch [k=2 28/100]
+1/53 loss=1.3247 cindex=0.5702
+6/53 loss=1.2934 cindex=0.7237
+11/53 loss=1.2959 cindex=0.6875
+16/53 loss=1.4284 cindex=0.5446
+21/53 loss=1.3684 cindex=0.6636
+26/53 loss=1.1953 cindex=0.8034
+31/53 loss=1.2369 cindex=0.7250
+36/53 loss=1.2339 cindex=0.4833
+41/53 loss=1.4053 cindex=0.5800
+46/53 loss=1.3742 cindex=0.6122
+51/53 loss=1.2985 cindex=0.6465
+ cindex=0.6308
+[TRAIN]
+loss: 1.3312 | cindex: 0.6308
+[VAL]
+loss: 1.2785 | cindex: 0.6377 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6377 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 28
+
+Epoch [k=2 29/100]
+1/53 loss=1.3333 cindex=0.5109
+6/53 loss=1.2571 cindex=0.7417
+11/53 loss=1.1524 cindex=0.5281
+16/53 loss=1.2794 cindex=0.7143
+21/53 loss=1.3983 cindex=0.6147
+26/53 loss=1.2468 cindex=0.6190
+31/53 loss=1.3518 cindex=0.5361
+36/53 loss=1.2182 cindex=0.7027
+41/53 loss=1.2878 cindex=0.7583
+46/53 loss=1.4208 cindex=0.6417
+51/53 loss=1.3457 cindex=0.6512
+ cindex=0.6405
+[TRAIN]
+loss: 1.3111 | cindex: 0.6405
+[VAL]
+loss: 1.2921 | cindex: 0.6392 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6392 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 29
+
+Epoch [k=2 30/100]
+1/53 loss=1.1366 cindex=0.7423
+6/53 loss=1.7001 cindex=0.6023
+11/53 loss=1.2127 cindex=0.7400
+16/53 loss=1.4255 cindex=0.6496
+21/53 loss=1.3488 cindex=0.4800
+26/53 loss=1.2314 cindex=0.6000
+31/53 loss=1.2612 cindex=0.7238
+36/53 loss=1.4959 cindex=0.4857
+41/53 loss=1.2991 cindex=0.7059
+46/53 loss=1.1714 cindex=0.6814
+51/53 loss=1.0389 cindex=0.5446
+ cindex=0.6497
+[TRAIN]
+loss: 1.3054 | cindex: 0.6497
+[VAL]
+loss: 1.2649 | cindex: 0.6374 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6392 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 29
+
+Epoch [k=2 31/100]
+1/53 loss=1.0381 cindex=0.7065
+6/53 loss=1.4981 cindex=0.6476
+11/53 loss=1.4687 cindex=0.6667
+16/53 loss=1.2851 cindex=0.5652
+21/53 loss=1.3125 cindex=0.5472
+26/53 loss=1.4083 cindex=0.6132
+31/53 loss=1.4977 cindex=0.4298
+36/53 loss=1.3192 cindex=0.5465
+41/53 loss=1.2079 cindex=0.7282
+46/53 loss=1.1805 cindex=0.6753
+51/53 loss=1.5303 cindex=0.4538
+ cindex=0.6374
+[TRAIN]
+loss: 1.3328 | cindex: 0.6374
+[VAL]
+loss: 1.2664 | cindex: 0.6387 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6392 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 29
+
+Epoch [k=2 32/100]
+1/53 loss=1.4041 cindex=0.5288
+6/53 loss=1.3152 cindex=0.5487
+11/53 loss=1.3774 cindex=0.7217
+16/53 loss=1.3721 cindex=0.6783
+21/53 loss=1.2257 cindex=0.6699
+26/53 loss=1.3253 cindex=0.6500
+31/53 loss=1.2344 cindex=0.6306
+36/53 loss=1.4221 cindex=0.6389
+41/53 loss=1.1727 cindex=0.5714
+46/53 loss=1.1870 cindex=0.6147
+51/53 loss=1.4641 cindex=0.7800
+ cindex=0.6377
+[TRAIN]
+loss: 1.3150 | cindex: 0.6377
+[VAL]
+loss: 1.2639 | cindex: 0.6387 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6392 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 29
+
+Epoch [k=2 33/100]
+1/53 loss=1.3811 cindex=0.5750
+6/53 loss=1.5193 cindex=0.4906
+11/53 loss=1.1563 cindex=0.7027
+16/53 loss=1.3046 cindex=0.6923
+21/53 loss=1.3130 cindex=0.6055
+26/53 loss=1.2953 cindex=0.6916
+31/53 loss=1.4199 cindex=0.6727
+36/53 loss=1.3114 cindex=0.6627
+41/53 loss=1.4477 cindex=0.6535
+46/53 loss=1.3911 cindex=0.6303
+51/53 loss=1.2416 cindex=0.7750
+ cindex=0.6357
+[TRAIN]
+loss: 1.3257 | cindex: 0.6357
+[VAL]
+loss: 1.2723 | cindex: 0.6411 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6411 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 33
+
+Epoch [k=2 34/100]
+1/53 loss=1.2556 cindex=0.6410
+6/53 loss=1.2232 cindex=0.7041
+11/53 loss=1.2151 cindex=0.7311
+16/53 loss=1.2146 cindex=0.6283
+21/53 loss=0.8342 cindex=0.6842
+26/53 loss=1.4399 cindex=0.5053
+31/53 loss=1.3375 cindex=0.6636
+36/53 loss=1.2779 cindex=0.6134
+41/53 loss=1.2475 cindex=0.6912
+46/53 loss=1.4863 cindex=0.5000
+51/53 loss=1.5131 cindex=0.5391
+ cindex=0.6498
+[TRAIN]
+loss: 1.3086 | cindex: 0.6498
+[VAL]
+loss: 1.2590 | cindex: 0.6403 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6411 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 33
+
+Epoch [k=2 35/100]
+1/53 loss=1.4480 cindex=0.3905
+6/53 loss=1.2812 cindex=0.6476
+11/53 loss=1.1514 cindex=0.7708
+16/53 loss=1.3358 cindex=0.6300
+21/53 loss=1.5394 cindex=0.5946
+26/53 loss=1.2210 cindex=0.8333
+31/53 loss=1.4365 cindex=0.6325
+36/53 loss=1.3031 cindex=0.5943
+41/53 loss=1.1554 cindex=0.6327
+46/53 loss=1.1799 cindex=0.6698
+51/53 loss=1.1046 cindex=0.6126
+ cindex=0.6431
+[TRAIN]
+loss: 1.3167 | cindex: 0.6431
+[VAL]
+loss: 1.2583 | cindex: 0.6425 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6425 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 35
+
+Epoch [k=2 36/100]
+1/53 loss=1.4820 cindex=0.6195
+6/53 loss=1.2116 cindex=0.6952
+11/53 loss=1.4222 cindex=0.5377
+16/53 loss=1.4648 cindex=0.5673
+21/53 loss=1.3128 cindex=0.6250
+26/53 loss=1.1783 cindex=0.5765
+31/53 loss=1.0297 cindex=0.5421
+36/53 loss=1.4909 cindex=0.6337
+41/53 loss=1.0661 cindex=0.5156
+46/53 loss=1.1299 cindex=0.7345
+51/53 loss=1.2820 cindex=0.5750
+ cindex=0.6268
+[TRAIN]
+loss: 1.3176 | cindex: 0.6268
+[VAL]
+loss: 1.2578 | cindex: 0.6442 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6442 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 36
+
+Epoch [k=2 37/100]
+1/53 loss=1.1716 cindex=0.7442
+6/53 loss=1.6132 cindex=0.4732
+11/53 loss=1.3678 cindex=0.5556
+16/53 loss=1.6026 cindex=0.5630
+21/53 loss=1.3910 cindex=0.6269
+26/53 loss=1.2202 cindex=0.7128
+31/53 loss=1.3955 cindex=0.5565
+36/53 loss=1.3183 cindex=0.6047
+41/53 loss=1.2621 cindex=0.6500
+46/53 loss=1.0345 cindex=0.7297
+51/53 loss=1.2842 cindex=0.5128
+ cindex=0.6391
+[TRAIN]
+loss: 1.3072 | cindex: 0.6391
+[VAL]
+loss: 1.2630 | cindex: 0.6452 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6452 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 37
+
+Epoch [k=2 38/100]
+1/53 loss=1.3518 cindex=0.6804
+6/53 loss=1.0519 cindex=0.6733
+11/53 loss=1.6008 cindex=0.3478
+16/53 loss=1.0743 cindex=0.6154
+21/53 loss=1.3777 cindex=0.7105
+26/53 loss=1.4506 cindex=0.6339
+31/53 loss=1.3624 cindex=0.5833
+36/53 loss=1.6429 cindex=0.6174
+41/53 loss=1.2125 cindex=0.5542
+46/53 loss=1.6164 cindex=0.4891
+51/53 loss=1.4617 cindex=0.5667
+ cindex=0.6380
+[TRAIN]
+loss: 1.3153 | cindex: 0.6380
+[VAL]
+loss: 1.2836 | cindex: 0.6462 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6462 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 38
+
+Epoch [k=2 39/100]
+1/53 loss=1.3643 cindex=0.5963
+6/53 loss=1.2568 cindex=0.7315
+11/53 loss=1.4487 cindex=0.4900
+16/53 loss=1.2780 cindex=0.5437
+21/53 loss=1.3047 cindex=0.6195
+26/53 loss=1.6666 cindex=0.5556
+31/53 loss=1.2037 cindex=0.6833
+36/53 loss=1.3511 cindex=0.6186
+41/53 loss=1.0807 cindex=0.6780
+46/53 loss=1.4538 cindex=0.5135
+51/53 loss=1.4383 cindex=0.4945
+ cindex=0.6229
+[TRAIN]
+loss: 1.2909 | cindex: 0.6229
+[VAL]
+loss: 1.2620 | cindex: 0.6464 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6464 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 39
+
+Epoch [k=2 40/100]
+1/53 loss=1.2086 cindex=0.6500
+6/53 loss=1.0986 cindex=0.7143
+11/53 loss=1.2376 cindex=0.6917
+16/53 loss=1.1999 cindex=0.7417
+21/53 loss=1.3868 cindex=0.6609
+26/53 loss=1.3007 cindex=0.5667
+31/53 loss=1.1784 cindex=0.7456
+36/53 loss=1.3610 cindex=0.5446
+41/53 loss=1.3325 cindex=0.7073
+46/53 loss=1.2670 cindex=0.8182
+51/53 loss=1.3703 cindex=0.5619
+ cindex=0.6406
+[TRAIN]
+loss: 1.2983 | cindex: 0.6406
+[VAL]
+loss: 1.2572 | cindex: 0.6472 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6472 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 40
+
+Epoch [k=2 41/100]
+1/53 loss=1.5156 cindex=0.5897
+6/53 loss=1.7617 cindex=0.5495
+11/53 loss=1.2177 cindex=0.7500
+16/53 loss=1.1227 cindex=0.7815
+21/53 loss=1.1654 cindex=0.5567
+26/53 loss=1.5916 cindex=0.5378
+31/53 loss=1.2547 cindex=0.7407
+36/53 loss=1.2297 cindex=0.5714
+41/53 loss=1.3176 cindex=0.6168
+46/53 loss=1.1364 cindex=0.7727
+51/53 loss=1.2313 cindex=0.7363
+ cindex=0.6653
+[TRAIN]
+loss: 1.2953 | cindex: 0.6653
+[VAL]
+loss: 1.2616 | cindex: 0.6487 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6487 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 41
+
+Epoch [k=2 42/100]
+1/53 loss=1.2436 cindex=0.6356
+6/53 loss=1.1987 cindex=0.6154
+11/53 loss=1.5303 cindex=0.6134
+16/53 loss=1.3563 cindex=0.6697
+21/53 loss=1.1514 cindex=0.7429
+26/53 loss=1.1519 cindex=0.6900
+31/53 loss=1.5549 cindex=0.5327
+36/53 loss=1.2967 cindex=0.7692
+41/53 loss=1.4372 cindex=0.6139
+46/53 loss=1.2384 cindex=0.5526
+51/53 loss=1.3934 cindex=0.5593
+ cindex=0.6461
+[TRAIN]
+loss: 1.2961 | cindex: 0.6461
+[VAL]
+loss: 1.2496 | cindex: 0.6486 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6487 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 41
+
+Epoch [k=2 43/100]
+1/53 loss=1.1619 cindex=0.6822
+6/53 loss=1.2858 cindex=0.7241
+11/53 loss=1.1979 cindex=0.6346
+16/53 loss=1.2669 cindex=0.6800
+21/53 loss=1.3860 cindex=0.5614
+26/53 loss=1.2375 cindex=0.6786
+31/53 loss=1.3304 cindex=0.6250
+36/53 loss=1.2019 cindex=0.6275
+41/53 loss=1.4475 cindex=0.5652
+46/53 loss=0.9274 cindex=0.7961
+51/53 loss=1.2875 cindex=0.6275
+ cindex=0.6601
+[TRAIN]
+loss: 1.2942 | cindex: 0.6601
+[VAL]
+loss: 1.2568 | cindex: 0.6492 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6492 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 43
+
+Epoch [k=2 44/100]
+1/53 loss=1.3907 cindex=0.6162
+6/53 loss=1.1902 cindex=0.6452
+11/53 loss=1.3434 cindex=0.6635
+16/53 loss=1.2274 cindex=0.6250
+21/53 loss=1.4989 cindex=0.5248
+26/53 loss=1.2522 cindex=0.6203
+31/53 loss=1.1335 cindex=0.6667
+36/53 loss=1.3965 cindex=0.7290
+41/53 loss=1.3292 cindex=0.7395
+46/53 loss=1.0121 cindex=0.9082
+51/53 loss=1.4343 cindex=0.7407
+ cindex=0.6558
+[TRAIN]
+loss: 1.2904 | cindex: 0.6558
+[VAL]
+loss: 1.2558 | cindex: 0.6513 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6513 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 44
+
+Epoch [k=2 45/100]
+1/53 loss=1.2604 cindex=0.7115
+6/53 loss=1.2471 cindex=0.5979
+11/53 loss=1.1825 cindex=0.7959
+16/53 loss=1.2255 cindex=0.7000
+21/53 loss=1.0625 cindex=0.7961
+26/53 loss=1.2637 cindex=0.5833
+31/53 loss=1.5170 cindex=0.5614
+36/53 loss=1.2057 cindex=0.7030
+41/53 loss=1.4109 cindex=0.6471
+46/53 loss=1.1882 cindex=0.7407
+51/53 loss=1.3273 cindex=0.7500
+ cindex=0.6642
+[TRAIN]
+loss: 1.2857 | cindex: 0.6642
+[VAL]
+loss: 1.2482 | cindex: 0.6519 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6519 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 45
+
+Epoch [k=2 46/100]
+1/53 loss=1.4009 cindex=0.5138
+6/53 loss=1.4394 cindex=0.5462
+11/53 loss=1.0978 cindex=0.7126
+16/53 loss=1.1211 cindex=0.7895
+21/53 loss=1.5292 cindex=0.6783
+26/53 loss=1.4092 cindex=0.6055
+31/53 loss=1.1458 cindex=0.6818
+36/53 loss=1.4759 cindex=0.5152
+41/53 loss=1.2648 cindex=0.5909
+46/53 loss=1.1372 cindex=0.8667
+51/53 loss=1.1200 cindex=0.7429
+ cindex=0.6320
+[TRAIN]
+loss: 1.2905 | cindex: 0.6320
+[VAL]
+loss: 1.2433 | cindex: 0.6534 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6534 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 46
+
+Epoch [k=2 47/100]
+1/53 loss=1.1971 cindex=0.5256
+6/53 loss=1.4686 cindex=0.5798
+11/53 loss=1.2959 cindex=0.6712
+16/53 loss=1.4234 cindex=0.6040
+21/53 loss=1.4164 cindex=0.5283
+26/53 loss=1.1115 cindex=0.7818
+31/53 loss=1.2475 cindex=0.7250
+36/53 loss=1.3784 cindex=0.6437
+41/53 loss=1.1699 cindex=0.7706
+46/53 loss=1.4454 cindex=0.4750
+51/53 loss=1.4297 cindex=0.5111
+ cindex=0.6427
+[TRAIN]
+loss: 1.2916 | cindex: 0.6427
+[VAL]
+loss: 1.2512 | cindex: 0.6531 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6534 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 46
+
+Epoch [k=2 48/100]
+1/53 loss=1.2568 cindex=0.6296
+6/53 loss=1.4062 cindex=0.6549
+11/53 loss=1.2088 cindex=0.6701
+16/53 loss=1.3834 cindex=0.6304
+21/53 loss=1.2883 cindex=0.6667
+26/53 loss=1.0836 cindex=0.7712
+31/53 loss=1.5838 cindex=0.5495
+36/53 loss=1.0704 cindex=0.6667
+41/53 loss=1.3532 cindex=0.6000
+46/53 loss=1.3021 cindex=0.5565
+51/53 loss=1.1856 cindex=0.6283
+ cindex=0.6354
+[TRAIN]
+loss: 1.2820 | cindex: 0.6354
+[VAL]
+loss: 1.2372 | cindex: 0.6543 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6543 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 48
+
+Epoch [k=2 49/100]
+1/53 loss=1.3745 cindex=0.8235
+6/53 loss=1.1364 cindex=0.6860
+11/53 loss=1.2871 cindex=0.5979
+16/53 loss=1.0985 cindex=0.5877
+21/53 loss=1.2961 cindex=0.6316
+26/53 loss=1.3656 cindex=0.5000
+31/53 loss=1.2955 cindex=0.6952
+36/53 loss=1.2332 cindex=0.6964
+41/53 loss=1.6392 cindex=0.5500
+46/53 loss=1.4352 cindex=0.6887
+51/53 loss=1.4987 cindex=0.6154
+ cindex=0.6551
+[TRAIN]
+loss: 1.2915 | cindex: 0.6551
+[VAL]
+loss: 1.2506 | cindex: 0.6563 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6563 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 49
+
+Epoch [k=2 50/100]
+1/53 loss=1.5139 cindex=0.5000
+6/53 loss=1.2692 cindex=0.6200
+11/53 loss=1.2748 cindex=0.6372
+16/53 loss=1.0432 cindex=0.7917
+21/53 loss=1.0740 cindex=0.6481
+26/53 loss=1.3071 cindex=0.6762
+31/53 loss=1.1940 cindex=0.6036
+36/53 loss=1.2504 cindex=0.6562
+41/53 loss=1.2355 cindex=0.7500
+46/53 loss=1.2609 cindex=0.6250
+51/53 loss=1.3645 cindex=0.6182
+ cindex=0.6668
+[TRAIN]
+loss: 1.2963 | cindex: 0.6668
+[VAL]
+loss: 1.2447 | cindex: 0.6569 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6569 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 50
+
+Epoch [k=2 51/100]
+1/53 loss=1.1973 cindex=0.6522
+6/53 loss=1.1681 cindex=0.8174
+11/53 loss=1.4392 cindex=0.5050
+16/53 loss=1.2442 cindex=0.7745
+21/53 loss=1.4993 cindex=0.5417
+26/53 loss=1.3476 cindex=0.6824
+31/53 loss=1.5242 cindex=0.5763
+36/53 loss=1.3192 cindex=0.6667
+41/53 loss=1.2110 cindex=0.7193
+46/53 loss=1.3988 cindex=0.6087
+51/53 loss=1.2050 cindex=0.6583
+ cindex=0.6623
+[TRAIN]
+loss: 1.2818 | cindex: 0.6623
+[VAL]
+loss: 1.2375 | cindex: 0.6558 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6569 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 50
+
+Epoch [k=2 52/100]
+1/53 loss=1.2425 cindex=0.6737
+6/53 loss=1.3641 cindex=0.7113
+11/53 loss=1.0517 cindex=0.4957
+16/53 loss=1.1749 cindex=0.7300
+21/53 loss=1.1192 cindex=0.7436
+26/53 loss=1.2603 cindex=0.6581
+31/53 loss=1.1784 cindex=0.7473
+36/53 loss=1.6075 cindex=0.5000
+41/53 loss=1.3775 cindex=0.6261
+46/53 loss=1.3999 cindex=0.6696
+51/53 loss=1.0634 cindex=0.7248
+ cindex=0.6662
+[TRAIN]
+loss: 1.2758 | cindex: 0.6662
+[VAL]
+loss: 1.2352 | cindex: 0.6586 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6586 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 52
+
+Epoch [k=2 53/100]
+1/53 loss=1.1431 cindex=0.7965
+6/53 loss=1.1237 cindex=0.7500
+11/53 loss=1.4197 cindex=0.5333
+16/53 loss=1.3150 cindex=0.6750
+21/53 loss=1.2318 cindex=0.6417
+26/53 loss=1.2905 cindex=0.6140
+31/53 loss=1.3336 cindex=0.7667
+36/53 loss=1.0773 cindex=0.5726
+41/53 loss=1.1848 cindex=0.6667
+46/53 loss=1.2127 cindex=0.6726
+51/53 loss=0.9110 cindex=0.6988
+ cindex=0.6634
+[TRAIN]
+loss: 1.2813 | cindex: 0.6634
+[VAL]
+loss: 1.2571 | cindex: 0.6586 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6586 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 52
+
+Epoch [k=2 54/100]
+1/53 loss=1.4461 cindex=0.6355
+6/53 loss=1.3539 cindex=0.5556
+11/53 loss=1.4844 cindex=0.5596
+16/53 loss=1.1356 cindex=0.7583
+21/53 loss=1.3079 cindex=0.5172
+26/53 loss=1.3996 cindex=0.4327
+31/53 loss=1.2890 cindex=0.7000
+36/53 loss=1.2709 cindex=0.6765
+41/53 loss=0.9862 cindex=0.9028
+46/53 loss=1.1600 cindex=0.7547
+51/53 loss=1.0364 cindex=0.6404
+ cindex=0.6582
+[TRAIN]
+loss: 1.2862 | cindex: 0.6582
+[VAL]
+loss: 1.2451 | cindex: 0.6598 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6598 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 54
+
+Epoch [k=2 55/100]
+1/53 loss=1.4727 cindex=0.5377
+6/53 loss=1.2838 cindex=0.6583
+11/53 loss=1.0412 cindex=0.8925
+16/53 loss=0.9979 cindex=0.7544
+21/53 loss=1.0578 cindex=0.7373
+26/53 loss=1.3509 cindex=0.5917
+31/53 loss=1.1191 cindex=0.6569
+36/53 loss=1.1971 cindex=0.6964
+41/53 loss=1.2392 cindex=0.7290
+46/53 loss=1.0851 cindex=0.6923
+51/53 loss=1.4909 cindex=0.6325
+ cindex=0.6716
+[TRAIN]
+loss: 1.2732 | cindex: 0.6716
+[VAL]
+loss: 1.2552 | cindex: 0.6601 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6601 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 55
+
+Epoch [k=2 56/100]
+1/53 loss=1.2871 cindex=0.7619
+6/53 loss=1.1773 cindex=0.7522
+11/53 loss=1.1887 cindex=0.6735
+16/53 loss=1.4876 cindex=0.5526
+21/53 loss=1.2311 cindex=0.7455
+26/53 loss=1.1814 cindex=0.6991
+31/53 loss=1.4161 cindex=0.4848
+36/53 loss=1.2964 cindex=0.6327
+41/53 loss=1.3139 cindex=0.6667
+46/53 loss=1.4382 cindex=0.5385
+51/53 loss=1.4709 cindex=0.6134
+ cindex=0.6694
+[TRAIN]
+loss: 1.2773 | cindex: 0.6694
+[VAL]
+loss: 1.2327 | cindex: 0.6602 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6602 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 56
+
+Epoch [k=2 57/100]
+1/53 loss=1.3136 cindex=0.5810
+6/53 loss=0.9934 cindex=0.7692
+11/53 loss=1.1395 cindex=0.6522
+16/53 loss=1.2325 cindex=0.7182
+21/53 loss=1.2527 cindex=0.6667
+26/53 loss=1.2211 cindex=0.5826
+31/53 loss=1.3568 cindex=0.5000
+36/53 loss=1.0217 cindex=0.7542
+41/53 loss=1.5391 cindex=0.5565
+46/53 loss=1.0664 cindex=0.7241
+51/53 loss=1.3409 cindex=0.5417
+ cindex=0.6515
+[TRAIN]
+loss: 1.2779 | cindex: 0.6515
+[VAL]
+loss: 1.2417 | cindex: 0.6611 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6611 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 57
+
+Epoch [k=2 58/100]
+1/53 loss=1.4820 cindex=0.5556
+6/53 loss=1.2566 cindex=0.7222
+11/53 loss=1.2106 cindex=0.6481
+16/53 loss=1.1681 cindex=0.6460
+21/53 loss=1.1489 cindex=0.7899
+26/53 loss=1.1416 cindex=0.6989
+31/53 loss=1.2547 cindex=0.6822
+36/53 loss=1.1549 cindex=0.7757
+41/53 loss=1.1567 cindex=0.6400
+46/53 loss=1.3976 cindex=0.5534
+51/53 loss=0.9734 cindex=0.7925
+ cindex=0.6600
+[TRAIN]
+loss: 1.2574 | cindex: 0.6600
+[VAL]
+loss: 1.2532 | cindex: 0.6626 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6626 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 58
+
+Epoch [k=2 59/100]
+1/53 loss=1.3422 cindex=0.6723
+6/53 loss=1.3552 cindex=0.6957
+11/53 loss=1.2281 cindex=0.6757
+16/53 loss=1.1078 cindex=0.7414
+21/53 loss=1.1436 cindex=0.7204
+26/53 loss=1.2742 cindex=0.5865
+31/53 loss=1.1931 cindex=0.8469
+36/53 loss=1.2193 cindex=0.7265
+41/53 loss=1.1153 cindex=0.4259
+46/53 loss=1.1116 cindex=0.7604
+51/53 loss=1.3438 cindex=0.4911
+ cindex=0.6409
+[TRAIN]
+loss: 1.2778 | cindex: 0.6409
+[VAL]
+loss: 1.2385 | cindex: 0.6629 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6629 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 59
+
+Epoch [k=2 60/100]
+1/53 loss=1.2908 cindex=0.5250
+6/53 loss=1.1516 cindex=0.6857
+11/53 loss=1.5352 cindex=0.6569
+16/53 loss=1.1522 cindex=0.6635
+21/53 loss=1.3602 cindex=0.6036
+26/53 loss=1.5672 cindex=0.5701
+31/53 loss=1.1992 cindex=0.7477
+36/53 loss=1.2993 cindex=0.6526
+41/53 loss=1.3790 cindex=0.7672
+46/53 loss=1.5542 cindex=0.3367
+51/53 loss=1.1698 cindex=0.6207
+ cindex=0.6384
+[TRAIN]
+loss: 1.2757 | cindex: 0.6384
+[VAL]
+loss: 1.2429 | cindex: 0.6636 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6636 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 60
+
+Epoch [k=2 61/100]
+1/53 loss=1.4385 cindex=0.5876
+6/53 loss=1.4653 cindex=0.6581
+11/53 loss=1.2862 cindex=0.6789
+16/53 loss=1.3285 cindex=0.6121
+21/53 loss=1.3232 cindex=0.6566
+26/53 loss=1.2267 cindex=0.5614
+31/53 loss=1.1333 cindex=0.6471
+36/53 loss=1.3300 cindex=0.7119
+41/53 loss=1.2388 cindex=0.6887
+46/53 loss=1.4076 cindex=0.6727
+51/53 loss=1.4541 cindex=0.5593
+ cindex=0.6587
+[TRAIN]
+loss: 1.2616 | cindex: 0.6587
+[VAL]
+loss: 1.2257 | cindex: 0.6629 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6636 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 60
+
+Epoch [k=2 62/100]
+1/53 loss=1.1186 cindex=0.6780
+6/53 loss=1.2452 cindex=0.4750
+11/53 loss=1.6098 cindex=0.6017
+16/53 loss=1.1088 cindex=0.5889
+21/53 loss=1.0831 cindex=0.7864
+26/53 loss=1.4275 cindex=0.6744
+31/53 loss=1.3223 cindex=0.4700
+36/53 loss=1.3924 cindex=0.7732
+41/53 loss=1.3234 cindex=0.6531
+46/53 loss=1.2668 cindex=0.7391
+51/53 loss=1.3450 cindex=0.6923
+ cindex=0.6331
+[TRAIN]
+loss: 1.2519 | cindex: 0.6331
+[VAL]
+loss: 1.2267 | cindex: 0.6632 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6636 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 60
+
+Epoch [k=2 63/100]
+1/53 loss=1.5261 cindex=0.5000
+6/53 loss=1.2567 cindex=0.7083
+11/53 loss=1.5364 cindex=0.5347
+16/53 loss=1.3019 cindex=0.6604
+21/53 loss=1.1181 cindex=0.6739
+26/53 loss=1.4435 cindex=0.6167
+31/53 loss=1.3124 cindex=0.4956
+36/53 loss=1.4381 cindex=0.7030
+41/53 loss=0.9830 cindex=0.8909
+46/53 loss=1.2031 cindex=0.6577
+51/53 loss=1.4911 cindex=0.5588
+ cindex=0.6677
+[TRAIN]
+loss: 1.2606 | cindex: 0.6677
+[VAL]
+loss: 1.2426 | cindex: 0.6653 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6653 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 63
+
+Epoch [k=2 64/100]
+1/53 loss=1.4340 cindex=0.5470
+6/53 loss=1.1332 cindex=0.7373
+11/53 loss=1.0876 cindex=0.7024
+16/53 loss=1.4766 cindex=0.6325
+21/53 loss=0.9827 cindex=0.7791
+26/53 loss=1.4540 cindex=0.5044
+31/53 loss=1.4288 cindex=0.5941
+36/53 loss=1.4333 cindex=0.5437
+41/53 loss=1.1426 cindex=0.7200
+46/53 loss=1.2036 cindex=0.5963
+51/53 loss=1.3044 cindex=0.6637
+ cindex=0.6749
+[TRAIN]
+loss: 1.2695 | cindex: 0.6749
+[VAL]
+loss: 1.2203 | cindex: 0.6648 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6653 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 63
+
+Epoch [k=2 65/100]
+1/53 loss=1.4018 cindex=0.5478
+6/53 loss=1.3095 cindex=0.6937
+11/53 loss=1.1996 cindex=0.7570
+16/53 loss=1.3524 cindex=0.7157
+21/53 loss=1.2632 cindex=0.5882
+26/53 loss=1.3312 cindex=0.6147
+31/53 loss=1.4297 cindex=0.6389
+36/53 loss=1.4068 cindex=0.6068
+41/53 loss=1.4093 cindex=0.4655
+46/53 loss=1.3032 cindex=0.7670
+51/53 loss=1.0974 cindex=0.6818
+ cindex=0.6747
+[TRAIN]
+loss: 1.2678 | cindex: 0.6747
+[VAL]
+loss: 1.2199 | cindex: 0.6657 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6657 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 65
+
+Epoch [k=2 66/100]
+1/53 loss=1.2020 cindex=0.7264
+6/53 loss=1.1001 cindex=0.7059
+11/53 loss=1.0565 cindex=0.7636
+16/53 loss=1.5378 cindex=0.6410
+21/53 loss=1.3127 cindex=0.7027
+26/53 loss=1.3708 cindex=0.5966
+31/53 loss=1.3055 cindex=0.6471
+36/53 loss=1.1790 cindex=0.6723
+41/53 loss=0.9770 cindex=0.6931
+46/53 loss=1.3110 cindex=0.6636
+51/53 loss=1.3693 cindex=0.6789
+ cindex=0.6481
+[TRAIN]
+loss: 1.2664 | cindex: 0.6481
+[VAL]
+loss: 1.2284 | cindex: 0.6677 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6677 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 66
+
+Epoch [k=2 67/100]
+1/53 loss=1.3385 cindex=0.6538
+6/53 loss=1.3441 cindex=0.5934
+11/53 loss=1.5983 cindex=0.6204
+16/53 loss=1.4942 cindex=0.5607
+21/53 loss=1.1424 cindex=0.5982
+26/53 loss=1.4551 cindex=0.6827
+31/53 loss=1.2676 cindex=0.6857
+36/53 loss=1.1893 cindex=0.5565
+41/53 loss=1.3666 cindex=0.6429
+46/53 loss=1.2435 cindex=0.6147
+51/53 loss=1.2791 cindex=0.7983
+ cindex=0.6525
+[TRAIN]
+loss: 1.2631 | cindex: 0.6525
+[VAL]
+loss: 1.2183 | cindex: 0.6677 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6677 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 67
+
+Epoch [k=2 68/100]
+1/53 loss=1.2149 cindex=0.6238
+6/53 loss=1.1602 cindex=0.6869
+11/53 loss=1.1319 cindex=0.6827
+16/53 loss=1.3464 cindex=0.6696
+21/53 loss=1.5095 cindex=0.6778
+26/53 loss=1.2053 cindex=0.7411
+31/53 loss=1.1650 cindex=0.6667
+36/53 loss=1.0544 cindex=0.5849
+41/53 loss=1.4208 cindex=0.7000
+46/53 loss=0.9261 cindex=0.6800
+51/53 loss=1.1021 cindex=0.5714
+ cindex=0.6683
+[TRAIN]
+loss: 1.2388 | cindex: 0.6683
+[VAL]
+loss: 1.2154 | cindex: 0.6655 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6677 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 67
+
+Epoch [k=2 69/100]
+1/53 loss=1.3078 cindex=0.5833
+6/53 loss=1.3477 cindex=0.7407
+11/53 loss=1.3167 cindex=0.5676
+16/53 loss=0.8195 cindex=0.6909
+21/53 loss=1.2122 cindex=0.6786
+26/53 loss=1.4326 cindex=0.5472
+31/53 loss=1.0607 cindex=0.7684
+36/53 loss=1.1059 cindex=0.7030
+41/53 loss=1.2258 cindex=0.6555
+46/53 loss=1.1536 cindex=0.7436
+51/53 loss=1.2793 cindex=0.5761
+ cindex=0.6620
+[TRAIN]
+loss: 1.2517 | cindex: 0.6620
+[VAL]
+loss: 1.2272 | cindex: 0.6677 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6677 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 67
+
+Epoch [k=2 70/100]
+1/53 loss=1.1798 cindex=0.8073
+6/53 loss=1.0983 cindex=0.7658
+11/53 loss=1.3791 cindex=0.6667
+16/53 loss=1.3035 cindex=0.6939
+21/53 loss=0.9924 cindex=0.7333
+26/53 loss=1.3727 cindex=0.6727
+31/53 loss=1.1808 cindex=0.6900
+36/53 loss=0.8774 cindex=0.7193
+41/53 loss=1.3653 cindex=0.6636
+46/53 loss=1.0856 cindex=0.6579
+51/53 loss=1.3355 cindex=0.7203
+ cindex=0.6572
+[TRAIN]
+loss: 1.2589 | cindex: 0.6572
+[VAL]
+loss: 1.2623 | cindex: 0.6688 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6688 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 70
+
+Epoch [k=2 71/100]
+1/53 loss=1.3822 cindex=0.7227
+6/53 loss=1.1554 cindex=0.7733
+11/53 loss=1.2775 cindex=0.7048
+16/53 loss=1.2189 cindex=0.7417
+21/53 loss=1.1073 cindex=0.7456
+26/53 loss=1.4725 cindex=0.6364
+31/53 loss=1.2996 cindex=0.5789
+36/53 loss=1.2808 cindex=0.8482
+41/53 loss=1.2215 cindex=0.6701
+46/53 loss=1.3066 cindex=0.5044
+51/53 loss=1.2640 cindex=0.6875
+ cindex=0.6679
+[TRAIN]
+loss: 1.2412 | cindex: 0.6679
+[VAL]
+loss: 1.2086 | cindex: 0.6691 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6691 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 71
+
+Epoch [k=2 72/100]
+1/53 loss=1.1189 cindex=0.7642
+6/53 loss=1.3181 cindex=0.6111
+11/53 loss=1.4522 cindex=0.6701
+16/53 loss=1.2528 cindex=0.6321
+21/53 loss=1.1334 cindex=0.8039
+26/53 loss=1.4527 cindex=0.6500
+31/53 loss=1.5473 cindex=0.5932
+36/53 loss=1.2557 cindex=0.6250
+41/53 loss=1.2629 cindex=0.6630
+46/53 loss=0.9812 cindex=0.5763
+51/53 loss=1.2115 cindex=0.8190
+ cindex=0.6842
+[TRAIN]
+loss: 1.2341 | cindex: 0.6842
+[VAL]
+loss: 1.2100 | cindex: 0.6696 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6696 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 72
+
+Epoch [k=2 73/100]
+1/53 loss=1.2134 cindex=0.7658
+6/53 loss=1.0523 cindex=0.6754
+11/53 loss=1.2241 cindex=0.7250
+16/53 loss=1.0315 cindex=0.6139
+21/53 loss=1.2647 cindex=0.5667
+26/53 loss=1.2406 cindex=0.7672
+31/53 loss=1.1666 cindex=0.7563
+36/53 loss=1.2899 cindex=0.6082
+41/53 loss=1.5415 cindex=0.4790
+46/53 loss=1.0954 cindex=0.6311
+51/53 loss=1.5177 cindex=0.5702
+ cindex=0.6607
+[TRAIN]
+loss: 1.2712 | cindex: 0.6607
+[VAL]
+loss: 1.2248 | cindex: 0.6747 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6747 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 73
+
+Epoch [k=2 74/100]
+1/53 loss=1.2134 cindex=0.5234
+6/53 loss=1.1982 cindex=0.6752
+11/53 loss=1.3474 cindex=0.6417
+16/53 loss=1.2448 cindex=0.5862
+21/53 loss=1.0947 cindex=0.8125
+26/53 loss=1.2690 cindex=0.5304
+31/53 loss=1.2568 cindex=0.7071
+36/53 loss=1.3722 cindex=0.7407
+41/53 loss=1.2601 cindex=0.7328
+46/53 loss=1.4302 cindex=0.5250
+51/53 loss=0.9489 cindex=0.5966
+ cindex=0.6816
+[TRAIN]
+loss: 1.2378 | cindex: 0.6816
+[VAL]
+loss: 1.2091 | cindex: 0.6724 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6747 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 73
+
+Epoch [k=2 75/100]
+1/53 loss=1.1846 cindex=0.6471
+6/53 loss=1.2773 cindex=0.6196
+11/53 loss=1.4000 cindex=0.6881
+16/53 loss=1.1460 cindex=0.6435
+21/53 loss=1.4555 cindex=0.6068
+26/53 loss=1.0642 cindex=0.8265
+31/53 loss=1.6283 cindex=0.5210
+36/53 loss=1.1046 cindex=0.7895
+41/53 loss=1.2429 cindex=0.6486
+46/53 loss=1.4722 cindex=0.5741
+51/53 loss=1.2694 cindex=0.5000
+ cindex=0.6730
+[TRAIN]
+loss: 1.2154 | cindex: 0.6730
+[VAL]
+loss: 1.2057 | cindex: 0.6703 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6747 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 73
+
+Epoch [k=2 76/100]
+1/53 loss=1.1971 cindex=0.6706
+6/53 loss=0.8737 cindex=0.7845
+11/53 loss=1.2444 cindex=0.7670
+16/53 loss=1.2843 cindex=0.7080
+21/53 loss=1.4617 cindex=0.5664
+26/53 loss=1.3442 cindex=0.6667
+31/53 loss=1.3299 cindex=0.6415
+36/53 loss=1.2468 cindex=0.7143
+41/53 loss=1.4316 cindex=0.5568
+46/53 loss=1.0920 cindex=0.7083
+51/53 loss=1.1631 cindex=0.7179
+ cindex=0.6929
+[TRAIN]
+loss: 1.2205 | cindex: 0.6929
+[VAL]
+loss: 1.2218 | cindex: 0.6731 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6747 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 73
+
+Epoch [k=2 77/100]
+1/53 loss=1.2629 cindex=0.7083
+6/53 loss=1.2464 cindex=0.7570
+11/53 loss=0.9717 cindex=0.8229
+16/53 loss=0.9366 cindex=0.6122
+21/53 loss=1.1749 cindex=0.4902
+26/53 loss=1.1252 cindex=0.7312
+31/53 loss=1.2758 cindex=0.6842
+36/53 loss=1.2319 cindex=0.7429
+41/53 loss=1.1582 cindex=0.7736
+46/53 loss=1.2694 cindex=0.6364
+51/53 loss=1.0206 cindex=0.7583
+ cindex=0.6801
+[TRAIN]
+loss: 1.2315 | cindex: 0.6801
+[VAL]
+loss: 1.2037 | cindex: 0.6755 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6755 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 77
+
+Epoch [k=2 78/100]
+1/53 loss=1.2775 cindex=0.7083
+6/53 loss=1.3773 cindex=0.5714
+11/53 loss=1.4353 cindex=0.7143
+16/53 loss=1.5083 cindex=0.4833
+21/53 loss=1.2080 cindex=0.6917
+26/53 loss=1.1275 cindex=0.6017
+31/53 loss=1.4401 cindex=0.7368
+36/53 loss=1.2823 cindex=0.7075
+41/53 loss=1.3824 cindex=0.7333
+46/53 loss=1.3445 cindex=0.5698
+51/53 loss=1.1598 cindex=0.6735
+ cindex=0.6658
+[TRAIN]
+loss: 1.2365 | cindex: 0.6658
+[VAL]
+loss: 1.2121 | cindex: 0.6737 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6755 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 77
+
+Epoch [k=2 79/100]
+1/53 loss=1.0909 cindex=0.8083
+6/53 loss=1.1544 cindex=0.6833
+11/53 loss=1.3116 cindex=0.8404
+16/53 loss=1.3123 cindex=0.6947
+21/53 loss=1.1840 cindex=0.6881
+26/53 loss=1.0114 cindex=0.6983
+31/53 loss=0.9836 cindex=0.5508
+36/53 loss=1.1108 cindex=0.6848
+41/53 loss=1.3278 cindex=0.6957
+46/53 loss=1.0213 cindex=0.7455
+51/53 loss=1.0956 cindex=0.7600
+ cindex=0.6893
+[TRAIN]
+loss: 1.2280 | cindex: 0.6893
+[VAL]
+loss: 1.2317 | cindex: 0.6774 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6774 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 79
+
+Epoch [k=2 80/100]
+1/53 loss=1.3887 cindex=0.6000
+6/53 loss=1.1904 cindex=0.5543
+11/53 loss=1.2803 cindex=0.6571
+16/53 loss=1.2351 cindex=0.6881
+21/53 loss=1.2160 cindex=0.6226
+26/53 loss=1.1326 cindex=0.7167
+31/53 loss=1.2828 cindex=0.6667
+36/53 loss=0.9807 cindex=0.7477
+41/53 loss=1.4557 cindex=0.5789
+46/53 loss=1.4548 cindex=0.6050
+51/53 loss=0.9591 cindex=0.7228
+ cindex=0.6958
+[TRAIN]
+loss: 1.2323 | cindex: 0.6958
+[VAL]
+loss: 1.2096 | cindex: 0.6714 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6774 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 79
+
+Epoch [k=2 81/100]
+1/53 loss=1.1068 cindex=0.6909
+6/53 loss=1.0634 cindex=0.7905
+11/53 loss=1.4833 cindex=0.5726
+16/53 loss=1.4397 cindex=0.5664
+21/53 loss=1.1457 cindex=0.7500
+26/53 loss=1.4705 cindex=0.5818
+31/53 loss=0.9625 cindex=0.6333
+36/53 loss=1.4731 cindex=0.5667
+41/53 loss=1.1927 cindex=0.7400
+46/53 loss=1.1307 cindex=0.7407
+51/53 loss=1.0834 cindex=0.8083
+ cindex=0.6972
+[TRAIN]
+loss: 1.2258 | cindex: 0.6972
+[VAL]
+loss: 1.2195 | cindex: 0.6712 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6774 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 79
+
+Epoch [k=2 82/100]
+1/53 loss=1.2510 cindex=0.7615
+6/53 loss=1.4992 cindex=0.6975
+11/53 loss=1.2007 cindex=0.8148
+16/53 loss=1.3464 cindex=0.6847
+21/53 loss=1.3056 cindex=0.4615
+26/53 loss=1.1627 cindex=0.7685
+31/53 loss=1.1010 cindex=0.7551
+36/53 loss=1.3454 cindex=0.7103
+41/53 loss=0.9829 cindex=0.5932
+46/53 loss=0.9003 cindex=0.7105
+51/53 loss=1.1010 cindex=0.7093
+ cindex=0.6788
+[TRAIN]
+loss: 1.2272 | cindex: 0.6788
+[VAL]
+loss: 1.2046 | cindex: 0.6744 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6774 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 79
+
+Epoch [k=2 83/100]
+1/53 loss=1.3623 cindex=0.7292
+6/53 loss=0.9825 cindex=0.6421
+11/53 loss=1.0919 cindex=0.7699
+16/53 loss=1.3149 cindex=0.7692
+21/53 loss=1.3330 cindex=0.6667
+26/53 loss=1.1084 cindex=0.7250
+31/53 loss=1.2594 cindex=0.6723
+36/53 loss=1.3690 cindex=0.5673
+41/53 loss=1.6402 cindex=0.5870
+46/53 loss=1.3238 cindex=0.5833
+51/53 loss=1.1560 cindex=0.6742
+ cindex=0.6767
+[TRAIN]
+loss: 1.2218 | cindex: 0.6767
+[VAL]
+loss: 1.2037 | cindex: 0.6756 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6774 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 79
+
+Epoch [k=2 84/100]
+1/53 loss=1.2430 cindex=0.6637
+6/53 loss=1.2408 cindex=0.6638
+11/53 loss=1.1027 cindex=0.7264
+16/53 loss=0.9780 cindex=0.6917
+21/53 loss=1.3534 cindex=0.5619
+26/53 loss=1.1711 cindex=0.6325
+31/53 loss=1.2580 cindex=0.6075
+36/53 loss=1.0650 cindex=0.8584
+41/53 loss=1.2027 cindex=0.7333
+46/53 loss=1.4855 cindex=0.5773
+51/53 loss=1.0452 cindex=0.7845
+ cindex=0.6905
+[TRAIN]
+loss: 1.2116 | cindex: 0.6905
+[VAL]
+loss: 1.2292 | cindex: 0.6796 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6796 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 84
+
+Epoch [k=2 85/100]
+1/53 loss=1.2488 cindex=0.6339
+6/53 loss=1.1545 cindex=0.7250
+11/53 loss=0.9742 cindex=0.7551
+16/53 loss=1.1591 cindex=0.6789
+21/53 loss=1.1684 cindex=0.8235
+26/53 loss=1.3730 cindex=0.6698
+31/53 loss=1.1754 cindex=0.7080
+36/53 loss=1.4785 cindex=0.5750
+41/53 loss=1.1437 cindex=0.7670
+46/53 loss=1.6389 cindex=0.7179
+51/53 loss=1.1940 cindex=0.7103
+ cindex=0.6908
+[TRAIN]
+loss: 1.2058 | cindex: 0.6908
+[VAL]
+loss: 1.2473 | cindex: 0.6766 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6796 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 84
+
+Epoch [k=2 86/100]
+1/53 loss=1.0710 cindex=0.6786
+6/53 loss=1.1908 cindex=0.6105
+11/53 loss=1.1769 cindex=0.6579
+16/53 loss=0.9902 cindex=0.7083
+21/53 loss=1.1115 cindex=0.5732
+26/53 loss=1.1478 cindex=0.6180
+31/53 loss=1.2557 cindex=0.5938
+36/53 loss=1.4547 cindex=0.6606
+41/53 loss=1.0805 cindex=0.7045
+46/53 loss=1.1407 cindex=0.8056
+51/53 loss=1.5147 cindex=0.4112
+ cindex=0.6824
+[TRAIN]
+loss: 1.2234 | cindex: 0.6824
+[VAL]
+loss: 1.2003 | cindex: 0.6802 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6802 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 86
+
+Epoch [k=2 87/100]
+1/53 loss=1.2721 cindex=0.6226
+6/53 loss=1.3989 cindex=0.7368
+11/53 loss=1.3401 cindex=0.7179
+16/53 loss=1.2974 cindex=0.5128
+21/53 loss=1.3890 cindex=0.4679
+26/53 loss=0.9824 cindex=0.6239
+31/53 loss=1.0751 cindex=0.7000
+36/53 loss=1.2515 cindex=0.7345
+41/53 loss=1.1272 cindex=0.7196
+46/53 loss=1.3346 cindex=0.5565
+51/53 loss=0.9130 cindex=0.7228
+ cindex=0.6740
+[TRAIN]
+loss: 1.2226 | cindex: 0.6740
+[VAL]
+loss: 1.2034 | cindex: 0.6785 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6802 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 86
+
+Epoch [k=2 88/100]
+1/53 loss=1.0765 cindex=0.6696
+6/53 loss=1.3660 cindex=0.5917
+11/53 loss=1.4622 cindex=0.4400
+16/53 loss=1.2917 cindex=0.5728
+21/53 loss=1.0665 cindex=0.8072
+26/53 loss=1.2092 cindex=0.6415
+31/53 loss=1.2520 cindex=0.6337
+36/53 loss=1.4431 cindex=0.6759
+41/53 loss=1.2806 cindex=0.7444
+46/53 loss=1.0841 cindex=0.7019
+51/53 loss=1.1054 cindex=0.8421
+ cindex=0.6858
+[TRAIN]
+loss: 1.2240 | cindex: 0.6858
+[VAL]
+loss: 1.2044 | cindex: 0.6772 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6802 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 86
+
+Epoch [k=2 89/100]
+1/53 loss=0.9921 cindex=0.7041
+6/53 loss=1.0136 cindex=0.7204
+11/53 loss=1.2985 cindex=0.7500
+16/53 loss=1.1548 cindex=0.7253
+21/53 loss=0.9693 cindex=0.6917
+26/53 loss=1.0587 cindex=0.8191
+31/53 loss=1.1749 cindex=0.8140
+36/53 loss=1.1079 cindex=0.7589
+41/53 loss=0.9207 cindex=0.6410
+46/53 loss=1.1230 cindex=0.7333
+51/53 loss=1.1906 cindex=0.6333
+ cindex=0.6816
+[TRAIN]
+loss: 1.2138 | cindex: 0.6816
+[VAL]
+loss: 1.2065 | cindex: 0.6807 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6807 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 89
+
+Epoch [k=2 90/100]
+1/53 loss=1.2766 cindex=0.7083
+6/53 loss=1.1470 cindex=0.8235
+11/53 loss=1.2576 cindex=0.6082
+16/53 loss=1.0625 cindex=0.5960
+21/53 loss=1.0696 cindex=0.6327
+26/53 loss=0.8006 cindex=0.8083
+31/53 loss=1.3702 cindex=0.5800
+36/53 loss=1.3212 cindex=0.7037
+41/53 loss=1.2575 cindex=0.7080
+46/53 loss=1.1942 cindex=0.6842
+51/53 loss=1.0772 cindex=0.6795
+ cindex=0.6893
+[TRAIN]
+loss: 1.2023 | cindex: 0.6893
+[VAL]
+loss: 1.2030 | cindex: 0.6810 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 91/100]
+1/53 loss=1.4145 cindex=0.5798
+6/53 loss=1.4412 cindex=0.7565
+11/53 loss=1.3726 cindex=0.7059
+16/53 loss=1.2091 cindex=0.6957
+21/53 loss=1.3314 cindex=0.7333
+26/53 loss=1.2486 cindex=0.6496
+31/53 loss=0.9870 cindex=0.7596
+36/53 loss=1.4435 cindex=0.7027
+41/53 loss=1.1433 cindex=0.7500
+46/53 loss=1.0996 cindex=0.7228
+51/53 loss=1.0268 cindex=0.7742
+ cindex=0.6932
+[TRAIN]
+loss: 1.2290 | cindex: 0.6932
+[VAL]
+loss: 1.2032 | cindex: 0.6765 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 92/100]
+1/53 loss=1.1116 cindex=0.9149
+6/53 loss=1.2881 cindex=0.7100
+11/53 loss=1.2332 cindex=0.5824
+16/53 loss=1.1449 cindex=0.6752
+21/53 loss=1.2442 cindex=0.6300
+26/53 loss=1.0816 cindex=0.7931
+31/53 loss=1.0781 cindex=0.7172
+36/53 loss=0.8420 cindex=0.7368
+41/53 loss=1.2625 cindex=0.5905
+46/53 loss=1.0828 cindex=0.7238
+51/53 loss=1.4089 cindex=0.5888
+ cindex=0.6789
+[TRAIN]
+loss: 1.2246 | cindex: 0.6789
+[VAL]
+loss: 1.1955 | cindex: 0.6806 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 93/100]
+1/53 loss=1.2153 cindex=0.8034
+6/53 loss=1.1497 cindex=0.6417
+11/53 loss=1.3776 cindex=0.6190
+16/53 loss=1.2652 cindex=0.8200
+21/53 loss=1.2546 cindex=0.6146
+26/53 loss=1.1276 cindex=0.7830
+31/53 loss=1.0212 cindex=0.6514
+36/53 loss=1.0488 cindex=0.6471
+41/53 loss=1.2033 cindex=0.7391
+46/53 loss=1.1370 cindex=0.8559
+51/53 loss=1.2013 cindex=0.7857
+ cindex=0.6881
+[TRAIN]
+loss: 1.2168 | cindex: 0.6881
+[VAL]
+loss: 1.2240 | cindex: 0.6802 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 94/100]
+1/53 loss=1.0308 cindex=0.6364
+6/53 loss=1.1307 cindex=0.6700
+11/53 loss=0.8992 cindex=0.7778
+16/53 loss=1.1184 cindex=0.7288
+21/53 loss=1.1836 cindex=0.6333
+26/53 loss=1.2922 cindex=0.6417
+31/53 loss=1.2500 cindex=0.8120
+36/53 loss=1.3457 cindex=0.5179
+41/53 loss=1.2009 cindex=0.7059
+46/53 loss=1.1811 cindex=0.7396
+51/53 loss=1.2335 cindex=0.7745
+ cindex=0.7003
+[TRAIN]
+loss: 1.2064 | cindex: 0.7003
+[VAL]
+loss: 1.2161 | cindex: 0.6782 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 95/100]
+1/53 loss=1.3318 cindex=0.5877
+6/53 loss=1.2520 cindex=0.6413
+11/53 loss=1.4442 cindex=0.6552
+16/53 loss=1.2660 cindex=0.5882
+21/53 loss=1.0939 cindex=0.6466
+26/53 loss=1.0050 cindex=0.7750
+31/53 loss=1.0697 cindex=0.8000
+36/53 loss=1.2626 cindex=0.8034
+41/53 loss=1.2471 cindex=0.7097
+46/53 loss=1.3213 cindex=0.6068
+51/53 loss=1.2979 cindex=0.6975
+ cindex=0.7107
+[TRAIN]
+loss: 1.1971 | cindex: 0.7107
+[VAL]
+loss: 1.2181 | cindex: 0.6795 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 96/100]
+1/53 loss=1.2481 cindex=0.7895
+6/53 loss=1.3224 cindex=0.6168
+11/53 loss=1.1857 cindex=0.7568
+16/53 loss=1.0997 cindex=0.6754
+21/53 loss=1.2276 cindex=0.7080
+26/53 loss=1.1978 cindex=0.7238
+31/53 loss=1.2026 cindex=0.8091
+36/53 loss=1.3525 cindex=0.6250
+41/53 loss=1.1957 cindex=0.6952
+46/53 loss=1.2448 cindex=0.7379
+51/53 loss=1.2670 cindex=0.7143
+ cindex=0.6948
+[TRAIN]
+loss: 1.2044 | cindex: 0.6948
+[VAL]
+loss: 1.2031 | cindex: 0.6768 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 97/100]
+1/53 loss=1.0287 cindex=0.8077
+6/53 loss=1.1905 cindex=0.7179
+11/53 loss=0.8530 cindex=0.7949
+16/53 loss=1.3686 cindex=0.6961
+21/53 loss=1.2667 cindex=0.6667
+26/53 loss=1.1981 cindex=0.7281
+31/53 loss=1.3334 cindex=0.6957
+36/53 loss=1.2252 cindex=0.6588
+41/53 loss=1.2954 cindex=0.6417
+46/53 loss=1.1196 cindex=0.7374
+51/53 loss=1.2452 cindex=0.6633
+ cindex=0.7076
+[TRAIN]
+loss: 1.1913 | cindex: 0.7076
+[VAL]
+loss: 1.2167 | cindex: 0.6685 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 98/100]
+1/53 loss=1.5047 cindex=0.6604
+6/53 loss=1.0504 cindex=0.6522
+11/53 loss=1.0477 cindex=0.7913
+16/53 loss=1.2556 cindex=0.5833
+21/53 loss=1.2356 cindex=0.6417
+26/53 loss=1.4777 cindex=0.6870
+31/53 loss=1.3280 cindex=0.6413
+36/53 loss=1.3903 cindex=0.6064
+41/53 loss=1.1523 cindex=0.8252
+46/53 loss=1.2599 cindex=0.6792
+51/53 loss=1.2896 cindex=0.7900
+ cindex=0.6838
+[TRAIN]
+loss: 1.2194 | cindex: 0.6838
+[VAL]
+loss: 1.1970 | cindex: 0.6788 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 99/100]
+1/53 loss=1.0546 cindex=0.7288
+6/53 loss=0.9351 cindex=0.8113
+11/53 loss=1.0870 cindex=0.7928
+16/53 loss=1.1746 cindex=0.7143
+21/53 loss=1.2728 cindex=0.6218
+26/53 loss=1.1915 cindex=0.6931
+31/53 loss=1.4007 cindex=0.7913
+36/53 loss=1.0916 cindex=0.7982
+41/53 loss=1.2687 cindex=0.7449
+46/53 loss=1.2421 cindex=0.6396
+51/53 loss=1.1776 cindex=0.8333
+ cindex=0.7113
+[TRAIN]
+loss: 1.1951 | cindex: 0.7113
+[VAL]
+loss: 1.2044 | cindex: 0.6778 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+
+Epoch [k=2 100/100]
+1/53 loss=1.2004 cindex=0.6283
+6/53 loss=1.1447 cindex=0.6061
+11/53 loss=1.1417 cindex=0.5495
+16/53 loss=1.1617 cindex=0.7204
+21/53 loss=1.4524 cindex=0.5583
+26/53 loss=1.3181 cindex=0.6000
+31/53 loss=1.3200 cindex=0.6768
+36/53 loss=1.3541 cindex=0.6410
+41/53 loss=1.2111 cindex=0.8000
+46/53 loss=1.1290 cindex=0.7750
+51/53 loss=1.1184 cindex=0.6162
+ cindex=0.7039
+[TRAIN]
+loss: 1.1928 | cindex: 0.7039
+[VAL]
+loss: 1.2496 | cindex: 0.6693 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6810 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 90
+Early stopping
+
+
+Epoch [k=3 1/100]
+1/52 loss=1.5457 cindex=0.4324
+6/52 loss=1.5739 cindex=0.3214
+11/52 loss=1.4695 cindex=0.3723
+16/52 loss=1.5056 cindex=0.5728
+21/52 loss=1.5934 cindex=0.4783
+26/52 loss=1.4791 cindex=0.6337
+31/52 loss=1.6393 cindex=0.4310
+36/52 loss=1.6464 cindex=0.7083
+41/52 loss=1.5345 cindex=0.5755
+46/52 loss=1.4872 cindex=0.5049
+51/52 loss=1.5546 cindex=0.4623
+ cindex=0.5123
+[TRAIN]
+loss: 1.5301 | cindex: 0.5123
+[VAL]
+loss: 1.5332 | cindex: 0.5021 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5021 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=3 2/100]
+1/52 loss=1.5947 cindex=0.5175
+6/52 loss=1.5633 cindex=0.3810
+11/52 loss=1.5725 cindex=0.4087
+16/52 loss=1.3641 cindex=0.5417
+21/52 loss=1.5577 cindex=0.4860
+26/52 loss=1.5858 cindex=0.3964
+31/52 loss=1.4639 cindex=0.4851
+36/52 loss=1.4527 cindex=0.4239
+41/52 loss=1.6283 cindex=0.4667
+46/52 loss=1.6266 cindex=0.3000
+51/52 loss=1.4520 cindex=0.5104
+ cindex=0.4859
+[TRAIN]
+loss: 1.5173 | cindex: 0.4859
+[VAL]
+loss: 1.5077 | cindex: 0.4906 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5021 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 1
+
+Epoch [k=3 3/100]
+1/52 loss=1.3996 cindex=0.5263
+6/52 loss=1.5135 cindex=0.5446
+11/52 loss=1.4147 cindex=0.4286
+16/52 loss=1.6275 cindex=0.5500
+21/52 loss=1.5285 cindex=0.4696
+26/52 loss=1.5299 cindex=0.4909
+31/52 loss=1.3498 cindex=0.5556
+36/52 loss=1.4951 cindex=0.3299
+41/52 loss=1.5169 cindex=0.5288
+46/52 loss=1.4208 cindex=0.5810
+51/52 loss=1.3724 cindex=0.6154
+ cindex=0.5058
+[TRAIN]
+loss: 1.4860 | cindex: 0.5058
+[VAL]
+loss: 1.4655 | cindex: 0.5067 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5067 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 3
+
+Epoch [k=3 4/100]
+1/52 loss=1.5691 cindex=0.5167
+6/52 loss=1.5091 cindex=0.5000
+11/52 loss=1.3539 cindex=0.5652
+16/52 loss=1.5353 cindex=0.6000
+21/52 loss=1.4588 cindex=0.4239
+26/52 loss=1.4807 cindex=0.4182
+31/52 loss=1.2899 cindex=0.5784
+36/52 loss=1.4971 cindex=0.5750
+41/52 loss=1.4448 cindex=0.4545
+46/52 loss=1.5456 cindex=0.4561
+51/52 loss=1.4804 cindex=0.4667
+ cindex=0.4939
+[TRAIN]
+loss: 1.4570 | cindex: 0.4939
+[VAL]
+loss: 1.4188 | cindex: 0.5158 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5158 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 4
+
+Epoch [k=3 5/100]
+1/52 loss=1.2486 cindex=0.5208
+6/52 loss=1.3909 cindex=0.4409
+11/52 loss=1.3190 cindex=0.5361
+16/52 loss=1.3076 cindex=0.5889
+21/52 loss=1.3885 cindex=0.4434
+26/52 loss=1.2480 cindex=0.7300
+31/52 loss=1.4043 cindex=0.6182
+36/52 loss=1.4977 cindex=0.4083
+41/52 loss=1.3505 cindex=0.5513
+46/52 loss=1.5490 cindex=0.3417
+51/52 loss=1.3913 cindex=0.7130
+ cindex=0.5137
+[TRAIN]
+loss: 1.4255 | cindex: 0.5137
+[VAL]
+loss: 1.3969 | cindex: 0.5348 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5348 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 5
+
+Epoch [k=3 6/100]
+1/52 loss=1.2383 cindex=0.5556
+6/52 loss=1.3825 cindex=0.6228
+11/52 loss=1.3421 cindex=0.6638
+16/52 loss=1.2017 cindex=0.4362
+21/52 loss=1.4407 cindex=0.4299
+26/52 loss=1.6556 cindex=0.3534
+31/52 loss=1.3555 cindex=0.5581
+36/52 loss=1.5717 cindex=0.3419
+41/52 loss=1.5496 cindex=0.6239
+46/52 loss=1.2384 cindex=0.4742
+51/52 loss=1.3090 cindex=0.6095
+ cindex=0.4914
+[TRAIN]
+loss: 1.4287 | cindex: 0.4914
+[VAL]
+loss: 1.3917 | cindex: 0.5613 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5613 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 6
+
+Epoch [k=3 7/100]
+1/52 loss=1.5311 cindex=0.5812
+6/52 loss=1.4940 cindex=0.5980
+11/52 loss=1.3812 cindex=0.5287
+16/52 loss=1.3807 cindex=0.4957
+21/52 loss=1.4687 cindex=0.3860
+26/52 loss=1.5222 cindex=0.4333
+31/52 loss=1.4358 cindex=0.4609
+36/52 loss=1.3633 cindex=0.5361
+41/52 loss=1.2685 cindex=0.5283
+46/52 loss=1.4075 cindex=0.4364
+51/52 loss=1.6119 cindex=0.2906
+ cindex=0.4833
+[TRAIN]
+loss: 1.4225 | cindex: 0.4833
+[VAL]
+loss: 1.3859 | cindex: 0.5862 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5862 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 7
+
+Epoch [k=3 8/100]
+1/52 loss=1.3330 cindex=0.5385
+6/52 loss=1.6299 cindex=0.4118
+11/52 loss=1.5197 cindex=0.5094
+16/52 loss=1.2618 cindex=0.4135
+21/52 loss=1.3081 cindex=0.6500
+26/52 loss=1.3754 cindex=0.4234
+31/52 loss=1.3531 cindex=0.6824
+36/52 loss=1.2874 cindex=0.4167
+41/52 loss=1.3636 cindex=0.5619
+46/52 loss=1.4625 cindex=0.6000
+51/52 loss=1.3805 cindex=0.5632
+ cindex=0.5254
+[TRAIN]
+loss: 1.4077 | cindex: 0.5254
+[VAL]
+loss: 1.3794 | cindex: 0.5974 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.5974 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 8
+
+Epoch [k=3 9/100]
+1/52 loss=1.6332 cindex=0.4359
+6/52 loss=1.4014 cindex=0.5248
+11/52 loss=1.4094 cindex=0.4902
+16/52 loss=1.2837 cindex=0.5484
+21/52 loss=1.4478 cindex=0.5214
+26/52 loss=1.4341 cindex=0.3689
+31/52 loss=1.5088 cindex=0.5217
+36/52 loss=1.5694 cindex=0.3592
+41/52 loss=1.4944 cindex=0.5152
+46/52 loss=1.4500 cindex=0.3136
+51/52 loss=1.4486 cindex=0.4583
+ cindex=0.5028
+[TRAIN]
+loss: 1.4041 | cindex: 0.5028
+[VAL]
+loss: 1.3804 | cindex: 0.6034 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6034 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 9
+
+Epoch [k=3 10/100]
+1/52 loss=1.3329 cindex=0.6339
+6/52 loss=1.3325 cindex=0.4000
+11/52 loss=1.2375 cindex=0.5315
+16/52 loss=1.5081 cindex=0.4815
+21/52 loss=1.4651 cindex=0.4322
+26/52 loss=1.4585 cindex=0.5130
+31/52 loss=1.4516 cindex=0.3393
+36/52 loss=1.4363 cindex=0.3960
+41/52 loss=1.4776 cindex=0.5405
+46/52 loss=1.4351 cindex=0.6195
+51/52 loss=1.4542 cindex=0.7300
+ cindex=0.5121
+[TRAIN]
+loss: 1.4036 | cindex: 0.5121
+[VAL]
+loss: 1.3744 | cindex: 0.6086 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6086 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 10
+
+Epoch [k=3 11/100]
+1/52 loss=1.3525 cindex=0.5143
+6/52 loss=1.4336 cindex=0.4554
+11/52 loss=1.4092 cindex=0.6293
+16/52 loss=1.4262 cindex=0.6091
+21/52 loss=1.4280 cindex=0.6146
+26/52 loss=1.5066 cindex=0.6476
+31/52 loss=1.2334 cindex=0.4815
+36/52 loss=1.3876 cindex=0.5462
+41/52 loss=1.4613 cindex=0.5354
+46/52 loss=1.3032 cindex=0.7257
+51/52 loss=1.2735 cindex=0.5510
+ cindex=0.5359
+[TRAIN]
+loss: 1.3981 | cindex: 0.5359
+[VAL]
+loss: 1.3696 | cindex: 0.6124 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6124 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 11
+
+Epoch [k=3 12/100]
+1/52 loss=1.3573 cindex=0.6000
+6/52 loss=1.4412 cindex=0.3750
+11/52 loss=1.4603 cindex=0.3524
+16/52 loss=1.4483 cindex=0.3140
+21/52 loss=1.4521 cindex=0.3853
+26/52 loss=1.5752 cindex=0.6333
+31/52 loss=1.4651 cindex=0.3929
+36/52 loss=1.4798 cindex=0.5678
+41/52 loss=1.2965 cindex=0.6237
+46/52 loss=1.3773 cindex=0.3936
+51/52 loss=1.3707 cindex=0.3434
+ cindex=0.4935
+[TRAIN]
+loss: 1.4040 | cindex: 0.4935
+[VAL]
+loss: 1.3724 | cindex: 0.6138 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6138 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 12
+
+Epoch [k=3 13/100]
+1/52 loss=1.3441 cindex=0.5607
+6/52 loss=1.5439 cindex=0.5474
+11/52 loss=1.4070 cindex=0.4524
+16/52 loss=1.2266 cindex=0.6000
+21/52 loss=1.2985 cindex=0.6413
+26/52 loss=1.4336 cindex=0.4500
+31/52 loss=1.5866 cindex=0.5424
+36/52 loss=1.2959 cindex=0.6306
+41/52 loss=1.3541 cindex=0.5000
+46/52 loss=1.3115 cindex=0.4474
+51/52 loss=1.4602 cindex=0.2881
+ cindex=0.5271
+[TRAIN]
+loss: 1.3906 | cindex: 0.5271
+[VAL]
+loss: 1.3667 | cindex: 0.6148 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6148 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 13
+
+Epoch [k=3 14/100]
+1/52 loss=1.5227 cindex=0.5567
+6/52 loss=1.2972 cindex=0.5478
+11/52 loss=1.3390 cindex=0.5778
+16/52 loss=1.3995 cindex=0.4123
+21/52 loss=1.4472 cindex=0.6525
+26/52 loss=1.3692 cindex=0.4167
+31/52 loss=1.4849 cindex=0.4848
+36/52 loss=1.2981 cindex=0.5667
+41/52 loss=1.3165 cindex=0.5054
+46/52 loss=1.3484 cindex=0.5583
+51/52 loss=1.4109 cindex=0.4375
+ cindex=0.5156
+[TRAIN]
+loss: 1.3908 | cindex: 0.5156
+[VAL]
+loss: 1.3642 | cindex: 0.6166 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6166 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 14
+
+Epoch [k=3 15/100]
+1/52 loss=1.3855 cindex=0.6168
+6/52 loss=1.2961 cindex=0.5960
+11/52 loss=1.2916 cindex=0.3962
+16/52 loss=1.5337 cindex=0.5905
+21/52 loss=1.3122 cindex=0.3981
+26/52 loss=1.3604 cindex=0.4519
+31/52 loss=1.2806 cindex=0.5701
+36/52 loss=1.3252 cindex=0.6833
+41/52 loss=1.5435 cindex=0.5455
+46/52 loss=1.6884 cindex=0.4224
+51/52 loss=1.3920 cindex=0.4124
+ cindex=0.5426
+[TRAIN]
+loss: 1.3710 | cindex: 0.5426
+[VAL]
+loss: 1.3609 | cindex: 0.6170 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6170 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 15
+
+Epoch [k=3 16/100]
+1/52 loss=1.4776 cindex=0.4636
+6/52 loss=1.5028 cindex=0.4727
+11/52 loss=1.4812 cindex=0.7500
+16/52 loss=1.4360 cindex=0.5091
+21/52 loss=1.3610 cindex=0.4909
+26/52 loss=1.4534 cindex=0.4688
+31/52 loss=1.4293 cindex=0.4250
+36/52 loss=1.5105 cindex=0.4750
+41/52 loss=1.4137 cindex=0.4483
+46/52 loss=1.4697 cindex=0.5319
+51/52 loss=1.4639 cindex=0.6598
+ cindex=0.5301
+[TRAIN]
+loss: 1.3932 | cindex: 0.5301
+[VAL]
+loss: 1.3550 | cindex: 0.6177 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6177 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 16
+
+Epoch [k=3 17/100]
+1/52 loss=1.4969 cindex=0.4083
+6/52 loss=1.4079 cindex=0.4804
+11/52 loss=1.3523 cindex=0.5437
+16/52 loss=1.5108 cindex=0.4112
+21/52 loss=1.5356 cindex=0.5254
+26/52 loss=1.3495 cindex=0.6161
+31/52 loss=1.4479 cindex=0.5789
+36/52 loss=1.1111 cindex=0.7788
+41/52 loss=1.3599 cindex=0.6325
+46/52 loss=1.3932 cindex=0.4352
+51/52 loss=1.2696 cindex=0.3750
+ cindex=0.5454
+[TRAIN]
+loss: 1.3828 | cindex: 0.5454
+[VAL]
+loss: 1.3587 | cindex: 0.6184 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6184 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 17
+
+Epoch [k=3 18/100]
+1/52 loss=1.2907 cindex=0.5083
+6/52 loss=1.4365 cindex=0.6316
+11/52 loss=1.4326 cindex=0.6417
+16/52 loss=1.1864 cindex=0.5794
+21/52 loss=1.4133 cindex=0.5393
+26/52 loss=1.5105 cindex=0.5043
+31/52 loss=1.3561 cindex=0.6610
+36/52 loss=1.1476 cindex=0.4545
+41/52 loss=1.3801 cindex=0.7203
+46/52 loss=1.6478 cindex=0.5893
+51/52 loss=1.3845 cindex=0.4667
+ cindex=0.5616
+[TRAIN]
+loss: 1.3688 | cindex: 0.5616
+[VAL]
+loss: 1.3481 | cindex: 0.6195 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6195 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 18
+
+Epoch [k=3 19/100]
+1/52 loss=1.3998 cindex=0.5932
+6/52 loss=1.5945 cindex=0.4824
+11/52 loss=1.2779 cindex=0.4948
+16/52 loss=1.4099 cindex=0.5417
+21/52 loss=1.4702 cindex=0.6937
+26/52 loss=1.2894 cindex=0.5714
+31/52 loss=1.1241 cindex=0.6211
+36/52 loss=1.4948 cindex=0.6833
+41/52 loss=1.1722 cindex=0.6375
+46/52 loss=1.3558 cindex=0.5593
+51/52 loss=1.5190 cindex=0.5000
+ cindex=0.5745
+[TRAIN]
+loss: 1.3561 | cindex: 0.5745
+[VAL]
+loss: 1.3455 | cindex: 0.6205 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6205 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 19
+
+Epoch [k=3 20/100]
+1/52 loss=1.2289 cindex=0.3333
+6/52 loss=1.3015 cindex=0.6262
+11/52 loss=1.4096 cindex=0.5437
+16/52 loss=1.3240 cindex=0.7304
+21/52 loss=1.2977 cindex=0.5556
+26/52 loss=1.4485 cindex=0.5652
+31/52 loss=1.3515 cindex=0.4957
+36/52 loss=1.2795 cindex=0.4940
+41/52 loss=1.3236 cindex=0.4522
+46/52 loss=1.5251 cindex=0.4727
+51/52 loss=1.1774 cindex=0.7570
+ cindex=0.5559
+[TRAIN]
+loss: 1.3494 | cindex: 0.5559
+[VAL]
+loss: 1.3469 | cindex: 0.6231 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 21/100]
+1/52 loss=1.1600 cindex=0.6145
+6/52 loss=1.4177 cindex=0.5664
+11/52 loss=1.2773 cindex=0.6555
+16/52 loss=1.3849 cindex=0.5917
+21/52 loss=1.1486 cindex=0.5870
+26/52 loss=1.3426 cindex=0.5667
+31/52 loss=1.3051 cindex=0.6333
+36/52 loss=1.4279 cindex=0.3761
+41/52 loss=1.3058 cindex=0.6396
+46/52 loss=1.4071 cindex=0.5196
+51/52 loss=1.3055 cindex=0.7143
+ cindex=0.5843
+[TRAIN]
+loss: 1.3527 | cindex: 0.5843
+[VAL]
+loss: 1.3510 | cindex: 0.6223 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 22/100]
+1/52 loss=1.2819 cindex=0.6372
+6/52 loss=1.3572 cindex=0.6195
+11/52 loss=1.4853 cindex=0.5812
+16/52 loss=1.4256 cindex=0.5949
+21/52 loss=1.4570 cindex=0.5962
+26/52 loss=1.2551 cindex=0.5083
+31/52 loss=1.2084 cindex=0.6018
+36/52 loss=1.2724 cindex=0.5393
+41/52 loss=1.3072 cindex=0.5893
+46/52 loss=1.5246 cindex=0.5333
+51/52 loss=1.2048 cindex=0.7358
+ cindex=0.5807
+[TRAIN]
+loss: 1.3603 | cindex: 0.5807
+[VAL]
+loss: 1.3355 | cindex: 0.6211 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 23/100]
+1/52 loss=1.4404 cindex=0.7030
+6/52 loss=1.4127 cindex=0.6471
+11/52 loss=1.3710 cindex=0.7333
+16/52 loss=1.3448 cindex=0.7527
+21/52 loss=1.3767 cindex=0.6261
+26/52 loss=1.2856 cindex=0.5347
+31/52 loss=1.2667 cindex=0.6838
+36/52 loss=1.2341 cindex=0.4862
+41/52 loss=1.2857 cindex=0.7333
+46/52 loss=1.3604 cindex=0.4787
+51/52 loss=1.4574 cindex=0.6346
+ cindex=0.6080
+[TRAIN]
+loss: 1.3472 | cindex: 0.6080
+[VAL]
+loss: 1.3253 | cindex: 0.6203 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 24/100]
+1/52 loss=1.3747 cindex=0.5825
+6/52 loss=1.5266 cindex=0.6875
+11/52 loss=1.3400 cindex=0.7558
+16/52 loss=1.2100 cindex=0.6321
+21/52 loss=1.3632 cindex=0.6630
+26/52 loss=1.3317 cindex=0.6667
+31/52 loss=1.3624 cindex=0.6111
+36/52 loss=1.4020 cindex=0.5596
+41/52 loss=1.3713 cindex=0.5575
+46/52 loss=1.2445 cindex=0.7327
+51/52 loss=1.4739 cindex=0.4388
+ cindex=0.6159
+[TRAIN]
+loss: 1.3519 | cindex: 0.6159
+[VAL]
+loss: 1.3176 | cindex: 0.6190 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 25/100]
+1/52 loss=1.1495 cindex=0.7429
+6/52 loss=1.4805 cindex=0.4052
+11/52 loss=1.1908 cindex=0.7500
+16/52 loss=1.3357 cindex=0.6250
+21/52 loss=1.4334 cindex=0.6571
+26/52 loss=1.3668 cindex=0.5941
+31/52 loss=1.3024 cindex=0.4519
+36/52 loss=1.4167 cindex=0.6838
+41/52 loss=1.2821 cindex=0.6522
+46/52 loss=1.1599 cindex=0.3793
+51/52 loss=1.4624 cindex=0.6289
+ cindex=0.6152
+[TRAIN]
+loss: 1.3393 | cindex: 0.6152
+[VAL]
+loss: 1.3187 | cindex: 0.6193 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 26/100]
+1/52 loss=1.2690 cindex=0.7356
+6/52 loss=1.5751 cindex=0.5983
+11/52 loss=1.2444 cindex=0.6970
+16/52 loss=1.1881 cindex=0.6768
+21/52 loss=1.1492 cindex=0.6140
+26/52 loss=1.2317 cindex=0.6796
+31/52 loss=1.3868 cindex=0.6333
+36/52 loss=1.3027 cindex=0.7065
+41/52 loss=1.3493 cindex=0.6696
+46/52 loss=1.3082 cindex=0.6923
+51/52 loss=1.3419 cindex=0.7203
+ cindex=0.6211
+[TRAIN]
+loss: 1.3212 | cindex: 0.6211
+[VAL]
+loss: 1.3090 | cindex: 0.6198 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 27/100]
+1/52 loss=1.3396 cindex=0.6333
+6/52 loss=1.3988 cindex=0.5938
+11/52 loss=1.5084 cindex=0.6186
+16/52 loss=1.4129 cindex=0.5833
+21/52 loss=1.3118 cindex=0.5138
+26/52 loss=1.4268 cindex=0.6058
+31/52 loss=1.4602 cindex=0.7227
+36/52 loss=1.2022 cindex=0.6000
+41/52 loss=1.4992 cindex=0.4561
+46/52 loss=1.2147 cindex=0.6237
+51/52 loss=1.1105 cindex=0.7423
+ cindex=0.6149
+[TRAIN]
+loss: 1.3368 | cindex: 0.6149
+[VAL]
+loss: 1.3172 | cindex: 0.6208 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 28/100]
+1/52 loss=1.2681 cindex=0.7719
+6/52 loss=1.3864 cindex=0.7500
+11/52 loss=1.3486 cindex=0.5370
+16/52 loss=1.4563 cindex=0.5417
+21/52 loss=1.2080 cindex=0.6835
+26/52 loss=1.3400 cindex=0.6355
+31/52 loss=1.3073 cindex=0.7478
+36/52 loss=1.3808 cindex=0.5929
+41/52 loss=1.2169 cindex=0.7222
+46/52 loss=1.1086 cindex=0.5929
+51/52 loss=1.3093 cindex=0.6667
+ cindex=0.6165
+[TRAIN]
+loss: 1.3301 | cindex: 0.6165
+[VAL]
+loss: 1.3121 | cindex: 0.6213 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 29/100]
+1/52 loss=1.3466 cindex=0.5455
+6/52 loss=1.2460 cindex=0.7000
+11/52 loss=1.4011 cindex=0.5776
+16/52 loss=1.2222 cindex=0.6809
+21/52 loss=1.4393 cindex=0.6067
+26/52 loss=1.1732 cindex=0.7872
+31/52 loss=1.2049 cindex=0.5798
+36/52 loss=1.0332 cindex=0.7816
+41/52 loss=1.1269 cindex=0.6442
+46/52 loss=1.1876 cindex=0.7652
+51/52 loss=1.2666 cindex=0.5402
+ cindex=0.6139
+[TRAIN]
+loss: 1.3176 | cindex: 0.6139
+[VAL]
+loss: 1.3100 | cindex: 0.6221 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+
+Epoch [k=3 30/100]
+1/52 loss=1.3631 cindex=0.5625
+6/52 loss=1.4542 cindex=0.6729
+11/52 loss=1.2132 cindex=0.6837
+16/52 loss=1.4335 cindex=0.4248
+21/52 loss=1.4625 cindex=0.6415
+26/52 loss=1.2562 cindex=0.5250
+31/52 loss=1.4363 cindex=0.6410
+36/52 loss=1.5779 cindex=0.4786
+41/52 loss=1.5703 cindex=0.5983
+46/52 loss=1.2859 cindex=0.5929
+51/52 loss=1.2357 cindex=0.7876
+ cindex=0.6197
+[TRAIN]
+loss: 1.3193 | cindex: 0.6197
+[VAL]
+loss: 1.2962 | cindex: 0.6215 auc=0.0000 kappa=0.0000 acc=0.0000 lr=0.0010
+[BEST] cindex: 0.6231 its auc:0.0000 kappa:0.0000 acc:0.0000 in epoch 20
+Early stopping
+
+best_cindex [0.6572, 0.6525,  0.6810, 0.6230991122188927]
+last auc [0, 0]
+last kappa [0, 0]
+last acc [0, 0]
+cindex Mean 0.6534
+cindex STD 0.0205
+auc Mean 0.0000
+auc STD 0.0000
+kappa Mean 0.0000
+kappa STD 0.0000
+acc Mean 0.0000
+acc STD 0.0000
+END
+

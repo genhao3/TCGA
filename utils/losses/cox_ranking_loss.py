@@ -23,15 +23,15 @@ def Ranking_Loss(predict, label_os, label_oss):
         label_oss:是否发生损伤  non-censored or censored  δ
         '''
 
-    predict = predict['logits']
+    pre = predict['logits']
     # 求每个bag里面提取出所有向量的平均值
-    predict = torch.sum(predict, dim=1) / predict.shape[1]
+    pre = torch.sum(pre, dim=1) / pre.shape[1]
 
     # 在Batch Size 获取降序的索引
     index = torch.argsort(label_os, dim=0, descending=True)
 
     # 匹配降序的索引
-    risk = torch.gather(input=predict, dim=0, index=index)  # 根据OS的降序  改变predict、oss的顺序    因为患者的生存时间与风险值不对应
+    risk = torch.gather(input=pre, dim=0, index=index)  # 根据OS的降序  改变predict、oss的顺序    因为患者的生存时间与风险值不对应
     label_state = torch.gather(input=label_oss, dim=0, index=index)
 
     # 风险比率  the hazard ratio
@@ -39,8 +39,8 @@ def Ranking_Loss(predict, label_os, label_oss):
 
     whole_loss = 0
 
-    for i in range(predict.shape[0]):
-        for j in range(predict.shape[0]):
+    for i in range(pre.shape[0]):
+        for j in range(pre.shape[0]):
             if i != j:
                 I = get_I(label_os, label_oss, i, j)
                 if I != 0:
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     label_oss = torch.tensor([1, 1, 1, 0], device='cuda:0')
 
     loss_func = CoxRankingLoss()
-    loss = loss_func(predict, label_os.cuda(), label_oss.cuda())
+    loss = loss_func(predict, label_os.cuda(), label_oss.cuda(), interval_label=0)
     print(loss)
     loss.requires_grad_(True)
     loss.backward()
